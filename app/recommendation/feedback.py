@@ -1,6 +1,10 @@
 """SQLite feedback event history and current user-scoped ratings."""
+import hashlib
+import secrets
 import sqlite3
+import time
 import uuid
+from contextlib import contextmanager
 from datetime import UTC, datetime
 from pathlib import Path
 
@@ -31,19 +35,30 @@ class FeedbackStore:
             self.exec(db, """CREATE TABLE IF NOT EXISTS app_users (
                 user_id TEXT PRIMARY KEY, password_hash TEXT NOT NULL,
                 created_at TEXT NOT NULL)""")
+            self.exec(db, """CREATE TABLE IF NOT EXISTS app_sessions (
+                token_hash TEXT PRIMARY KEY, user_id TEXT NOT NULL,
+                expires_at BIGINT NOT NULL)""")
+            self.exec(db, """CREATE TABLE IF NOT EXISTS auth_attempts (
+                bucket TEXT PRIMARY KEY, attempts INTEGER NOT NULL, expires_at BIGINT NOT NULL)""")
 
     @property
     def is_postgres(self):
         return self.path.startswith(("postgres://", "postgresql://"))
 
+    @contextmanager
     def connect(self):
         if self.is_postgres:
             import psycopg
             from psycopg.rows import dict_row
-            return psycopg.connect(self.path, row_factory=dict_row)
-        db = sqlite3.connect(self.path, timeout=10)
-        db.row_factory = sqlite3.Row
-        return db
+            db = psycopg.connect(self.path, row_factory=dict_row, connect_timeout=10)
+        else:
+            db = sqlite3.connect(self.path, timeout=10)
+            db.row_factory = sqlite3.Row
+        try:
+            with db:
+                yield db
+        finally:
+            db.close()
 
     def exec(self, db, query, params=()):
         return db.execute(query.replace("?", "%s") if self.is_postgres else query, params)
@@ -88,6 +103,10 @@ class FeedbackStore:
 
     def create_user(self, user_id, password_hash, created_at):
         with self.connect() as db:
+            # Never attach an unclaimed demo/local profile to a new account.
+            if self.exec(db, "SELECT 1 FROM feedback_events WHERE user_id=? LIMIT 1",
+                         (user_id,)).fetchone():
+                return False
             result = self.exec(db, "INSERT INTO app_users VALUES (?,?,?) ON CONFLICT(user_id) DO NOTHING",
                                (user_id, password_hash, created_at))
             return result.rowcount == 1
@@ -97,3 +116,37 @@ class FeedbackStore:
             row = self.exec(db, "SELECT user_id, password_hash FROM app_users WHERE user_id=?",
                             (user_id,)).fetchone()
             return dict(row) if row else None
+
+    def create_session(self, user_id):
+        token = secrets.token_urlsafe(32)
+        with self.connect() as db:
+            self.exec(db, "DELETE FROM app_sessions WHERE expires_at<=?", (int(time.time()),))
+            self.exec(db, "INSERT INTO app_sessions VALUES (?,?,?)",
+                      (hashlib.sha256(token.encode()).hexdigest(), user_id,
+                       int(time.time()) + 86400 * 7))
+        return token
+
+    def session_user(self, token):
+        if not token or len(token) > 128:
+            return None
+        with self.connect() as db:
+            row = self.exec(db, """SELECT s.user_id FROM app_sessions s
+                JOIN app_users u ON u.user_id=s.user_id
+                WHERE s.token_hash=? AND s.expires_at>?""",
+                (hashlib.sha256(token.encode()).hexdigest(), int(time.time()))).fetchone()
+            return row["user_id"] if row else None
+
+    def revoke_session(self, token):
+        with self.connect() as db:
+            self.exec(db, "DELETE FROM app_sessions WHERE token_hash=?",
+                      (hashlib.sha256(token.encode()).hexdigest(),))
+
+    def allow_auth_attempt(self, identity, limit=15):
+        now = int(time.time())
+        bucket = hashlib.sha256(f"{identity}:{now // 60}".encode()).hexdigest()
+        with self.connect() as db:
+            self.exec(db, "DELETE FROM auth_attempts WHERE expires_at<=?", (now,))
+            row = self.exec(db, """INSERT INTO auth_attempts VALUES (?,1,?)
+                ON CONFLICT(bucket) DO UPDATE SET attempts=auth_attempts.attempts+1
+                RETURNING attempts""", (bucket, now + 120)).fetchone()
+            return row["attempts"] <= limit

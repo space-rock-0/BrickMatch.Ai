@@ -59,7 +59,7 @@
                 aria-haspopup="dialog" aria-expanded="false" aria-controls="profile-dialog">
           <span class="avatar" id="profile-avatar" aria-hidden="true">B</span>
           <span class="profile-meta">
-            <span class="profile-label">Local profile</span>
+            <span class="profile-label">Account</span>
             <span class="profile-name" id="profile-name">builder</span>
           </span>
           <svg class="icon profile-chevron" aria-hidden="true"><use href="#i-chevron-down"/></svg>
@@ -88,14 +88,14 @@
           <li><strong id="stat-sets">—</strong><span>sets</span></li>
           <li><strong id="stat-images">—</strong><span>images</span></li>
           <li><strong id="stat-dim">512</strong><span>CLIP dims</span></li>
-          <li><strong id="stat-users">—</strong><span>profiles</span></li>
+          <li><strong id="stat-users">—</strong><span>your ratings</span></li>
         </ul>
       </div>
 
       <section class="catalog" id="catalog" aria-labelledby="catalog-title">
         <div class="section-head">
           <div>
-            <p class="eyebrow">The full catalog</p>
+            <p class="eyebrow">Explore the collection</p>
             <h2 id="catalog-title">Browse the builds</h2>
           </div>
           <p class="section-note" id="catalog-count" aria-live="polite">Loading catalog…</p>
@@ -127,7 +127,7 @@
           </label>
           <label class="field">
             <span class="field-label">Sort</span>
-            <select id="filter-sort">
+            <select id="filter-sort"><option value="featured">Featured builds</option>
               <option value="set_id">Set number</option>
               <option value="name">Name A–Z</option>
               <option value="year_desc">Newest first</option>
@@ -155,8 +155,7 @@
       <div class="page-head centered">
         <p class="eyebrow"><svg class="icon" aria-hidden="true"><use href="#i-swipe"/></svg> Teach the model</p>
         <h1>Rate a few builds</h1>
-        <p class="page-sub">Every like and dislike becomes a training signal for your personalized
-          classifier. Skip keeps the set in play.</p>
+        <p class="page-sub">Likes and dislikes update your taste profile immediately. A personal classifier is used only when enough ratings pass validation. Skip hides a set without training your taste. Undo brings it back.</p>
       </div>
 
       <div class="swipe-progress" aria-hidden="true">
@@ -208,7 +207,7 @@
       <div class="page-head">
         <p class="eyebrow"><svg class="icon" aria-hidden="true"><use href="#i-user"/></svg> Your profile</p>
         <h1>Your building taste</h1>
-        <p class="page-sub">A transparent view of every rating stored for this local profile. Undo
+        <p class="page-sub">A transparent view of every rating stored for your account. Undo
           corrects the record; the next recommendation request reflects it immediately.</p>
       </div>
       <div class="stat-grid" id="pref-stats"></div>

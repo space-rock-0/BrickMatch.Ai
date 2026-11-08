@@ -1208,6 +1208,17 @@ table.eval tr.best td:last-child { border-radius: 0 10px 10px 0; }
 .new-profile .field { flex: 1; }
 .dialog .fine-print { padding: 0 24px 24px; }
 
+/* Account forms and readable recommendations on desktop and mobile. */
+.dialog:has(form:not(.new-profile)) { padding: 28px; }
+.dialog > h2 { margin: 0 0 12px; }
+.dialog > p { color: var(--muted); line-height: 1.6; }
+.dialog > form { display: grid; gap: 16px; margin-top: 20px; }
+.dialog > form .fine-print { padding: 0; margin: 0; color: #b42318; }
+.dialog > form input { width: 100%; box-sizing: border-box; }
+.dialog > .btn { margin: 8px; }
+.rec-panel .explain { padding-left: 16px; line-height: 1.6; }
+.card-media img { object-fit: contain; padding: 12px; box-sizing: border-box; }
+
 .noscript { padding: 40px; text-align: center; }
 
 /* ---------- Responsive ---------- */

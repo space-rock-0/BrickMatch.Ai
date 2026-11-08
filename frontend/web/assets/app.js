@@ -7,12 +7,9 @@
   /* API + small helpers                                                 */
   /* ------------------------------------------------------------------ */
 
-  const query = new URLSearchParams(location.search);
-  const storedApi = localStorage.getItem("brickmatch.api");
-  const storedToken = () => localStorage.getItem("brickmatch.auth_token");
-  const API_BASE = (query.get("api") || storedApi ||
-    (location.protocol === "file:" ? "http://127.0.0.1:8000/api/v1" : "/api/v1")
-  ).replace(/\/+$/, "");
+  // Hosted pages always use their own API; credentials never follow a URL override.
+  const API_BASE = location.protocol === "file:" ? "http://127.0.0.1:8000/api/v1" : "/api/v1";
+  localStorage.removeItem("brickmatch.auth_token");
 
   const docBase = API_BASE.replace(/\/api\/v1$/, "");
   const TITLES = {
@@ -56,9 +53,7 @@
   const imageUrl = (setId) => `${API_BASE}/images/${encodeURIComponent(setId)}`;
 
   async function api(path, options = {}) {
-    const token = storedToken();
-    const request = { headers: { Accept: "application/json",
-      ...(token ? { Authorization: `Bearer ${token}` } : {}) }, ...options };
+    const request = { credentials: "same-origin", headers: { Accept: "application/json" }, ...options };
     if (options.body !== undefined && typeof options.body !== "string") {
       request.headers = { ...request.headers, "Content-Type": "application/json" };
       request.body = JSON.stringify(options.body);
@@ -66,6 +61,10 @@
     const response = await fetch(`${API_BASE}${path}`, request);
     let payload = null;
     try { payload = await response.json(); } catch { payload = null; }
+    if (response.status === 401 && !path.startsWith("/auth/")) {
+      location.reload();
+      throw new Error("Your session expired. Please sign in again.");
+    }
     if (!response.ok) {
       const detail = payload && (payload.detail || payload.message);
       const message = typeof detail === "string" ? detail
@@ -93,7 +92,7 @@
     recommendations: null,
     discover: {
       q: "", theme: "", minYear: 1949, maxYear: 2200, maxParts: 100000,
-      sort: "set_id", limit: 24, offset: 0, total: 0, items: [], rendered: 0,
+      sort: "featured", limit: 24, offset: 0, total: 0, items: [], rendered: 0,
       loading: false, error: null,
     },
     swipe: { queue: [], total: 0, loading: false, busy: false, error: null, last: null },
@@ -184,7 +183,7 @@
     if (!item) return "";
     const theme = item.theme || `Theme ${item.theme_id}`;
     const score = options.score !== undefined && options.score !== null
-      ? `<span class="score-badge">${Math.round(Number(options.score) * 100)}%</span>` : "";
+      ? `<span class="score-badge">Match score ${Number(options.score).toFixed(2)}</span>` : "";
     return `<article class="set-card" data-set-id="${escapeHtml(item.set_id)}">
       <div class="card-media">
         ${mediaHtml(item)}
@@ -237,9 +236,39 @@
 
   async function openProfileDialog() {
     if (state.boot?.auth_required) {
-      localStorage.removeItem("brickmatch.auth_token");
-      await authenticateIfRequired();
-      location.reload();
+      const dialog = document.createElement("dialog");
+      dialog.className = "dialog";
+      dialog.innerHTML = `<h2>Your account</h2><p>Signed in as <strong>${escapeHtml(state.user)}</strong>.</p>
+        <p>Your ratings and recommendations belong only to this account.</p>
+        <button class="btn btn-primary" data-signout>Sign out</button>
+        <button class="btn btn-ghost" data-close>Close</button>
+        <form><h3>Change password</h3>
+          <label class="field">Current password<input type="password" name="current" autocomplete="current-password" minlength="10" maxlength="200" required></label>
+          <label class="field">New password<input type="password" name="replacement" autocomplete="new-password" minlength="10" maxlength="200" required></label>
+          <p class="fine-print" role="alert"></p><button class="btn btn-ghost" type="submit">Update password and sign out</button>
+        </form>`;
+      dialog.querySelector("[data-close]").onclick = () => dialog.close();
+      dialog.onclose = () => dialog.remove();
+      dialog.querySelector("[data-signout]").onclick = async () => {
+        try {
+          await api("/auth/logout", { method: "POST" });
+          localStorage.removeItem("brickmatch.user");
+          location.reload();
+        } catch (error) { toast(error.message, "error"); }
+      };
+      dialog.querySelector("form").onsubmit = async (event) => {
+        event.preventDefault();
+        const form = event.currentTarget;
+        const button = form.querySelector("button"); button.disabled = true;
+        try {
+          await api("/auth/password", { method: "POST", body: {
+            current_password: form.elements.current.value, new_password: form.elements.replacement.value,
+          } });
+          location.reload();
+        } catch (error) { form.querySelector('[role="alert"]').textContent = error.message; }
+        finally { button.disabled = false; }
+      };
+      document.body.appendChild(dialog); dialog.showModal();
       return;
     }
     try {
@@ -264,6 +293,7 @@
       toast("Use only letters, digits, underscore or hyphen (max 80).", "error");
       return;
     }
+    if (state.boot?.auth_required) return;
     state.user = userId;
     localStorage.setItem("brickmatch.user", userId);
     state.feedback = { current: [], events: [] };
@@ -295,20 +325,19 @@
 
   async function authenticateIfRequired() {
     if (!state.boot?.auth_required) return;
-    const token = storedToken();
-    if (token) {
-      try {
-        const me = await api("/auth/me");
-        state.user = me.user_id;
-        localStorage.setItem("brickmatch.user", state.user);
-        return;
-      } catch { localStorage.removeItem("brickmatch.auth_token"); }
-    }
+    try {
+      const me = await api("/auth/me");
+      state.user = me.user_id;
+      state.users = [{ user_id: state.user, ratings: 0 }];
+      state.boot.users = state.users;
+      updateHeroStats(); updateProfileChrome();
+      return;
+    } catch { /* show the account form */ }
     const result = await new Promise((resolve) => {
       const dialog = document.createElement("dialog");
       dialog.className = "dialog";
       dialog.innerHTML = `<h2>Welcome to BrickMatch</h2>
-        <p>Sign in to save your ratings and recommendations, or create an account.</p>
+        <p>Sign in to continue. A new account starts with no ratings or personal recommendations.</p>
         <form><label class="field">Username<input name="username" autocomplete="username"
           pattern="[A-Za-z0-9_-]{1,80}" maxlength="80" required></label>
         <label class="field">Password<input name="password" type="password"
@@ -335,7 +364,6 @@
       document.body.appendChild(dialog);
       dialog.showModal();
     });
-    localStorage.setItem("brickmatch.auth_token", result.token);
     localStorage.setItem("brickmatch.user", result.user_id);
     state.user = result.user_id;
     state.users = [{ user_id: state.user, ratings: 0 }];
@@ -351,7 +379,7 @@
     const images = $("#stat-images");
     if (images) images.textContent = formatNumber(boot.images_available ?? 0);
     const users = $("#stat-users");
-    if (users) users.textContent = formatNumber((boot.users || []).length);
+    if (users) users.textContent = formatNumber(state.feedback.current.filter((r) => r.action === "like" || r.action === "dislike").length);
   }
 
   function renderThemeOptions() {
@@ -391,7 +419,7 @@
     d.maxYear = clamp(parseInt($("#filter-max-year")?.value || "2200", 10) || 2200, 1949, 2200);
     if (d.minYear > d.maxYear) [d.minYear, d.maxYear] = [d.maxYear, d.minYear];
     d.maxParts = clamp(parseInt($("#filter-max-parts")?.value || "100000", 10) || 0, 0, 100000);
-    d.sort = $("#filter-sort")?.value || "set_id";
+    d.sort = $("#filter-sort")?.value || "featured";
     syncFilterInputs();
   }
 
@@ -399,13 +427,13 @@
     const d = state.discover;
     if (key === "all") {
       d.q = ""; d.theme = ""; d.minYear = 1949; d.maxYear = 2200;
-      d.maxParts = 100000; d.sort = "set_id";
+      d.maxParts = 100000; d.sort = "featured";
     } else if (key === "q") d.q = "";
     else if (key === "theme") d.theme = "";
     else if (key === "minYear") d.minYear = 1949;
     else if (key === "maxYear") d.maxYear = 2200;
     else if (key === "maxParts") d.maxParts = 100000;
-    else if (key === "sort") d.sort = "set_id";
+    else if (key === "sort") d.sort = "featured";
     syncFilterInputs();
     loadDiscover(true);
   }
@@ -421,7 +449,7 @@
     if (d.minYear > 1949) chips.push(["minYear", `From ${d.minYear}`]);
     if (d.maxYear < 2200) chips.push(["maxYear", `To ${d.maxYear}`]);
     if (d.maxParts < 100000) chips.push(["maxParts", `≤ ${formatNumber(d.maxParts)} pieces`]);
-    if (d.sort !== "set_id") {
+    if (d.sort !== "featured") {
       const label = $("#filter-sort")?.selectedOptions[0]?.textContent || d.sort;
       chips.push(["sort", `Sort: ${label}`]);
     }
@@ -531,12 +559,15 @@
     const existing = state.feedback.current.find((row) => row.set_id === setId);
     const set = item || existing?.set || state.discover.items.find((row) => row.set_id === setId) || null;
     state.feedback.current = state.feedback.current.filter((row) => row.set_id !== setId);
+    state.recommendations = null;
+    state.summary = null;
     if (action !== "undo") {
       state.feedback.current.push({
         user_id: state.user, set_id: setId, action, set,
         updated_at: new Date().toISOString(),
       });
     }
+    updateHeroStats();
   }
 
   function refreshCardActions(card, setId) {
@@ -566,6 +597,8 @@
         body: { user_id: state.user, set_id: setId, action },
       });
       applyLocalFeedback(setId, action);
+      state.recommendations = null;
+      if (state.route === "for-you") await loadRecommendations();
       refreshCardActions(card, setId);
       const name = $(".card-title", card || document.createElement("div"))?.textContent || setId;
       toast(action === "undo"
@@ -606,7 +639,7 @@
     let offset = 0;
     let total = 0;
     for (let page = 0; page < 6 && queue.length < 48; page += 1) {
-      const data = await api(`/sets?limit=100&offset=${offset}&sort=set_id`);
+      const data = await api(`/sets?limit=100&offset=${offset}&sort=featured`);
       total = data.total || 0;
       queue.push(...(data.items || []).filter((item) => !rated.has(item.set_id)));
       offset += (data.items || []).length;
@@ -745,23 +778,8 @@
   function recommendationCard(row) {
     const item = row.set || state.discover.items.find((entry) => entry.set_id === row.set_id);
     if (!item) return "";
-    const signals = row.signals || {};
-    const labels = { metadata: "Metadata", visual: "Visual", classifier: "Classifier", catalog: "Catalog" };
-    const bars = Object.keys(labels)
-      .filter((name) => signals[name] !== undefined && Number.isFinite(Number(signals[name])))
-      .map((name) => {
-        const value = clamp(Number(signals[name]), 0, 1);
-        return `<div class="signal ${name}"><span>${labels[name]}</span>
-          <span class="track"><i style="width:${Math.round(value * 100)}%"></i></span>
-          <b>${value.toFixed(2)}</b></div>`;
-      }).join("");
-    const explanations = (row.explanations || [])
-      .map((text) => `<li>${escapeHtml(text)}</li>`).join("");
-    const extra = bars
-      ? `<div class="rec-panel"><div class="signals">${bars}</div>
-         ${explanations ? `<ul class="explain">${explanations}</ul>` : ""}</div>`
-      : "";
-    return setCardHtml(item, { score: row.score, extraHtml: extra });
+    const reasons = (row.explanations || []).map((text) => `<li>${escapeHtml(text)}</li>`).join("");
+    return setCardHtml(item, { extraHtml: `<div class="rec-panel"><ul class="explain">${reasons}</ul></div>` });
   }
 
   function renderRecommendationMeta(data) {
@@ -770,13 +788,16 @@
     const generated = data.generated_at ? new Date(data.generated_at) : null;
     const time = generated && !Number.isNaN(generated.getTime())
       ? generated.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }) : "";
+    const learning = data.learning || {};
     const pills = [
-      `<span class="pill on"><span class="dot"></span>${escapeHtml(MODE_LABELS[data.mode] || data.mode || "unknown")}</span>`,
-      `<span class="pill">model ${escapeHtml(data.model_version || "—")}</span>`,
-      `<span class="pill">features ${escapeHtml(data.feature_version || "—")}</span>`,
-      `<span class="pill">dataset ${escapeHtml(data.dataset_version || "—")}</span>`,
+      `<span class="pill on">${escapeHtml(MODE_LABELS[data.mode] || data.mode)}</span>`,
+      `<span class="pill">${learning.likes || 0} likes ? ${learning.dislikes || 0} dislikes</span>`,
     ];
-    if (time) pills.push(`<span class="pill">generated ${escapeHtml(time)}</span>`);
+    if (time) pills.push(`<span class="pill">Updated ${escapeHtml(time)}</span>`);
+    const subtitle = $("#for-you-sub");
+    if (subtitle) subtitle.textContent = data.onboarding
+      ? "Your profile is empty. Like or dislike a few builds to get your first personal picks."
+      : "Updated from your own feedback. Rate more builds to refine these picks; undo any rating in My Taste.";
     wrap.innerHTML = pills.join("");
   }
 
@@ -791,6 +812,11 @@
       state.recommendations = data;
       renderRecommendationMeta(data);
       const cards = (data.items || []).map(recommendationCard).filter(Boolean);
+      if (data.onboarding) {
+        grid.innerHTML = emptyState("Make this space yours", "No demo history, no borrowed preferences. Start with a few builds you like or dislike.",
+          '<a class="btn btn-primary" href="#/swipe">Start rating builds</a> <a class="btn btn-ghost" href="#/discover">Explore the catalog</a>');
+        return;
+      }
       grid.innerHTML = cards.length
         ? cards.join("")
         : emptyState("No eligible sets remain",
@@ -958,7 +984,7 @@
         </table>
       </div>
       <div class="caveat">${icon("alert")}<div>
-        <strong>Read with care.</strong>
+        <strong>Historical offline benchmark, not a measurement of the current personal model.</strong>
         ${payload.simulated_personas ? " These results come from simulated theme-based personas, not real consented users." : ""}
         ${limitations ? `<ul>${limitations}</ul>` : ""}
       </div></div>`;
@@ -1100,6 +1126,7 @@
         input?.focus();
         return;
       }
+      if (state.boot?.auth_required) return;
       if (!state.users.some((row) => row.user_id === name)) {
         state.users.push({ user_id: name, ratings: 0 });
       }
@@ -1182,6 +1209,9 @@
     try {
       await loadBootstrap();
       await authenticateIfRequired();
+      const feedback = await api(`/users/${encodeURIComponent(state.user)}/feedback`);
+      state.feedback = { current: feedback.current || [], events: feedback.events || [] };
+      updateHeroStats();
     } catch (error) {
       state.bootstrapError = error.message;
       toast(`Could not finish loading: ${error.message}`, "error");

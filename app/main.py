@@ -11,18 +11,17 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Literal
 
-from fastapi import FastAPI, HTTPException, Query, Request
+from fastapi import FastAPI, HTTPException, Query, Request, Response
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from app.auth import hash_password, issue_token, verify_password, verify_token
+from app.auth import hash_password, verify_password
 from app.features.artifacts import load_bundle
 from app.features.metadata import fit_metadata, transform_metadata
-from app.recommendation.baselines import catalog_baseline, metadata_baseline
+from app.recommendation.engine import PersonalEngine, featured_catalog
 from app.recommendation.feedback import FeedbackStore
-from app.recommendation.personalization import load_classifier
 from app.recommendation.ranking import rank_candidates
 from app.recommendation.retrieval import VectorRetriever
 
@@ -40,6 +39,11 @@ class AuthRequest(BaseModel):
     password: str = Field(min_length=10, max_length=200)
 
 
+class PasswordRequest(BaseModel):
+    current_password: str = Field(min_length=10, max_length=200)
+    new_password: str = Field(min_length=10, max_length=200)
+
+
 def create_app(catalog_path=None, database_path=None):
     app = FastAPI(title="BrickMatch AI", version="0.1.0")
     source = Path(catalog_path or os.getenv("BRICKMATCH_CATALOG", "data/processed/catalog.json"))
@@ -54,6 +58,7 @@ def create_app(catalog_path=None, database_path=None):
         raise ValueError("Duplicate catalog IDs")
     store = FeedbackStore(database_path or os.getenv("BRICKMATCH_DB", "data/brickmatch.db"))
     auth_required = os.getenv("BRICKMATCH_AUTH_REQUIRED", "false").lower() == "true"
+    dummy_password = hash_password("unused-login-timing-padding")
     rate_limit = int(os.getenv("BRICKMATCH_RATE_LIMIT_PER_MINUTE", "120"))
     request_times = defaultdict(deque)
     values = None
@@ -68,7 +73,9 @@ def create_app(catalog_path=None, database_path=None):
         visual_ids, visual_vectors, _ = load_bundle(Path(visual_path), by_id)
         if visual_ids:
             retriever = VectorRetriever(visual_ids, visual_vectors)
-    classifier_dir = Path(os.getenv("BRICKMATCH_CLASSIFIER_DIR", "artifacts/models"))
+    engine = PersonalEngine(catalog, ids, values, visual_ids, visual_vectors)
+    featured = featured_catalog(catalog)
+    featured_positions = {row["set_id"]: i for i, row in enumerate(featured)}
     ui_dir = Path(os.getenv("BRICKMATCH_UI_DIR",
                             str(Path(__file__).resolve().parents[1] / "frontend" / "web")))
     evaluation_path = Path(os.getenv(
@@ -87,9 +94,12 @@ def create_app(catalog_path=None, database_path=None):
 
     @app.middleware("http")
     async def limit_requests(request: Request, call_next):
-        if request.url.path.startswith("/api/") and request.url.path not in {
+        if request.url.path.startswith("/api/") and not request.url.path.startswith("/api/v1/images/") and request.url.path not in {
             "/api/v1/health/live", "/api/v1/health/ready"}:
             now = time.monotonic()
+            for stale in [key for key, times in request_times.items()
+                          if not times or now - times[-1] > 60]:
+                del request_times[stale]
             key = request.client.host if request.client else "unknown"
             bucket = request_times[key]
             while bucket and now - bucket[0] > 60:
@@ -99,11 +109,24 @@ def create_app(catalog_path=None, database_path=None):
                 return JSONResponse({"detail": "Rate limit exceeded"}, status_code=429,
                                     headers={"Retry-After": "60"})
             bucket.append(now)
-        return await call_next(request)
+        if request.method in {"POST", "PUT", "DELETE", "PATCH"}:
+            origin = request.headers.get("origin")
+            expected = str(request.base_url).rstrip("/")
+            if origin and origin != expected and origin not in [x for x in origins if x != "*"]:
+                from fastapi.responses import JSONResponse
+                return JSONResponse({"detail": "Cross-origin write rejected"}, status_code=403)
+        response = await call_next(request)
+        response.headers["X-Content-Type-Options"] = "nosniff"
+        response.headers["Referrer-Policy"] = "same-origin"
+        response.headers["X-Frame-Options"] = "DENY"
+        if request.url.path.startswith("/api/") and not request.url.path.startswith("/api/v1/images/"):
+            response.headers["Cache-Control"] = "no-store"
+        return response
 
     def authenticated_user(request: Request) -> str | None:
         header = request.headers.get("authorization", "")
-        return verify_token(header[7:].strip()) if header.lower().startswith("bearer ") else None
+        token = header[7:].strip() if header.lower().startswith("bearer ") else request.cookies.get("brickmatch_session")
+        return store.session_user(token)
 
     def require_user(request: Request, user_id: str):
         if not auth_required:
@@ -124,10 +147,11 @@ def create_app(catalog_path=None, database_path=None):
         return items
 
     def model_info():
-        clf_active = classifier_dir.exists() and any(classifier_dir.glob("*.joblib"))
+        clf_active = False
         return {"mode": "classifier_profile" if clf_active else (
                     "hybrid_profile" if retriever is not None else "metadata_baseline"),
-                "model_version": "classifier-v1" if clf_active else "metadata-baseline-v1",
+                "model_version": "personal-feedback-v2",
+                "classifier_policy": "Per-account holdout gate; demo models never served",
                 "feature_version": "metadata-v1", "classifier_active": clf_active,
                 "visual_features_active": retriever is not None,
                 "catalog_count": len(catalog), "images_available": len(images),
@@ -149,8 +173,8 @@ def create_app(catalog_path=None, database_path=None):
              min_parts: int = Query(0, ge=0, le=100000),
              max_parts: int = Query(100000, ge=0, le=100000),
              has_image: bool | None = None,
-             sort: Literal["set_id", "name", "year_desc", "year_asc",
-                           "parts_desc", "parts_asc"] = Query("set_id"),
+             sort: Literal["featured", "set_id", "name", "year_desc", "year_asc",
+                           "parts_desc", "parts_asc"] = Query("featured"),
              offset: int = Query(0, ge=0), limit: int = Query(24, ge=1, le=100)):
         filtered = [item for item in catalog if q.casefold() in item["name"].casefold()
                     and (theme is None or item["theme_id"] == theme)
@@ -158,6 +182,7 @@ def create_app(catalog_path=None, database_path=None):
                     and min_parts <= item["num_parts"] <= max_parts
                     and (has_image is None or item["image_available"] == has_image)]
         sorters = {
+            "featured": lambda row: featured_positions[row["set_id"]],
             "set_id": lambda row: row["set_id"],
             "name": lambda row: (row["name"].casefold(), row["set_id"]),
             "year_desc": lambda row: (-row["year"], row["set_id"]),
@@ -196,7 +221,9 @@ def create_app(catalog_path=None, database_path=None):
                 "evaluation": evaluation, "auth_required": auth_required}
 
     @app.post("/api/v1/auth/register", status_code=201)
-    def register(body: AuthRequest):
+    def register(body: AuthRequest, response: Response, request: Request):
+        if not store.allow_auth_attempt(request.client.host if request.client else "unknown"):
+            raise HTTPException(429, "Too many sign-in attempts. Try again in a minute.", headers={"Retry-After": "60"})
         try:
             password_hash = hash_password(body.password)
         except ValueError as exc:
@@ -204,14 +231,33 @@ def create_app(catalog_path=None, database_path=None):
         created = store.create_user(body.user_id, password_hash, datetime.now(UTC).isoformat())
         if not created:
             raise HTTPException(409, "Profile already exists")
-        return {"user_id": body.user_id, "token": issue_token(body.user_id)}
+        token = store.create_session(body.user_id)
+        response.set_cookie("brickmatch_session", token, httponly=True,
+                            secure=request.url.scheme == "https", samesite="strict", max_age=604800,
+                            path="/api")
+        return {"user_id": body.user_id, "token": token}
 
     @app.post("/api/v1/auth/login")
-    def login(body: AuthRequest):
+    def login(body: AuthRequest, response: Response, request: Request):
+        if not store.allow_auth_attempt(request.client.host if request.client else "unknown"):
+            raise HTTPException(429, "Too many sign-in attempts. Try again in a minute.", headers={"Retry-After": "60"})
         user = store.get_user(body.user_id)
-        if user is None or not verify_password(body.password, user["password_hash"]):
+        valid = verify_password(body.password, user["password_hash"] if user else dummy_password)
+        if user is None or not valid:
             raise HTTPException(401, "Invalid credentials")
-        return {"user_id": body.user_id, "token": issue_token(body.user_id)}
+        token = store.create_session(body.user_id)
+        response.set_cookie("brickmatch_session", token, httponly=True,
+                            secure=request.url.scheme == "https", samesite="strict", max_age=604800,
+                            path="/api")
+        return {"user_id": body.user_id, "token": token}
+
+    @app.post("/api/v1/auth/logout")
+    def logout(request: Request, response: Response):
+        header = request.headers.get("authorization", "")
+        token = header[7:].strip() if header.lower().startswith("bearer ") else request.cookies.get("brickmatch_session", "")
+        store.revoke_session(token)
+        response.delete_cookie("brickmatch_session", path="/api")
+        return {"status": "signed_out"}
 
     @app.get("/api/v1/auth/me")
     def me(request: Request):
@@ -219,6 +265,23 @@ def create_app(catalog_path=None, database_path=None):
         if user_id is None:
             raise HTTPException(401, "Authentication required")
         return {"user_id": user_id}
+
+    @app.post("/api/v1/auth/password")
+    def change_password(body: PasswordRequest, request: Request, response: Response):
+        user_id = authenticated_user(request)
+        if user_id is None:
+            raise HTTPException(401, "Authentication required")
+        if not store.allow_auth_attempt(request.client.host if request.client else "unknown"):
+            raise HTTPException(429, "Too many attempts. Try again in a minute.")
+        user = store.get_user(user_id)
+        if not verify_password(body.current_password, user["password_hash"]):
+            raise HTTPException(401, "Current password is incorrect")
+        with store.connect() as db:
+            store.exec(db, "UPDATE app_users SET password_hash=? WHERE user_id=?",
+                       (hash_password(body.new_password), user_id))
+            store.exec(db, "DELETE FROM app_sessions WHERE user_id=?", (user_id,))
+        response.delete_cookie("brickmatch_session", path="/api")
+        return {"status": "password_changed", "message": "Sign in again on all devices"}
 
     @app.get("/api/v1/evaluation")
     def evaluation_summary():
@@ -277,67 +340,25 @@ def create_app(catalog_path=None, database_path=None):
         start = time.perf_counter()
         ratings = store.current(user_id)
         excluded = {item["set_id"] for item in ratings}
-        liked = [item["set_id"] for item in ratings if item["action"] == "like"]
-        raw = metadata_baseline(ids, values, liked, min(1000, max(k, len(ids))), excluded) if values is not None else []
-        if not liked:
-            raw = catalog_baseline(catalog, min(1000, max(k, len(ids))), excluded)
-        candidates = [{"set_id": row["set_id"], "signals": {row["source"]: row["score"]}} for row in raw]
-        visual_used = False
-        if retriever is not None:
-            positions = [index for index, item in enumerate(visual_ids) if item in liked]
-            if positions:
-                query = visual_vectors[positions].mean(axis=0)
-                if (query ** 2).sum() > 0:
-                    found = retriever.search(query, min(1000, len(visual_ids)), excluded)
-                    merged = {row["set_id"]: row for row in candidates}
-                    for row in found:
-                        merged.setdefault(row["set_id"], {"set_id": row["set_id"], "signals": {}})["signals"]["visual"] = row["score"]
-                    candidates = list(merged.values())
-                    visual_used = True
-        classifier_used = False
-        cand = load_classifier(classifier_dir / f"{user_id}.joblib") if classifier_dir.exists() else None
-        if cand is not None and cand.get("user_id") == user_id:
-            try:
-                clf = cand["classifier"]; scaler = cand.get("scaler")
-                val_index = {sid: i for i, sid in enumerate(ids)}
-                visual_index = {sid: i for i, sid in enumerate(visual_ids)}
-                import numpy as np
-                feat_rows = []; feat_ids = []
-                for item in catalog:
-                    sid = item["set_id"]
-                    if sid in excluded or sid not in val_index:
-                        continue
-                    mi = val_index[sid]
-                    meta_vec = values[mi] if values is not None else None
-                    if meta_vec is None:
-                        continue
-                    if visual_vectors is not None and sid in visual_index:
-                        vis_vec = visual_vectors[visual_index[sid]]
-                    else:
-                        vis_vec = np.zeros(visual_vectors.shape[1] if visual_vectors is not None else 0, dtype=np.float32)
-                    feat_rows.append(np.concatenate([vis_vec, meta_vec]))
-                    feat_ids.append(sid)
-                if feat_rows:
-                    X = np.asarray(feat_rows, dtype=np.float32)
-                    if scaler is not None:
-                        X = scaler.transform(X)
-                    proba = clf.predict_proba(X)[:, 1]
-                    merged = {row["set_id"]: row for row in candidates}
-                    for sid, sc in zip(feat_ids, proba):
-                        merged.setdefault(sid, {"set_id": sid, "signals": {}})["signals"]["classifier"] = float(sc)
-                    candidates = list(merged.values())
-                    classifier_used = True
-            except (OSError, ValueError, KeyError, RuntimeError):
-                classifier_used = False
+        signals, mode, learning = engine.scores(user_id, ratings)
+        candidates = [{"set_id": sid, "signals": values} for sid, values in signals.items()]
         ranked = rank_candidates(candidates, by_id, excluded, k,
-                                 weights={"metadata": .4, "visual": .3, "classifier": .3, "catalog": 1.}, theme_cap=theme_cap)
+                                 weights={"metadata": .4, "visual": .3, "classifier": .3},
+                                 theme_cap=theme_cap or max(2, (k + 3) // 4))
+        for row in ranked:
+            row["explanations"] = [
+                "Based on your likes and dislikes in theme, size and build era",
+                *(["Includes visual similarity to your feedback"] if "visual" in row["signals"] else []),
+                *(["Personal classifier passed the recent-rating validation gate"]
+                  if learning["classifier_active"] else []),
+            ]
         for row in ranked:
             row["set"] = by_id[row["set_id"]]
         counters["recommendation_requests"] += 1
         counters["last_recommendation_ms"] = (time.perf_counter() - start) * 1000
-        mode = "classifier_profile" if classifier_used else ("hybrid_profile" if visual_used else ("metadata_profile" if liked else "cold_start"))
-        mv = "classifier-v1" if classifier_used else "metadata-baseline-v1"
-        return {"items": ranked, "mode": mode,
+        mv = "personal-feedback-v2"
+        return {"items": ranked, "mode": mode, "learning": learning,
+                "onboarding": mode == "cold_start",
                 "model_version": mv, "feature_version": "metadata-v1",
                 "dataset_version": source.parent.name, "generated_at": datetime.now(UTC).isoformat()}
 
@@ -348,8 +369,13 @@ def create_app(catalog_path=None, database_path=None):
         raise HTTPException(403, "Training is offline only; candidate evaluation and promotion are required")
 
     @app.get("/api/v1/models/current")
-    def models():
-        return model_info()
+    def models(request: Request):
+        result = model_info()
+        user_id = authenticated_user(request)
+        if user_id:
+            _, mode, learning = engine.scores(user_id, store.current(user_id))
+            result.update(mode=mode, classifier_active=learning["classifier_active"], learning=learning)
+        return result
 
     @app.get("/api/v1/health/live")
     def live():

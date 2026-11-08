@@ -9,13 +9,11 @@ COPY frontend ./frontend
 COPY data/evaluation_results.json ./data/evaluation_results.json
 COPY data/processed/78b8926d0b520375 ./data/processed/78b8926d0b520375
 COPY artifacts/embeddings/clip.npz ./artifacts/embeddings/clip.npz
-COPY artifacts/models ./artifacts/models
 
 ENV BRICKMATCH_UI_DIR=/app/frontend/web \
     BRICKMATCH_EVALUATION=/app/data/evaluation_results.json \
     BRICKMATCH_CATALOG=/app/data/processed/78b8926d0b520375/catalog.json \
-    BRICKMATCH_EMBEDDINGS=/app/artifacts/embeddings/clip.npz \
-    BRICKMATCH_CLASSIFIER_DIR=/app/artifacts/models
+    BRICKMATCH_EMBEDDINGS=/app/artifacts/embeddings/clip.npz
 
 EXPOSE 8000
 HEALTHCHECK --interval=30s --timeout=5s --start-period=5s --retries=3 \

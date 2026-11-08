@@ -18,4 +18,5 @@ def test_register_login_and_profile_isolation(tmp_path, monkeypatch):
     headers = {"Authorization": f"Bearer {login.json()['token']}"}
     assert client.get("/api/v1/users/alice/summary", headers=headers).status_code == 200
     assert client.get("/api/v1/users/bob/summary", headers=headers).status_code == 401
+    client.cookies.clear()
     assert client.get("/api/v1/users/alice/summary").status_code == 401

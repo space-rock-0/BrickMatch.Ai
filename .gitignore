@@ -8,6 +8,7 @@ __pycache__/
 .env
 *.db
 *.db-*
+artifacts/ui-release*.log
 data/
 !data/
 artifacts/
