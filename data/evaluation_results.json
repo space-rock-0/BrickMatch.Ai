@@ -1,0 +1,47 @@
+{
+  "protocol": "Temporal 60/20/20 split per user; metadata preprocessing fit on train likes only; test partition scored once.",
+  "source": "docs/experiments.md",
+  "generated_at": "2026-11-08",
+  "simulated_personas": true,
+  "users": 30,
+  "test_likes": 127,
+  "k": 10,
+  "rows": [
+    {
+      "approach": "Catalog (non-personalized)",
+      "precision_at_10": 0.0,
+      "hit_rate_at_10": 0.0,
+      "n": 30
+    },
+    {
+      "approach": "Metadata similarity",
+      "precision_at_10": 0.0333,
+      "hit_rate_at_10": 0.2667,
+      "n": 30
+    },
+    {
+      "approach": "Visual (CLIP centroid)",
+      "precision_at_10": 0.05,
+      "hit_rate_at_10": 0.4,
+      "n": 30
+    },
+    {
+      "approach": "Hybrid (merged)",
+      "precision_at_10": 0.0367,
+      "hit_rate_at_10": 0.2667,
+      "n": 30
+    },
+    {
+      "approach": "Classifier (CLIP + metadata LR)",
+      "precision_at_10": 0.0633,
+      "hit_rate_at_10": 0.4333,
+      "n": 30
+    }
+  ],
+  "limitations": [
+    "Users are simulated theme-based personas, not real consented feedback.",
+    "Small per-user test partitions; results are not statistically significant.",
+    "Test partitions contain few or no dislikes, so negative ranking is not measured.",
+    "No confidence intervals, coverage, diversity or latency benchmarks are included here."
+  ]
+}

@@ -1,0 +1,16 @@
+.git
+.venv
+.uv-cache
+.uv-python
+.cache
+data/*
+!data/evaluation_results.json
+!data/processed/78b8926d0b520375/
+!data/processed/78b8926d0b520375/**
+artifacts/*
+!artifacts/embeddings/
+!artifacts/embeddings/clip.npz
+!artifacts/models/
+!artifacts/models/*.joblib
+.env
+__pycache__

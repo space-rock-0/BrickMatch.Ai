@@ -1,0 +1,14 @@
+{
+  "dataset_version": "78b8926d0b520375",
+  "source_rows": 28587,
+  "valid_rows": 28587,
+  "selected_rows": 500,
+  "rejected_rows": 0,
+  "rejections": [],
+  "missing_images": 0,
+  "source_hashes": {
+    "sets_sha256": "3aec81c06e9536f16755d99cb993f30c5e2b49fabc19e1d208b00bbf78ee58bf",
+    "themes_sha256": "1505e9b1355a68f69521f9a5aaafa306fff3d712b479fefae665978c4a807d84"
+  },
+  "schema_version": 1
+}

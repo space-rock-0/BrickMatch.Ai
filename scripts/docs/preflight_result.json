@@ -1,0 +1,19 @@
+{
+  "platform": "Windows-10-10.0.26300-SP0",
+  "python": "3.11.13",
+  "cpu": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+  "logical_cpus": 8,
+  "free_disk_gib": 301.99,
+  "torch": "2.15.0+cpu",
+  "device": "cpu",
+  "model": "openai/clip-vit-base-patch32",
+  "model_revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+  "shape": [
+    1,
+    512
+  ],
+  "finite": true,
+  "inference_seconds": 2.719212300000436,
+  "sklearn_retrieval": "passed",
+  "faiss_retrieval": "passed"
+}

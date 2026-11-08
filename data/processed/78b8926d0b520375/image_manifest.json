@@ -1,0 +1,4002 @@
+[
+  {
+    "set_id": "00-6",
+    "source_url": "https://cdn.rebrickable.com/media/sets/00-6.jpg",
+    "status": "downloaded",
+    "path": "images/3e8741eb868b2977c2de7111d37993fc0ddf3fbb60882a17a0137e2416f92570.img",
+    "sha256": "3e8741eb868b2977c2de7111d37993fc0ddf3fbb60882a17a0137e2416f92570",
+    "retrieved_at": "2026-11-08T07:39:08.884368+00:00"
+  },
+  {
+    "set_id": "0003977811-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/0003977811-1.jpg",
+    "status": "downloaded",
+    "path": "images/7248fcf6a4a6c2f53dc2ef79e5fa0632f0d70aa0e2bccb21f23e6ed7abfddf82.img",
+    "sha256": "7248fcf6a4a6c2f53dc2ef79e5fa0632f0d70aa0e2bccb21f23e6ed7abfddf82",
+    "retrieved_at": "2026-11-08T07:39:09.675871+00:00"
+  },
+  {
+    "set_id": "001-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/001-1.jpg",
+    "status": "downloaded",
+    "path": "images/ed627aafda91884a345a970dc3e48edb602fdf5121b2adb9bdd9bcfd9a623954.img",
+    "sha256": "ed627aafda91884a345a970dc3e48edb602fdf5121b2adb9bdd9bcfd9a623954",
+    "retrieved_at": "2026-11-08T07:39:10.486570+00:00"
+  },
+  {
+    "set_id": "0011-2",
+    "source_url": "https://cdn.rebrickable.com/media/sets/0011-2.jpg",
+    "status": "downloaded",
+    "path": "images/11d901c664e3413cc183fe51fc3652be4486ebf45b5342ffdf5ca6f180d7c11e.img",
+    "sha256": "11d901c664e3413cc183fe51fc3652be4486ebf45b5342ffdf5ca6f180d7c11e",
+    "retrieved_at": "2026-11-08T07:39:11.006016+00:00"
+  },
+  {
+    "set_id": "0011-3",
+    "source_url": "https://cdn.rebrickable.com/media/sets/0011-3.jpg",
+    "status": "downloaded",
+    "path": "images/0dfa99bfb7fa308f1de979ab988d391fd7ae7047e3470c00cb9192c1e7df85dd.img",
+    "sha256": "0dfa99bfb7fa308f1de979ab988d391fd7ae7047e3470c00cb9192c1e7df85dd",
+    "retrieved_at": "2026-11-08T07:39:11.485390+00:00"
+  },
+  {
+    "set_id": "0012-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/0012-1.jpg",
+    "status": "downloaded",
+    "path": "images/48ce6e42c7a6ae0a46d7c7f32b835edd65d02a4970540577ca2e77419b642138.img",
+    "sha256": "48ce6e42c7a6ae0a46d7c7f32b835edd65d02a4970540577ca2e77419b642138",
+    "retrieved_at": "2026-11-08T07:39:12.078372+00:00"
+  },
+  {
+    "set_id": "0013-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/0013-1.jpg",
+    "status": "downloaded",
+    "path": "images/45d8a0148ba993d68f8856ee79f5358d4b2ae3906be5bd131278c746854c214c.img",
+    "sha256": "45d8a0148ba993d68f8856ee79f5358d4b2ae3906be5bd131278c746854c214c",
+    "retrieved_at": "2026-11-08T07:39:12.624221+00:00"
+  },
+  {
+    "set_id": "0014-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/0014-1.jpg",
+    "status": "downloaded",
+    "path": "images/2094307853530d132c3399c6dfb4907ee1b22f37b1d813e0f584d8fb37b5db49.img",
+    "sha256": "2094307853530d132c3399c6dfb4907ee1b22f37b1d813e0f584d8fb37b5db49",
+    "retrieved_at": "2026-11-08T07:39:13.129126+00:00"
+  },
+  {
+    "set_id": "0015-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/0015-1.jpg",
+    "status": "downloaded",
+    "path": "images/abcf4ed8f7fe359d5a34cecb06e2ffcfba26832420473145a4d734f1a249414c.img",
+    "sha256": "abcf4ed8f7fe359d5a34cecb06e2ffcfba26832420473145a4d734f1a249414c",
+    "retrieved_at": "2026-11-08T07:39:13.666017+00:00"
+  },
+  {
+    "set_id": "0016-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/0016-1.jpg",
+    "status": "downloaded",
+    "path": "images/ee2aa5d40549d908e30365c9d55cb2788a5bfcb2bcaebacff2b30a33039531d1.img",
+    "sha256": "ee2aa5d40549d908e30365c9d55cb2788a5bfcb2bcaebacff2b30a33039531d1",
+    "retrieved_at": "2026-11-08T07:39:14.134463+00:00"
+  },
+  {
+    "set_id": "002-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/002-1.jpg",
+    "status": "downloaded",
+    "path": "images/394c9ebee1a8e9e2de6fb2b086b3d6f9897f786f9074e5aa0e1d5fa6abb2558e.img",
+    "sha256": "394c9ebee1a8e9e2de6fb2b086b3d6f9897f786f9074e5aa0e1d5fa6abb2558e",
+    "retrieved_at": "2026-11-08T07:39:14.903317+00:00"
+  },
+  {
+    "set_id": "003-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/003-1.jpg",
+    "status": "downloaded",
+    "path": "images/f0d76fd7f5fc17e337273e15b4307e2f188678a118a743204410e9bb20bd637e.img",
+    "sha256": "f0d76fd7f5fc17e337273e15b4307e2f188678a118a743204410e9bb20bd637e",
+    "retrieved_at": "2026-11-08T07:39:15.604253+00:00"
+  },
+  {
+    "set_id": "004-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/004-1.jpg",
+    "status": "downloaded",
+    "path": "images/64b63c7bb723b5894f99d96dcf8393784bc984b3692b348539cb9d496e5fe979.img",
+    "sha256": "64b63c7bb723b5894f99d96dcf8393784bc984b3692b348539cb9d496e5fe979",
+    "retrieved_at": "2026-11-08T07:39:17.328096+00:00"
+  },
+  {
+    "set_id": "005-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/005-1.jpg",
+    "status": "downloaded",
+    "path": "images/e6e1e636ba4058311a5c90717bf394fa2e13c88be6aacf0fb2d5806fab0baad8.img",
+    "sha256": "e6e1e636ba4058311a5c90717bf394fa2e13c88be6aacf0fb2d5806fab0baad8",
+    "retrieved_at": "2026-11-08T07:39:17.984515+00:00"
+  },
+  {
+    "set_id": "005-2",
+    "source_url": "https://cdn.rebrickable.com/media/sets/005-2.jpg",
+    "status": "downloaded",
+    "path": "images/2e91291a9cf9e1eeeb8bc7bb57c587db2123a324b705878ec0de37cfc6ce0427.img",
+    "sha256": "2e91291a9cf9e1eeeb8bc7bb57c587db2123a324b705878ec0de37cfc6ce0427",
+    "retrieved_at": "2026-11-08T07:39:18.955898+00:00"
+  },
+  {
+    "set_id": "00747-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/00747-1.jpg",
+    "status": "downloaded",
+    "path": "images/4827f5e4748c42f68c6377f1c5538bb6052cb41fd8aa5d92ee1b2d0bbb99b14c.img",
+    "sha256": "4827f5e4748c42f68c6377f1c5538bb6052cb41fd8aa5d92ee1b2d0bbb99b14c",
+    "retrieved_at": "2026-11-08T07:39:26.355322+00:00"
+  },
+  {
+    "set_id": "01-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/01-1.jpg",
+    "status": "downloaded",
+    "path": "images/d61b6e209e5c2f5a96e30519234c31dbc66f979edfe01a6b07696a27757c5d59.img",
+    "sha256": "d61b6e209e5c2f5a96e30519234c31dbc66f979edfe01a6b07696a27757c5d59",
+    "retrieved_at": "2026-11-08T07:39:29.899136+00:00"
+  },
+  {
+    "set_id": "01-2",
+    "source_url": "https://cdn.rebrickable.com/media/sets/01-2.jpg",
+    "status": "downloaded",
+    "path": "images/92de0c886f5b33f59cb1f1695a6881f390ed9af4b65243674f4d5e6994af6016.img",
+    "sha256": "92de0c886f5b33f59cb1f1695a6881f390ed9af4b65243674f4d5e6994af6016",
+    "retrieved_at": "2026-11-08T07:39:33.558545+00:00"
+  },
+  {
+    "set_id": "010-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/010-1.jpg",
+    "status": "downloaded",
+    "path": "images/affeaf26099a4abe645fe8a897011634b1c284d10922165cd9f87d70f44fe697.img",
+    "sha256": "affeaf26099a4abe645fe8a897011634b1c284d10922165cd9f87d70f44fe697",
+    "retrieved_at": "2026-11-08T07:39:34.054332+00:00"
+  },
+  {
+    "set_id": "010-2",
+    "source_url": "https://cdn.rebrickable.com/media/sets/010-2.jpg",
+    "status": "downloaded",
+    "path": "images/c649b21d859253902d955a78e870955d692f71499c45a7c10f921e81a58c8eaf.img",
+    "sha256": "c649b21d859253902d955a78e870955d692f71499c45a7c10f921e81a58c8eaf",
+    "retrieved_at": "2026-11-08T07:39:35.089103+00:00"
+  },
+  {
+    "set_id": "010-3",
+    "source_url": "https://cdn.rebrickable.com/media/sets/010-3.jpg",
+    "status": "downloaded",
+    "path": "images/892c9495b9f0c1df33c822f33959ba23fae073348dfec908537ccf4eb38a3887.img",
+    "sha256": "892c9495b9f0c1df33c822f33959ba23fae073348dfec908537ccf4eb38a3887",
+    "retrieved_at": "2026-11-08T07:39:35.581762+00:00"
+  },
+  {
+    "set_id": "010423-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/010423-1.jpg",
+    "status": "downloaded",
+    "path": "images/2aaf72c09df6d163d61b4f023bd3d18360a3f5e5f35659ed1d191e5f5a498a0b.img",
+    "sha256": "2aaf72c09df6d163d61b4f023bd3d18360a3f5e5f35659ed1d191e5f5a498a0b",
+    "retrieved_at": "2026-11-08T07:39:36.428740+00:00"
+  },
+  {
+    "set_id": "011-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/011-1.jpg",
+    "status": "downloaded",
+    "path": "images/e4793ea5558708fa3df8cdbec83fcd142e72400f129c38e11b80cfab6fb8bc55.img",
+    "sha256": "e4793ea5558708fa3df8cdbec83fcd142e72400f129c38e11b80cfab6fb8bc55",
+    "retrieved_at": "2026-11-08T07:39:37.554175+00:00"
+  },
+  {
+    "set_id": "02-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/02-1.jpg",
+    "status": "downloaded",
+    "path": "images/259e4ba05896f7aa96209203a4996c8c7758b930685e8f1b16e19af62d20bcdb.img",
+    "sha256": "259e4ba05896f7aa96209203a4996c8c7758b930685e8f1b16e19af62d20bcdb",
+    "retrieved_at": "2026-11-08T07:39:38.984300+00:00"
+  },
+  {
+    "set_id": "02-2",
+    "source_url": "https://cdn.rebrickable.com/media/sets/02-2.jpg",
+    "status": "downloaded",
+    "path": "images/f69ee3c5e551dc5f88440bf08d4aa29b9f3ca857e906eee7a01eeeda1c7ef8e2.img",
+    "sha256": "f69ee3c5e551dc5f88440bf08d4aa29b9f3ca857e906eee7a01eeeda1c7ef8e2",
+    "retrieved_at": "2026-11-08T07:39:40.566175+00:00"
+  },
+  {
+    "set_id": "020-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/020-1.jpg",
+    "status": "downloaded",
+    "path": "images/01b94fa36b357912f412642bd73aefd269e3c3bbb74eb70c8f54abf48e229950.img",
+    "sha256": "01b94fa36b357912f412642bd73aefd269e3c3bbb74eb70c8f54abf48e229950",
+    "retrieved_at": "2026-11-08T07:39:42.319338+00:00"
+  },
+  {
+    "set_id": "021-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/021-1.jpg",
+    "status": "downloaded",
+    "path": "images/3feadc7439ae6e13da91e9b1c1344b8d9400d9aa062177922354ba76b199fcd3.img",
+    "sha256": "3feadc7439ae6e13da91e9b1c1344b8d9400d9aa062177922354ba76b199fcd3",
+    "retrieved_at": "2026-11-08T07:39:43.275809+00:00"
+  },
+  {
+    "set_id": "022-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/022-1.jpg",
+    "status": "downloaded",
+    "path": "images/603a5fd173d602e8f10289ea71e104f646cf3dda92e62a9d88dc9d96c3c93b66.img",
+    "sha256": "603a5fd173d602e8f10289ea71e104f646cf3dda92e62a9d88dc9d96c3c93b66",
+    "retrieved_at": "2026-11-08T07:39:44.214493+00:00"
+  },
+  {
+    "set_id": "022-2",
+    "source_url": "https://cdn.rebrickable.com/media/sets/022-2.jpg",
+    "status": "downloaded",
+    "path": "images/21673d3dff61f99f7cd0bce1a3f9d096c45723131e2970ec6221730dba75f552.img",
+    "sha256": "21673d3dff61f99f7cd0bce1a3f9d096c45723131e2970ec6221730dba75f552",
+    "retrieved_at": "2026-11-08T07:39:44.791421+00:00"
+  },
+  {
+    "set_id": "0241187567-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/0241187567-1.jpg",
+    "status": "downloaded",
+    "path": "images/a38fc4de79e74e9e4e6745e045d22689a138a759a22c48a71a3beb4c3ce38171.img",
+    "sha256": "a38fc4de79e74e9e4e6745e045d22689a138a759a22c48a71a3beb4c3ce38171",
+    "retrieved_at": "2026-11-08T07:39:45.554340+00:00"
+  },
+  {
+    "set_id": "0241357594-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/0241357594-1.jpg",
+    "status": "downloaded",
+    "path": "images/27fc83f7f7d1d8778c21fad4160bd718ddfbef59a616191180d2515df5b6ab8f.img",
+    "sha256": "27fc83f7f7d1d8778c21fad4160bd718ddfbef59a616191180d2515df5b6ab8f",
+    "retrieved_at": "2026-11-08T07:39:48.545822+00:00"
+  },
+  {
+    "set_id": "028-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/028-1.jpg",
+    "status": "downloaded",
+    "path": "images/80d5b31ff8d3f2a1d3fab92247e50713ff4ffdf1a14a4c40610487d129537637.img",
+    "sha256": "80d5b31ff8d3f2a1d3fab92247e50713ff4ffdf1a14a4c40610487d129537637",
+    "retrieved_at": "2026-11-08T07:39:49.255842+00:00"
+  },
+  {
+    "set_id": "03-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/03-1.jpg",
+    "status": "downloaded",
+    "path": "images/9b75fe5163fbc60d26e4ac5892ac63b71f1a113749c13ea294bd1f0afac7e016.img",
+    "sha256": "9b75fe5163fbc60d26e4ac5892ac63b71f1a113749c13ea294bd1f0afac7e016",
+    "retrieved_at": "2026-11-08T07:39:50.393644+00:00"
+  },
+  {
+    "set_id": "030-2",
+    "source_url": "https://cdn.rebrickable.com/media/sets/030-2.jpg",
+    "status": "missing",
+    "path": null,
+    "sha256": null,
+    "retrieved_at": null
+  },
+  {
+    "set_id": "03093-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/03093-1.jpg",
+    "status": "downloaded",
+    "path": "images/beb002a4c6fa9d2649feeab935dd7221ef364f8764372a5e970d26d2cf8684eb.img",
+    "sha256": "beb002a4c6fa9d2649feeab935dd7221ef364f8764372a5e970d26d2cf8684eb",
+    "retrieved_at": "2026-11-08T07:39:52.129245+00:00"
+  },
+  {
+    "set_id": "032-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/032-1.jpg",
+    "status": "downloaded",
+    "path": "images/32c93d816da4f3bc1b71c7afb16df1e8287c1ceb7741de837975ee065b84cfca.img",
+    "sha256": "32c93d816da4f3bc1b71c7afb16df1e8287c1ceb7741de837975ee065b84cfca",
+    "retrieved_at": "2026-11-08T07:39:53.000239+00:00"
+  },
+  {
+    "set_id": "033-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/033-1.jpg",
+    "status": "downloaded",
+    "path": "images/d3dbff8cef945e7303d9694af780b9e8ec4df0b820a44a5e88784f5c027d505c.img",
+    "sha256": "d3dbff8cef945e7303d9694af780b9e8ec4df0b820a44a5e88784f5c027d505c",
+    "retrieved_at": "2026-11-08T07:39:57.677019+00:00"
+  },
+  {
+    "set_id": "033-2",
+    "source_url": "https://cdn.rebrickable.com/media/sets/033-2.jpg",
+    "status": "downloaded",
+    "path": "images/d405b1df9987db98e7720b8615d774417e04fc61764bd4053a8683380970e946.img",
+    "sha256": "d405b1df9987db98e7720b8615d774417e04fc61764bd4053a8683380970e946",
+    "retrieved_at": "2026-11-08T07:39:59.455591+00:00"
+  },
+  {
+    "set_id": "04-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/04-1.jpg",
+    "status": "downloaded",
+    "path": "images/d16629170eff4489545468a068bcf9050e8ea7aa39ba24aebfbb313caee66e86.img",
+    "sha256": "d16629170eff4489545468a068bcf9050e8ea7aa39ba24aebfbb313caee66e86",
+    "retrieved_at": "2026-11-08T07:40:01.729969+00:00"
+  },
+  {
+    "set_id": "041-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/041-1.jpg",
+    "status": "downloaded",
+    "path": "images/7cfa86b0f340a950412703fd91bd082befe4c5e10d4bf6265385a08c2c531cda.img",
+    "sha256": "7cfa86b0f340a950412703fd91bd082befe4c5e10d4bf6265385a08c2c531cda",
+    "retrieved_at": "2026-11-08T07:40:02.548118+00:00"
+  },
+  {
+    "set_id": "041-2",
+    "source_url": "https://cdn.rebrickable.com/media/sets/041-2.jpg",
+    "status": "downloaded",
+    "path": "images/0ef4e249407e575f81d160c75145fc03c8e982317090d023279d5f0596603e2c.img",
+    "sha256": "0ef4e249407e575f81d160c75145fc03c8e982317090d023279d5f0596603e2c",
+    "retrieved_at": "2026-11-08T07:40:05.008076+00:00"
+  },
+  {
+    "set_id": "042-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/042-1.jpg",
+    "status": "downloaded",
+    "path": "images/13fc962c8adb6a7e2fb5e950b8cc652069d8c3ff201efaf46a71ccb447d0948a.img",
+    "sha256": "13fc962c8adb6a7e2fb5e950b8cc652069d8c3ff201efaf46a71ccb447d0948a",
+    "retrieved_at": "2026-11-08T07:40:05.707990+00:00"
+  },
+  {
+    "set_id": "044-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/044-1.jpg",
+    "status": "downloaded",
+    "path": "images/9e53a7536f5ac3fc3ba2644f01bc90c3c5c7925525346d7ed7700cc1ff16fcdb.img",
+    "sha256": "9e53a7536f5ac3fc3ba2644f01bc90c3c5c7925525346d7ed7700cc1ff16fcdb",
+    "retrieved_at": "2026-11-08T07:40:07.683312+00:00"
+  },
+  {
+    "set_id": "044-2",
+    "source_url": "https://cdn.rebrickable.com/media/sets/044-2.jpg",
+    "status": "downloaded",
+    "path": "images/75449f8b8477e0e41c64d1fbd31cf826b1c3f617c6e9498583e13eb917d0b6f7.img",
+    "sha256": "75449f8b8477e0e41c64d1fbd31cf826b1c3f617c6e9498583e13eb917d0b6f7",
+    "retrieved_at": "2026-11-08T07:40:08.383510+00:00"
+  },
+  {
+    "set_id": "045-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/045-1.jpg",
+    "status": "downloaded",
+    "path": "images/2aaa511ff155c60984a31cba976e67f47a44584e615da179eb6b499075864c54.img",
+    "sha256": "2aaa511ff155c60984a31cba976e67f47a44584e615da179eb6b499075864c54",
+    "retrieved_at": "2026-11-08T07:40:10.888955+00:00"
+  },
+  {
+    "set_id": "045-2",
+    "source_url": "https://cdn.rebrickable.com/media/sets/045-2.jpg",
+    "status": "missing",
+    "path": null,
+    "sha256": null,
+    "retrieved_at": null
+  },
+  {
+    "set_id": "047-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/047-1.jpg",
+    "status": "downloaded",
+    "path": "images/1b6cac1861c9cce07e7d5e9135dabacda4d743f78a4077bba3de82fe45d80db7.img",
+    "sha256": "1b6cac1861c9cce07e7d5e9135dabacda4d743f78a4077bba3de82fe45d80db7",
+    "retrieved_at": "2026-11-08T07:40:12.356264+00:00"
+  },
+  {
+    "set_id": "049-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/049-1.jpg",
+    "status": "downloaded",
+    "path": "images/33b1ee37eb651ef2259421d67e117152529d77a50c2b008324472c7e865f4d20.img",
+    "sha256": "33b1ee37eb651ef2259421d67e117152529d77a50c2b008324472c7e865f4d20",
+    "retrieved_at": "2026-11-08T07:40:13.079912+00:00"
+  },
+  {
+    "set_id": "05-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/05-1.jpg",
+    "status": "downloaded",
+    "path": "images/31daa6dd68d944a072fe071741d883f2b8dae121331b8e836d5ef23e92e3fb1c.img",
+    "sha256": "31daa6dd68d944a072fe071741d883f2b8dae121331b8e836d5ef23e92e3fb1c",
+    "retrieved_at": "2026-11-08T07:40:15.278170+00:00"
+  },
+  {
+    "set_id": "050-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/050-1.jpg",
+    "status": "downloaded",
+    "path": "images/e45fe8ff9064870cab42862a7eafb6083cb0888b91e56a07a977fc14bdfeaabb.img",
+    "sha256": "e45fe8ff9064870cab42862a7eafb6083cb0888b91e56a07a977fc14bdfeaabb",
+    "retrieved_at": "2026-11-08T07:40:16.215820+00:00"
+  },
+  {
+    "set_id": "050-2",
+    "source_url": "https://cdn.rebrickable.com/media/sets/050-2.jpg",
+    "status": "downloaded",
+    "path": "images/e0408daf2a601456ea09f3647e4c121a48e9a5fafa183b4b658354fc3aaa2bd8.img",
+    "sha256": "e0408daf2a601456ea09f3647e4c121a48e9a5fafa183b4b658354fc3aaa2bd8",
+    "retrieved_at": "2026-11-08T07:40:17.027212+00:00"
+  },
+  {
+    "set_id": "051-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/051-1.jpg",
+    "status": "downloaded",
+    "path": "images/553fb1fe08e8d0bad16ea445df8740e7d155a9cc788240249d581249e3cf191f.img",
+    "sha256": "553fb1fe08e8d0bad16ea445df8740e7d155a9cc788240249d581249e3cf191f",
+    "retrieved_at": "2026-11-08T07:40:17.754405+00:00"
+  },
+  {
+    "set_id": "052-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/052-1.jpg",
+    "status": "downloaded",
+    "path": "images/3c40d45a20604848861123562afccb7a8eeb7a8acce95a5f482c7e10259e13d1.img",
+    "sha256": "3c40d45a20604848861123562afccb7a8eeb7a8acce95a5f482c7e10259e13d1",
+    "retrieved_at": "2026-11-08T07:40:18.436406+00:00"
+  },
+  {
+    "set_id": "053-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/053-1.jpg",
+    "status": "downloaded",
+    "path": "images/17e93d41328bfa4ffb10a05ff888f6aa809fdad2fb5be5b232115ebdbbb0c737.img",
+    "sha256": "17e93d41328bfa4ffb10a05ff888f6aa809fdad2fb5be5b232115ebdbbb0c737",
+    "retrieved_at": "2026-11-08T07:40:19.127979+00:00"
+  },
+  {
+    "set_id": "054-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/054-1.jpg",
+    "status": "downloaded",
+    "path": "images/6bc2f2a5445520dff88b1834936d9f83b871c3c50c6d73c3020ddace08d7fc16.img",
+    "sha256": "6bc2f2a5445520dff88b1834936d9f83b871c3c50c6d73c3020ddace08d7fc16",
+    "retrieved_at": "2026-11-08T07:40:19.966659+00:00"
+  },
+  {
+    "set_id": "055-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/055-1.jpg",
+    "status": "downloaded",
+    "path": "images/cb4b1427e5b454f8adb8c84ce4fb26d91756f41dbc8edb4e6bb4cd7c09ca2354.img",
+    "sha256": "cb4b1427e5b454f8adb8c84ce4fb26d91756f41dbc8edb4e6bb4cd7c09ca2354",
+    "retrieved_at": "2026-11-08T07:40:21.964438+00:00"
+  },
+  {
+    "set_id": "055-2",
+    "source_url": "https://cdn.rebrickable.com/media/sets/055-2.jpg",
+    "status": "downloaded",
+    "path": "images/8ed21bd9ab18aabfcee04458df47a3c30cb90c89a69e745e5958965abdb2c1e9.img",
+    "sha256": "8ed21bd9ab18aabfcee04458df47a3c30cb90c89a69e745e5958965abdb2c1e9",
+    "retrieved_at": "2026-11-08T07:40:22.475306+00:00"
+  },
+  {
+    "set_id": "057-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/057-1.jpg",
+    "status": "downloaded",
+    "path": "images/1aac86d98193791c923726b33f250426e5081fbf0671e8ee804bf9acac702c39.img",
+    "sha256": "1aac86d98193791c923726b33f250426e5081fbf0671e8ee804bf9acac702c39",
+    "retrieved_at": "2026-11-08T07:40:23.186462+00:00"
+  },
+  {
+    "set_id": "058-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/058-1.jpg",
+    "status": "downloaded",
+    "path": "images/c6ac2a7966f6868a48961bad6e791be9d0ab6f08217dcec5ab6cf39af9c55456.img",
+    "sha256": "c6ac2a7966f6868a48961bad6e791be9d0ab6f08217dcec5ab6cf39af9c55456",
+    "retrieved_at": "2026-11-08T07:40:27.527204+00:00"
+  },
+  {
+    "set_id": "06-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/06-1.jpg",
+    "status": "downloaded",
+    "path": "images/eebb8dca23cc4366ed61186b530fe195fa81bf32d468370041be733a461379a8.img",
+    "sha256": "eebb8dca23cc4366ed61186b530fe195fa81bf32d468370041be733a461379a8",
+    "retrieved_at": "2026-11-08T07:40:28.973493+00:00"
+  },
+  {
+    "set_id": "060-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/060-1.jpg",
+    "status": "downloaded",
+    "path": "images/128da9040df7a40731f4e51ed005b51278ff82a8dfe4e93a118573ede8e22201.img",
+    "sha256": "128da9040df7a40731f4e51ed005b51278ff82a8dfe4e93a118573ede8e22201",
+    "retrieved_at": "2026-11-08T07:40:29.778209+00:00"
+  },
+  {
+    "set_id": "060-3",
+    "source_url": "https://cdn.rebrickable.com/media/sets/060-3.jpg",
+    "status": "downloaded",
+    "path": "images/1fdc54b9374b046aa2004006af392c1453c7929715a933198f64aa23243c6c39.img",
+    "sha256": "1fdc54b9374b046aa2004006af392c1453c7929715a933198f64aa23243c6c39",
+    "retrieved_at": "2026-11-08T07:40:30.567759+00:00"
+  },
+  {
+    "set_id": "061-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/061-1.jpg",
+    "status": "downloaded",
+    "path": "images/82e080153d68bd6605045c5c6c4555bb1c40ca5e6b6fa051aa0c07e07e09388c.img",
+    "sha256": "82e080153d68bd6605045c5c6c4555bb1c40ca5e6b6fa051aa0c07e07e09388c",
+    "retrieved_at": "2026-11-08T07:40:31.216208+00:00"
+  },
+  {
+    "set_id": "062-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/062-1.jpg",
+    "status": "downloaded",
+    "path": "images/8685d1f461d487ccfd46307d0140f3cd9aef3823b505514008f69e7ad45346d7.img",
+    "sha256": "8685d1f461d487ccfd46307d0140f3cd9aef3823b505514008f69e7ad45346d7",
+    "retrieved_at": "2026-11-08T07:40:31.845379+00:00"
+  },
+  {
+    "set_id": "063-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/063-1.jpg",
+    "status": "downloaded",
+    "path": "images/92ff3c2c40786f77d2c5b917d97256275c3365bfd4dd26beccb8fac06e8cd1d0.img",
+    "sha256": "92ff3c2c40786f77d2c5b917d97256275c3365bfd4dd26beccb8fac06e8cd1d0",
+    "retrieved_at": "2026-11-08T07:40:32.464855+00:00"
+  },
+  {
+    "set_id": "063-2",
+    "source_url": "https://cdn.rebrickable.com/media/sets/063-2.jpg",
+    "status": "downloaded",
+    "path": "images/35b93edf41a09902a447dd278c452530eb98580b9993e26520e677057daf291d.img",
+    "sha256": "35b93edf41a09902a447dd278c452530eb98580b9993e26520e677057daf291d",
+    "retrieved_at": "2026-11-08T07:40:33.153920+00:00"
+  },
+  {
+    "set_id": "065-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/065-1.jpg",
+    "status": "downloaded",
+    "path": "images/4a5530c2954f84d2c9417ba15a5df3ae9f5d3536ae00e3366cdec586a6e3c97c.img",
+    "sha256": "4a5530c2954f84d2c9417ba15a5df3ae9f5d3536ae00e3366cdec586a6e3c97c",
+    "retrieved_at": "2026-11-08T07:40:33.812451+00:00"
+  },
+  {
+    "set_id": "066-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/066-1.jpg",
+    "status": "downloaded",
+    "path": "images/db4f3a540fcdbbe214d0e7938dbfe7e22def3f9ffb6d00976ed226905c342eeb.img",
+    "sha256": "db4f3a540fcdbbe214d0e7938dbfe7e22def3f9ffb6d00976ed226905c342eeb",
+    "retrieved_at": "2026-11-08T07:40:34.687953+00:00"
+  },
+  {
+    "set_id": "066-2",
+    "source_url": "https://cdn.rebrickable.com/media/sets/066-2.jpg",
+    "status": "downloaded",
+    "path": "images/36f6e80d7215ed6a7b6f06deadbcee4c3010a2b0735e2a5fe7aa9e5996ce9a2e.img",
+    "sha256": "36f6e80d7215ed6a7b6f06deadbcee4c3010a2b0735e2a5fe7aa9e5996ce9a2e",
+    "retrieved_at": "2026-11-08T07:40:38.154008+00:00"
+  },
+  {
+    "set_id": "07-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/07-1.jpg",
+    "status": "downloaded",
+    "path": "images/e41b43ebddc0d0436bf5552c5658b9edfb34ba043aa4fde1c277a099c8d2e33a.img",
+    "sha256": "e41b43ebddc0d0436bf5552c5658b9edfb34ba043aa4fde1c277a099c8d2e33a",
+    "retrieved_at": "2026-11-08T07:40:39.786394+00:00"
+  },
+  {
+    "set_id": "071-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/071-1.jpg",
+    "status": "downloaded",
+    "path": "images/a06962089cf97ab368daf6b404f37e2bdfc53a212f8b91a406b44e8fd0e2e773.img",
+    "sha256": "a06962089cf97ab368daf6b404f37e2bdfc53a212f8b91a406b44e8fd0e2e773",
+    "retrieved_at": "2026-11-08T07:40:40.568131+00:00"
+  },
+  {
+    "set_id": "074-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/074-1.jpg",
+    "status": "downloaded",
+    "path": "images/85546c45f70dcdd15f8cf77c339c653bb0cdea96c2e2f6d963fcbb7eefa04567.img",
+    "sha256": "85546c45f70dcdd15f8cf77c339c653bb0cdea96c2e2f6d963fcbb7eefa04567",
+    "retrieved_at": "2026-11-08T07:40:41.968084+00:00"
+  },
+  {
+    "set_id": "075-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/075-1.jpg",
+    "status": "downloaded",
+    "path": "images/e8301193e887e6da2bcc10a46f2ab934a1e372774a3274703fc6ec1951dd48c9.img",
+    "sha256": "e8301193e887e6da2bcc10a46f2ab934a1e372774a3274703fc6ec1951dd48c9",
+    "retrieved_at": "2026-11-08T07:40:43.055923+00:00"
+  },
+  {
+    "set_id": "0751359483-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/0751359483-1.jpg",
+    "status": "downloaded",
+    "path": "images/d41c9ae28b9b4603fa0689c63b0ec024a1d7840bd5fb7ee054dbd061e6dc25d2.img",
+    "sha256": "d41c9ae28b9b4603fa0689c63b0ec024a1d7840bd5fb7ee054dbd061e6dc25d2",
+    "retrieved_at": "2026-11-08T07:40:44.549315+00:00"
+  },
+  {
+    "set_id": "0756668530-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/0756668530-1.jpg",
+    "status": "downloaded",
+    "path": "images/2ddfdcc6acf00f5219f5738385d2284ae74852edf678413dc68baaa5d30773bc.img",
+    "sha256": "2ddfdcc6acf00f5219f5738385d2284ae74852edf678413dc68baaa5d30773bc",
+    "retrieved_at": "2026-11-08T07:40:46.956335+00:00"
+  },
+  {
+    "set_id": "0756672805-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/0756672805-1.jpg",
+    "status": "downloaded",
+    "path": "images/0218821819148d00b2b25a389251402983e07b19842279efe7b34e1d9632a6fc.img",
+    "sha256": "0218821819148d00b2b25a389251402983e07b19842279efe7b34e1d9632a6fc",
+    "retrieved_at": "2026-11-08T07:40:48.704187+00:00"
+  },
+  {
+    "set_id": "0756682762-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/0756682762-1.jpg",
+    "status": "downloaded",
+    "path": "images/7874b082c0d0cdccadc5de7af42ef96a4d509e74c9c90c5c66059608da6a8720.img",
+    "sha256": "7874b082c0d0cdccadc5de7af42ef96a4d509e74c9c90c5c66059608da6a8720",
+    "retrieved_at": "2026-11-08T07:40:49.818631+00:00"
+  },
+  {
+    "set_id": "0756692571-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/0756692571-1.jpg",
+    "status": "downloaded",
+    "path": "images/d490f4a6284c1c27157162cc6c4a27916903cdb8c1f1d6a9ea997a62eea5aaac.img",
+    "sha256": "d490f4a6284c1c27157162cc6c4a27916903cdb8c1f1d6a9ea997a62eea5aaac",
+    "retrieved_at": "2026-11-08T07:40:50.774226+00:00"
+  },
+  {
+    "set_id": "077-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/077-1.jpg",
+    "status": "downloaded",
+    "path": "images/8ddd22a4fc74b0bff961d1c2e09de54f65192e7b75712e7ec97723e8d8e6fee8.img",
+    "sha256": "8ddd22a4fc74b0bff961d1c2e09de54f65192e7b75712e7ec97723e8d8e6fee8",
+    "retrieved_at": "2026-11-08T07:40:51.478746+00:00"
+  },
+  {
+    "set_id": "078-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/078-1.jpg",
+    "status": "downloaded",
+    "path": "images/58aec8da6ce4d42764737d0068c224004acb1edfa0820f1c2ac9a815a487a4ca.img",
+    "sha256": "58aec8da6ce4d42764737d0068c224004acb1edfa0820f1c2ac9a815a487a4ca",
+    "retrieved_at": "2026-11-08T07:40:53.236042+00:00"
+  },
+  {
+    "set_id": "08-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/08-1.jpg",
+    "status": "downloaded",
+    "path": "images/da7ff720ff4da4c66bf097624ed58504ed7bfdf4e2b103c49bacd146610ac71e.img",
+    "sha256": "da7ff720ff4da4c66bf097624ed58504ed7bfdf4e2b103c49bacd146610ac71e",
+    "retrieved_at": "2026-11-08T07:40:54.896217+00:00"
+  },
+  {
+    "set_id": "080-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/080-1.jpg",
+    "status": "downloaded",
+    "path": "images/e5eec502db4bb0f6de7f175bc958e95d51a3bd8c2f20b65faa4605460b7cf448.img",
+    "sha256": "e5eec502db4bb0f6de7f175bc958e95d51a3bd8c2f20b65faa4605460b7cf448",
+    "retrieved_at": "2026-11-08T07:40:55.473568+00:00"
+  },
+  {
+    "set_id": "080-2",
+    "source_url": "https://cdn.rebrickable.com/media/sets/080-2.jpg",
+    "status": "downloaded",
+    "path": "images/f51589b66501123be8ad7122e8b0cf799519f6541a2a6f8964bb81dae81240f0.img",
+    "sha256": "f51589b66501123be8ad7122e8b0cf799519f6541a2a6f8964bb81dae81240f0",
+    "retrieved_at": "2026-11-08T07:40:56.210951+00:00"
+  },
+  {
+    "set_id": "080-3",
+    "source_url": "https://cdn.rebrickable.com/media/sets/080-3.jpg",
+    "status": "downloaded",
+    "path": "images/9c6f763c0fd2df421df53bc751b906de9b4b9a61902ef661c43ac5442a35385a.img",
+    "sha256": "9c6f763c0fd2df421df53bc751b906de9b4b9a61902ef661c43ac5442a35385a",
+    "retrieved_at": "2026-11-08T07:40:56.997202+00:00"
+  },
+  {
+    "set_id": "082-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/082-1.jpg",
+    "status": "missing",
+    "path": null,
+    "sha256": null,
+    "retrieved_at": null
+  },
+  {
+    "set_id": "085-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/085-1.jpg",
+    "status": "missing",
+    "path": null,
+    "sha256": null,
+    "retrieved_at": null
+  },
+  {
+    "set_id": "086-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/086-1.jpg",
+    "status": "downloaded",
+    "path": "images/75557583731f9bb224f90113fbb05598d20c9556214f27f7547ed6453760f9ab.img",
+    "sha256": "75557583731f9bb224f90113fbb05598d20c9556214f27f7547ed6453760f9ab",
+    "retrieved_at": "2026-11-08T07:40:58.660442+00:00"
+  },
+  {
+    "set_id": "0878119001641-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/0878119001641-1.jpg",
+    "status": "downloaded",
+    "path": "images/0be64405a173f490bf4b3ead365dab03783ad13f2a9c379262a2742480b42fb4.img",
+    "sha256": "0be64405a173f490bf4b3ead365dab03783ad13f2a9c379262a2742480b42fb4",
+    "retrieved_at": "2026-11-08T07:41:00.574122+00:00"
+  },
+  {
+    "set_id": "088-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/088-1.jpg",
+    "status": "downloaded",
+    "path": "images/c46e47baa9d4e070f68bc93d77cddcc8c5d843aaf13cb37b74aded3c966f17b6.img",
+    "sha256": "c46e47baa9d4e070f68bc93d77cddcc8c5d843aaf13cb37b74aded3c966f17b6",
+    "retrieved_at": "2026-11-08T07:41:01.529319+00:00"
+  },
+  {
+    "set_id": "089154-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/089154-1.jpg",
+    "status": "downloaded",
+    "path": "images/d4b2dc63b3f2a32189cd526c5250265087ffb57fc1394959589ab525862f3c98.img",
+    "sha256": "d4b2dc63b3f2a32189cd526c5250265087ffb57fc1394959589ab525862f3c98",
+    "retrieved_at": "2026-11-08T07:41:02.194681+00:00"
+  },
+  {
+    "set_id": "09-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/09-1.jpg",
+    "status": "downloaded",
+    "path": "images/700cf2040890656c2a3894fe0564e7d54112a4a0b9de7ff3ee1e7b7948135bad.img",
+    "sha256": "700cf2040890656c2a3894fe0564e7d54112a4a0b9de7ff3ee1e7b7948135bad",
+    "retrieved_at": "2026-11-08T07:41:04.144405+00:00"
+  },
+  {
+    "set_id": "0906946506-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/0906946506-1.jpg",
+    "status": "missing",
+    "path": null,
+    "sha256": null,
+    "retrieved_at": null
+  },
+  {
+    "set_id": "1-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1-1.jpg",
+    "status": "downloaded",
+    "path": "images/850fe6aab2e461a92d616b21e11407ea5dce04317207f24db7c7f6c1a925fd06.img",
+    "sha256": "850fe6aab2e461a92d616b21e11407ea5dce04317207f24db7c7f6c1a925fd06",
+    "retrieved_at": "2026-11-08T07:41:05.365928+00:00"
+  },
+  {
+    "set_id": "1-11",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1-11.jpg",
+    "status": "downloaded",
+    "path": "images/472fb9d6187ad27f7cacb4d474fb36b694f8993e86c633f7b7925faa34acb1f2.img",
+    "sha256": "472fb9d6187ad27f7cacb4d474fb36b694f8993e86c633f7b7925faa34acb1f2",
+    "retrieved_at": "2026-11-08T07:41:05.888468+00:00"
+  },
+  {
+    "set_id": "1-12",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1-12.jpg",
+    "status": "downloaded",
+    "path": "images/5e081aa16ae0adf1af0d18ea6717e69852c877ba7646edd30b8ce8186cfc0e0d.img",
+    "sha256": "5e081aa16ae0adf1af0d18ea6717e69852c877ba7646edd30b8ce8186cfc0e0d",
+    "retrieved_at": "2026-11-08T07:41:07.153792+00:00"
+  },
+  {
+    "set_id": "1-3",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1-3.jpg",
+    "status": "downloaded",
+    "path": "images/5762c06f3042a42d9484970a24e94ef7893a032c040ee6979a4595fa36cd0a30.img",
+    "sha256": "5762c06f3042a42d9484970a24e94ef7893a032c040ee6979a4595fa36cd0a30",
+    "retrieved_at": "2026-11-08T07:41:08.112044+00:00"
+  },
+  {
+    "set_id": "1-7",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1-7.jpg",
+    "status": "downloaded",
+    "path": "images/090fb82450bd3eb781dd42dd64699c6b61398f5bb0ad2081db0afe11f994eacf.img",
+    "sha256": "090fb82450bd3eb781dd42dd64699c6b61398f5bb0ad2081db0afe11f994eacf",
+    "retrieved_at": "2026-11-08T07:41:09.150574+00:00"
+  },
+  {
+    "set_id": "1-8",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1-8.jpg",
+    "status": "downloaded",
+    "path": "images/e9c99ab9683937f86ca0ff52ef6a13ada9488cc33e52ec940695230da34d024b.img",
+    "sha256": "e9c99ab9683937f86ca0ff52ef6a13ada9488cc33e52ec940695230da34d024b",
+    "retrieved_at": "2026-11-08T07:41:09.680612+00:00"
+  },
+  {
+    "set_id": "10-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10-1.jpg",
+    "status": "downloaded",
+    "path": "images/f1585dac4af698bbb5d9470a8f6b1a118b4fdc5ddaa33de1645e10a1cdf68e9b.img",
+    "sha256": "f1585dac4af698bbb5d9470a8f6b1a118b4fdc5ddaa33de1645e10a1cdf68e9b",
+    "retrieved_at": "2026-11-08T07:41:10.398581+00:00"
+  },
+  {
+    "set_id": "10-2",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10-2.jpg",
+    "status": "downloaded",
+    "path": "images/3b8d071cbfaed97f88de81cfc529375cec3075eb25cd53b3b87c8bb0439b32ab.img",
+    "sha256": "3b8d071cbfaed97f88de81cfc529375cec3075eb25cd53b3b87c8bb0439b32ab",
+    "retrieved_at": "2026-11-08T07:41:11.625389+00:00"
+  },
+  {
+    "set_id": "100-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100-1.jpg",
+    "status": "downloaded",
+    "path": "images/c6978e9b5098ad8cea81deab66bdbf87fa268a7205984bfce30fbc2868ed97d3.img",
+    "sha256": "c6978e9b5098ad8cea81deab66bdbf87fa268a7205984bfce30fbc2868ed97d3",
+    "retrieved_at": "2026-11-08T07:41:12.240071+00:00"
+  },
+  {
+    "set_id": "100-2",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100-2.jpg",
+    "status": "downloaded",
+    "path": "images/de3128957f1ebd986318e793ebe7e3c62c7ceed0799bd402903be65abd4ca19b.img",
+    "sha256": "de3128957f1ebd986318e793ebe7e3c62c7ceed0799bd402903be65abd4ca19b",
+    "retrieved_at": "2026-11-08T07:41:12.864111+00:00"
+  },
+  {
+    "set_id": "1000-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1000-1.jpg",
+    "status": "downloaded",
+    "path": "images/d557bf65521b0a7850356146f0e5d12471a0030f829a852b38ee363e34f6c41c.img",
+    "sha256": "d557bf65521b0a7850356146f0e5d12471a0030f829a852b38ee363e34f6c41c",
+    "retrieved_at": "2026-11-08T07:41:13.858200+00:00"
+  },
+  {
+    "set_id": "10000-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10000-1.jpg",
+    "status": "downloaded",
+    "path": "images/fcc3d15ea61c3a282448e33711ee481d09d7ae5dc42c70851c0183f487537ad6.img",
+    "sha256": "fcc3d15ea61c3a282448e33711ee481d09d7ae5dc42c70851c0183f487537ad6",
+    "retrieved_at": "2026-11-08T07:41:14.351189+00:00"
+  },
+  {
+    "set_id": "10000549412-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10000549412-1.jpg",
+    "status": "downloaded",
+    "path": "images/2c33a684ef7486acc0c9a38b5ff434714d851810590061d115df2ccf68be20cc.img",
+    "sha256": "2c33a684ef7486acc0c9a38b5ff434714d851810590061d115df2ccf68be20cc",
+    "retrieved_at": "2026-11-08T07:41:15.356434+00:00"
+  },
+  {
+    "set_id": "10001-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10001-1.jpg",
+    "status": "downloaded",
+    "path": "images/57798a6b80cb7d2494f6cec2ea427d8273c3aa035dc40fef2dcd6320332cc8aa.img",
+    "sha256": "57798a6b80cb7d2494f6cec2ea427d8273c3aa035dc40fef2dcd6320332cc8aa",
+    "retrieved_at": "2026-11-08T07:41:21.484460+00:00"
+  },
+  {
+    "set_id": "10002-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10002-1.jpg",
+    "status": "downloaded",
+    "path": "images/cda07ca3459888fd57f1b1a2d1655d1ab1ee2284aac7703071b7c58a6c6fc677.img",
+    "sha256": "cda07ca3459888fd57f1b1a2d1655d1ab1ee2284aac7703071b7c58a6c6fc677",
+    "retrieved_at": "2026-11-08T07:41:21.594560+00:00"
+  },
+  {
+    "set_id": "1000229927-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1000229927-1.jpg",
+    "status": "downloaded",
+    "path": "images/e5f154e725096bb5aaf62ca0c512afa27d19cef9afd88a6861d28eb8e3c546a5.img",
+    "sha256": "e5f154e725096bb5aaf62ca0c512afa27d19cef9afd88a6861d28eb8e3c546a5",
+    "retrieved_at": "2026-11-08T07:41:21.801138+00:00"
+  },
+  {
+    "set_id": "10003-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10003-1.jpg",
+    "status": "downloaded",
+    "path": "images/55cb64f2e566717f0661b1976d47935bd554566f3e2c0e804912becad4e1046c.img",
+    "sha256": "55cb64f2e566717f0661b1976d47935bd554566f3e2c0e804912becad4e1046c",
+    "retrieved_at": "2026-11-08T07:41:21.867753+00:00"
+  },
+  {
+    "set_id": "1000368666-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1000368666-1.jpg",
+    "status": "downloaded",
+    "path": "images/a10f92a0f5c97919b98961a643daf42b861ef987a70977a9b4a35e543fb691ba.img",
+    "sha256": "a10f92a0f5c97919b98961a643daf42b861ef987a70977a9b4a35e543fb691ba",
+    "retrieved_at": "2026-11-08T07:41:21.982639+00:00"
+  },
+  {
+    "set_id": "10004-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10004-1.jpg",
+    "status": "downloaded",
+    "path": "images/98a588cc94d5e5622aa7982e74595018f659828ddb568c006b27ac2415d87f7f.img",
+    "sha256": "98a588cc94d5e5622aa7982e74595018f659828ddb568c006b27ac2415d87f7f",
+    "retrieved_at": "2026-11-08T07:41:22.121441+00:00"
+  },
+  {
+    "set_id": "1000430096-8",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1000430096-8.jpg",
+    "status": "downloaded",
+    "path": "images/50327188538e0a251e7a5757578aef57bf989b53b94f90a7c910a5448564c4d5.img",
+    "sha256": "50327188538e0a251e7a5757578aef57bf989b53b94f90a7c910a5448564c4d5",
+    "retrieved_at": "2026-11-08T07:41:22.318078+00:00"
+  },
+  {
+    "set_id": "10005-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10005-1.jpg",
+    "status": "downloaded",
+    "path": "images/b970fca42861f8cc5fe90b8e780cd5116cde115495548a85c4867233561f1243.img",
+    "sha256": "b970fca42861f8cc5fe90b8e780cd5116cde115495548a85c4867233561f1243",
+    "retrieved_at": "2026-11-08T07:41:22.396485+00:00"
+  },
+  {
+    "set_id": "1000565140-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1000565140-1.jpg",
+    "status": "downloaded",
+    "path": "images/0dda0c3c630a022a69aa9140c4af3a1adc088694adcf0ac302c56e8877844f23.img",
+    "sha256": "0dda0c3c630a022a69aa9140c4af3a1adc088694adcf0ac302c56e8877844f23",
+    "retrieved_at": "2026-11-08T07:41:22.526552+00:00"
+  },
+  {
+    "set_id": "1000565190-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1000565190-1.jpg",
+    "status": "downloaded",
+    "path": "images/08471eca597fd0a7cf9eabe5f51373fb9726de8f49c8825aea2cb03d16a4a19d.img",
+    "sha256": "08471eca597fd0a7cf9eabe5f51373fb9726de8f49c8825aea2cb03d16a4a19d",
+    "retrieved_at": "2026-11-08T07:41:23.674057+00:00"
+  },
+  {
+    "set_id": "1000565740-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1000565740-1.jpg",
+    "status": "downloaded",
+    "path": "images/a9dcf80aea64d7bb77cade1ff1c7a4ac611a76514fde3cc47b1341ff41c57e53.img",
+    "sha256": "a9dcf80aea64d7bb77cade1ff1c7a4ac611a76514fde3cc47b1341ff41c57e53",
+    "retrieved_at": "2026-11-08T07:41:24.364555+00:00"
+  },
+  {
+    "set_id": "1000565742-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1000565742-1.jpg",
+    "status": "downloaded",
+    "path": "images/7d0fb79f95de48ad543f3d3a4bd3e6898aa824a1f76bdf0620c02e1a87e323f4.img",
+    "sha256": "7d0fb79f95de48ad543f3d3a4bd3e6898aa824a1f76bdf0620c02e1a87e323f4",
+    "retrieved_at": "2026-11-08T07:41:27.048000+00:00"
+  },
+  {
+    "set_id": "1000565765-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1000565765-1.jpg",
+    "status": "downloaded",
+    "path": "images/ad68c625a6f7750526a08b73a504a494f56c8475c74a9ec7dc9aa4254e93de35.img",
+    "sha256": "ad68c625a6f7750526a08b73a504a494f56c8475c74a9ec7dc9aa4254e93de35",
+    "retrieved_at": "2026-11-08T07:41:27.483404+00:00"
+  },
+  {
+    "set_id": "1000565897-5",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1000565897-5.jpg",
+    "status": "downloaded",
+    "path": "images/4ca97301de20c3e0432f61622de2c45f37804ca6af33744ab9f7178e810e0271.img",
+    "sha256": "4ca97301de20c3e0432f61622de2c45f37804ca6af33744ab9f7178e810e0271",
+    "retrieved_at": "2026-11-08T07:41:28.694541+00:00"
+  },
+  {
+    "set_id": "1000577871-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1000577871-1.jpg",
+    "status": "downloaded",
+    "path": "images/d3b3f27165e5d34656b06294214d840429fd37222cb3e6de615cff22ec538fbd.img",
+    "sha256": "d3b3f27165e5d34656b06294214d840429fd37222cb3e6de615cff22ec538fbd",
+    "retrieved_at": "2026-11-08T07:41:28.778717+00:00"
+  },
+  {
+    "set_id": "1000591519-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1000591519-1.jpg",
+    "status": "downloaded",
+    "path": "images/8c8b3485ff3920773447e0650fc795ec2b1b5079a05612d3eec3fe65de45820a.img",
+    "sha256": "8c8b3485ff3920773447e0650fc795ec2b1b5079a05612d3eec3fe65de45820a",
+    "retrieved_at": "2026-11-08T07:41:29.587108+00:00"
+  },
+  {
+    "set_id": "1000591524-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1000591524-1.jpg",
+    "status": "downloaded",
+    "path": "images/4132499f3bf28c4ed3016844223739720ea8ee6851718c792b0057cab447aac2.img",
+    "sha256": "4132499f3bf28c4ed3016844223739720ea8ee6851718c792b0057cab447aac2",
+    "retrieved_at": "2026-11-08T07:41:30.874220+00:00"
+  },
+  {
+    "set_id": "1000598000-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1000598000-1.jpg",
+    "status": "downloaded",
+    "path": "images/45d488cc71d9b4eb86e72486ecfe150b295b03e6a7b5a522f7160f1c2875645c.img",
+    "sha256": "45d488cc71d9b4eb86e72486ecfe150b295b03e6a7b5a522f7160f1c2875645c",
+    "retrieved_at": "2026-11-08T07:41:32.278662+00:00"
+  },
+  {
+    "set_id": "10006-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10006-1.jpg",
+    "status": "downloaded",
+    "path": "images/874c8f044a1918ab7cb5dcaab4e5cdb019db5197b55973c9d9a2bd6172690d43.img",
+    "sha256": "874c8f044a1918ab7cb5dcaab4e5cdb019db5197b55973c9d9a2bd6172690d43",
+    "retrieved_at": "2026-11-08T07:41:32.395854+00:00"
+  },
+  {
+    "set_id": "1000600263-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1000600263-1.jpg",
+    "status": "downloaded",
+    "path": "images/05cd8a5cb6a4d4a0aab260f51817d6f2eecb641045db26cd7576337ea8deb091.img",
+    "sha256": "05cd8a5cb6a4d4a0aab260f51817d6f2eecb641045db26cd7576337ea8deb091",
+    "retrieved_at": "2026-11-08T07:41:33.334292+00:00"
+  },
+  {
+    "set_id": "1000629598-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1000629598-1.jpg",
+    "status": "downloaded",
+    "path": "images/2bc19148289dd9d003396ba570a5958665c8290686d685b5b2a56c43f32713e8.img",
+    "sha256": "2bc19148289dd9d003396ba570a5958665c8290686d685b5b2a56c43f32713e8",
+    "retrieved_at": "2026-11-08T07:41:34.243469+00:00"
+  },
+  {
+    "set_id": "1000643461-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1000643461-1.jpg",
+    "status": "downloaded",
+    "path": "images/1c53f969e549e33c3ba21fc8280a4ee84838f833407a28cedc6686c7b8d6324e.img",
+    "sha256": "1c53f969e549e33c3ba21fc8280a4ee84838f833407a28cedc6686c7b8d6324e",
+    "retrieved_at": "2026-11-08T07:41:35.255976+00:00"
+  },
+  {
+    "set_id": "1000648795-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1000648795-1.jpg",
+    "status": "downloaded",
+    "path": "images/3e2ab174f62fb916f31c2d3964fe388e61dd4659f06a42057cf13fced3ce5887.img",
+    "sha256": "3e2ab174f62fb916f31c2d3964fe388e61dd4659f06a42057cf13fced3ce5887",
+    "retrieved_at": "2026-11-08T07:41:37.234143+00:00"
+  },
+  {
+    "set_id": "1000692713-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1000692713-1.jpg",
+    "status": "downloaded",
+    "path": "images/d1477e4e0d4bfb27bc5142423e4aa2918a86bb489a3311b2fdc5a86da690ef93.img",
+    "sha256": "d1477e4e0d4bfb27bc5142423e4aa2918a86bb489a3311b2fdc5a86da690ef93",
+    "retrieved_at": "2026-11-08T07:41:39.776178+00:00"
+  },
+  {
+    "set_id": "10007-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10007-1.jpg",
+    "status": "downloaded",
+    "path": "images/10c3a9b7935d8cc70729d6786c802257d1da29d548c6acdcccdabfd366423596.img",
+    "sha256": "10c3a9b7935d8cc70729d6786c802257d1da29d548c6acdcccdabfd366423596",
+    "retrieved_at": "2026-11-08T07:41:40.304311+00:00"
+  },
+  {
+    "set_id": "1000704831-2",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1000704831-2.jpg",
+    "status": "downloaded",
+    "path": "images/fa467a8f826344d06790291c14471bb8052666c78317f656812c39b4ad7ff4b3.img",
+    "sha256": "fa467a8f826344d06790291c14471bb8052666c78317f656812c39b4ad7ff4b3",
+    "retrieved_at": "2026-11-08T07:41:41.754142+00:00"
+  },
+  {
+    "set_id": "1000704832-13",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1000704832-13.jpg",
+    "status": "downloaded",
+    "path": "images/effaa1cc4498da095cd8ac74beb1ff74b75ccf1796a1b8590f05ca5abda11472.img",
+    "sha256": "effaa1cc4498da095cd8ac74beb1ff74b75ccf1796a1b8590f05ca5abda11472",
+    "retrieved_at": "2026-11-08T07:41:43.487214+00:00"
+  },
+  {
+    "set_id": "1000709804-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1000709804-1.jpg",
+    "status": "downloaded",
+    "path": "images/4000a4f851cdcda7ca88ec7637da562da28f87364b44dd43f0703d129cea9c8d.img",
+    "sha256": "4000a4f851cdcda7ca88ec7637da562da28f87364b44dd43f0703d129cea9c8d",
+    "retrieved_at": "2026-11-08T07:41:44.133348+00:00"
+  },
+  {
+    "set_id": "1000709806-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1000709806-1.jpg",
+    "status": "downloaded",
+    "path": "images/ce11165596b79370a15cbf73ab5135fa602c1ef4b18682cada46f3e5e2f68a61.img",
+    "sha256": "ce11165596b79370a15cbf73ab5135fa602c1ef4b18682cada46f3e5e2f68a61",
+    "retrieved_at": "2026-11-08T07:41:44.764499+00:00"
+  },
+  {
+    "set_id": "1000709807-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1000709807-1.jpg",
+    "status": "downloaded",
+    "path": "images/7526f9a29f545bda15dce98d0c303e1819127d77a890901f1916e892083eaf9c.img",
+    "sha256": "7526f9a29f545bda15dce98d0c303e1819127d77a890901f1916e892083eaf9c",
+    "retrieved_at": "2026-11-08T07:41:46.695751+00:00"
+  },
+  {
+    "set_id": "1000724950-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1000724950-1.jpg",
+    "status": "downloaded",
+    "path": "images/13a4140490a6f347c7a0fb9773bcafa9652b29935ec52a4144599e3851137b4d.img",
+    "sha256": "13a4140490a6f347c7a0fb9773bcafa9652b29935ec52a4144599e3851137b4d",
+    "retrieved_at": "2026-11-08T07:41:47.889853+00:00"
+  },
+  {
+    "set_id": "1000724951-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1000724951-1.jpg",
+    "status": "downloaded",
+    "path": "images/717a87bf1f5868a854bd8cd566c0488547e179270e8e22e19a552fe2ec55cf55.img",
+    "sha256": "717a87bf1f5868a854bd8cd566c0488547e179270e8e22e19a552fe2ec55cf55",
+    "retrieved_at": "2026-11-08T07:41:48.866271+00:00"
+  },
+  {
+    "set_id": "1000739974-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1000739974-1.jpg",
+    "status": "downloaded",
+    "path": "images/31dbee1b8366eed4b8f5308d03bf6da6ccbcf4089f5bb558e33413fc4e88c479.img",
+    "sha256": "31dbee1b8366eed4b8f5308d03bf6da6ccbcf4089f5bb558e33413fc4e88c479",
+    "retrieved_at": "2026-11-08T07:41:49.998118+00:00"
+  },
+  {
+    "set_id": "1000739975-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1000739975-1.jpg",
+    "status": "downloaded",
+    "path": "images/a4a2d92e9d16cf586b5c4426ba8f2e53a4b184e58fea56302f4151347c5577c7.img",
+    "sha256": "a4a2d92e9d16cf586b5c4426ba8f2e53a4b184e58fea56302f4151347c5577c7",
+    "retrieved_at": "2026-11-08T07:41:50.702904+00:00"
+  },
+  {
+    "set_id": "1000739976-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1000739976-1.jpg",
+    "status": "downloaded",
+    "path": "images/3d6334639bd3439d6ba19e779ce76cc701dbff5b93b8ac64e046f662885360cf.img",
+    "sha256": "3d6334639bd3439d6ba19e779ce76cc701dbff5b93b8ac64e046f662885360cf",
+    "retrieved_at": "2026-11-08T07:41:51.514608+00:00"
+  },
+  {
+    "set_id": "1000746530-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1000746530-1.jpg",
+    "status": "downloaded",
+    "path": "images/2a3022229eb8c74d605c6db806f91014dad1b1c97d3ca62cdd6b8a567efc7462.img",
+    "sha256": "2a3022229eb8c74d605c6db806f91014dad1b1c97d3ca62cdd6b8a567efc7462",
+    "retrieved_at": "2026-11-08T07:41:53.261850+00:00"
+  },
+  {
+    "set_id": "10008-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10008-1.jpg",
+    "status": "downloaded",
+    "path": "images/d5c62dd71523da7c8dff61e8454f891cecbddee8ac0eaad37fa10fe273481476.img",
+    "sha256": "d5c62dd71523da7c8dff61e8454f891cecbddee8ac0eaad37fa10fe273481476",
+    "retrieved_at": "2026-11-08T07:41:53.507772+00:00"
+  },
+  {
+    "set_id": "10009-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10009-1.jpg",
+    "status": "downloaded",
+    "path": "images/e1a3c2edede16032c4f93b58f8cf047a56443d90eb715c8fde2a2207141a3616.img",
+    "sha256": "e1a3c2edede16032c4f93b58f8cf047a56443d90eb715c8fde2a2207141a3616",
+    "retrieved_at": "2026-11-08T07:41:53.987915+00:00"
+  },
+  {
+    "set_id": "10010-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10010-1.jpg",
+    "status": "downloaded",
+    "path": "images/ff9d97428a8206d57287f89dd9bcb86d192b09c04e9a9a95e7291298ee5603ab.img",
+    "sha256": "ff9d97428a8206d57287f89dd9bcb86d192b09c04e9a9a95e7291298ee5603ab",
+    "retrieved_at": "2026-11-08T07:41:54.084403+00:00"
+  },
+  {
+    "set_id": "10011-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10011-1.jpg",
+    "status": "downloaded",
+    "path": "images/caf79e6e69722b62d6a3895e3dfc971287831045821d8edf99d5e0282e481635.img",
+    "sha256": "caf79e6e69722b62d6a3895e3dfc971287831045821d8edf99d5e0282e481635",
+    "retrieved_at": "2026-11-08T07:41:54.514158+00:00"
+  },
+  {
+    "set_id": "10012-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10012-1.jpg",
+    "status": "downloaded",
+    "path": "images/7486e99c6c475c2e7d1aec545c8ebbdffd6fa6683b0860feb3e3ba960ae3d332.img",
+    "sha256": "7486e99c6c475c2e7d1aec545c8ebbdffd6fa6683b0860feb3e3ba960ae3d332",
+    "retrieved_at": "2026-11-08T07:41:55.145487+00:00"
+  },
+  {
+    "set_id": "10013-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10013-1.jpg",
+    "status": "downloaded",
+    "path": "images/d278d8e837ed301666869959a59416a733db7a8559b622c70de0c8a1534c71cb.img",
+    "sha256": "d278d8e837ed301666869959a59416a733db7a8559b622c70de0c8a1534c71cb",
+    "retrieved_at": "2026-11-08T07:41:56.043250+00:00"
+  },
+  {
+    "set_id": "10014-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10014-1.jpg",
+    "status": "downloaded",
+    "path": "images/efec38e7567cf09f395a14efea63514b3b21214c76ca499e325b91be8089f30d.img",
+    "sha256": "efec38e7567cf09f395a14efea63514b3b21214c76ca499e325b91be8089f30d",
+    "retrieved_at": "2026-11-08T07:41:56.159220+00:00"
+  },
+  {
+    "set_id": "10015-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10015-1.jpg",
+    "status": "downloaded",
+    "path": "images/bdf317953d42e251ab572ea7aa16bb4431637f264956be875642b6bac844cb2b.img",
+    "sha256": "bdf317953d42e251ab572ea7aa16bb4431637f264956be875642b6bac844cb2b",
+    "retrieved_at": "2026-11-08T07:41:56.871382+00:00"
+  },
+  {
+    "set_id": "10016-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10016-1.jpg",
+    "status": "downloaded",
+    "path": "images/a8a186322e340ddf367bc8230b7662e4e91226fe4214bdae5cc7719b0da7746c.img",
+    "sha256": "a8a186322e340ddf367bc8230b7662e4e91226fe4214bdae5cc7719b0da7746c",
+    "retrieved_at": "2026-11-08T07:41:57.811432+00:00"
+  },
+  {
+    "set_id": "10017-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10017-1.jpg",
+    "status": "downloaded",
+    "path": "images/780765d376d34420319ca299c5abde81f0f1c86e4ebaa34ce614bf16d05f6eb8.img",
+    "sha256": "780765d376d34420319ca299c5abde81f0f1c86e4ebaa34ce614bf16d05f6eb8",
+    "retrieved_at": "2026-11-08T07:42:00.257000+00:00"
+  },
+  {
+    "set_id": "10018-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10018-1.jpg",
+    "status": "downloaded",
+    "path": "images/f74af802c5e1a5f195d28d4ec58c0b130d13903134e047d6c1a04e431b689838.img",
+    "sha256": "f74af802c5e1a5f195d28d4ec58c0b130d13903134e047d6c1a04e431b689838",
+    "retrieved_at": "2026-11-08T07:42:03.038727+00:00"
+  },
+  {
+    "set_id": "10018247-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10018247-1.jpg",
+    "status": "downloaded",
+    "path": "images/440ab84e298c3f8f2fbaa17fc077ed50c0dd86b3d922f95673f38a971ddf5538.img",
+    "sha256": "440ab84e298c3f8f2fbaa17fc077ed50c0dd86b3d922f95673f38a971ddf5538",
+    "retrieved_at": "2026-11-08T07:42:04.056002+00:00"
+  },
+  {
+    "set_id": "10018248-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10018248-1.jpg",
+    "status": "downloaded",
+    "path": "images/68aa3cc3457a7859b725b8699b23ee3c552b79e4e38ede3ec8a8e504fcdd02bc.img",
+    "sha256": "68aa3cc3457a7859b725b8699b23ee3c552b79e4e38ede3ec8a8e504fcdd02bc",
+    "retrieved_at": "2026-11-08T07:42:04.990502+00:00"
+  },
+  {
+    "set_id": "10018249-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10018249-1.jpg",
+    "status": "downloaded",
+    "path": "images/d5b4974e627bdd56eeb8299ceb97499d0b243467326e4ac2bd24eb59a7fbb3d3.img",
+    "sha256": "d5b4974e627bdd56eeb8299ceb97499d0b243467326e4ac2bd24eb59a7fbb3d3",
+    "retrieved_at": "2026-11-08T07:42:05.924492+00:00"
+  },
+  {
+    "set_id": "10018250-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10018250-1.jpg",
+    "status": "downloaded",
+    "path": "images/2d532693bf535934d0321b79d57af73b69b926a808c0575e6ab2a85c7637c057.img",
+    "sha256": "2d532693bf535934d0321b79d57af73b69b926a808c0575e6ab2a85c7637c057",
+    "retrieved_at": "2026-11-08T07:42:06.696288+00:00"
+  },
+  {
+    "set_id": "10018251-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10018251-1.jpg",
+    "status": "downloaded",
+    "path": "images/17db405d7819db944e606578be01ffd07ca3240a9bf50cc18bea073d173e03f5.img",
+    "sha256": "17db405d7819db944e606578be01ffd07ca3240a9bf50cc18bea073d173e03f5",
+    "retrieved_at": "2026-11-08T07:42:07.787428+00:00"
+  },
+  {
+    "set_id": "10018252-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10018252-1.jpg",
+    "status": "downloaded",
+    "path": "images/25ecd5c263b0ca86850237e65e9c78f14ff5bca605cf215e7695f4f62483deaf.img",
+    "sha256": "25ecd5c263b0ca86850237e65e9c78f14ff5bca605cf215e7695f4f62483deaf",
+    "retrieved_at": "2026-11-08T07:42:08.171643+00:00"
+  },
+  {
+    "set_id": "10018253-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10018253-1.jpg",
+    "status": "downloaded",
+    "path": "images/9548b493b2bdba27712c21d3b18f12ed060fea8e3b729bb704d50a407d2e281c.img",
+    "sha256": "9548b493b2bdba27712c21d3b18f12ed060fea8e3b729bb704d50a407d2e281c",
+    "retrieved_at": "2026-11-08T07:42:08.933919+00:00"
+  },
+  {
+    "set_id": "10018255-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10018255-1.jpg",
+    "status": "downloaded",
+    "path": "images/a626f68f3779a8fc29e1640f5bd814755b7610adb526780a16c764e2263af6c1.img",
+    "sha256": "a626f68f3779a8fc29e1640f5bd814755b7610adb526780a16c764e2263af6c1",
+    "retrieved_at": "2026-11-08T07:44:04.186478+00:00"
+  },
+  {
+    "set_id": "10018256-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10018256-1.jpg",
+    "status": "downloaded",
+    "path": "images/8b1c2b1243b14abfab432648ee352f09e9ecabe9f78ed13011bda1c623398ee3.img",
+    "sha256": "8b1c2b1243b14abfab432648ee352f09e9ecabe9f78ed13011bda1c623398ee3",
+    "retrieved_at": "2026-11-08T07:42:10.954202+00:00"
+  },
+  {
+    "set_id": "10018257-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10018257-1.jpg",
+    "status": "downloaded",
+    "path": "images/28ed5287203b2228aff277ba5a88466a78432c6b0fda0a9292d609a7ff09631c.img",
+    "sha256": "28ed5287203b2228aff277ba5a88466a78432c6b0fda0a9292d609a7ff09631c",
+    "retrieved_at": "2026-11-08T07:42:11.775747+00:00"
+  },
+  {
+    "set_id": "10018258-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10018258-1.jpg",
+    "status": "downloaded",
+    "path": "images/32e1df0db99c05a7fd56adf849d90a02b27434799fe514c1d9d4058cc3936eb6.img",
+    "sha256": "32e1df0db99c05a7fd56adf849d90a02b27434799fe514c1d9d4058cc3936eb6",
+    "retrieved_at": "2026-11-08T07:42:12.045998+00:00"
+  },
+  {
+    "set_id": "10018259-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10018259-1.jpg",
+    "status": "downloaded",
+    "path": "images/5fa4f01fe914ac08a37765d581c9fb8c44f99b355017432129604343ae72d91b.img",
+    "sha256": "5fa4f01fe914ac08a37765d581c9fb8c44f99b355017432129604343ae72d91b",
+    "retrieved_at": "2026-11-08T07:42:13.194529+00:00"
+  },
+  {
+    "set_id": "10018260-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10018260-1.jpg",
+    "status": "downloaded",
+    "path": "images/d4d695f4b6e013493a654794f9db2f0292da23bb4350251ef6e8c62b373c7b8b.img",
+    "sha256": "d4d695f4b6e013493a654794f9db2f0292da23bb4350251ef6e8c62b373c7b8b",
+    "retrieved_at": "2026-11-08T07:42:14.105995+00:00"
+  },
+  {
+    "set_id": "10018261-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10018261-1.jpg",
+    "status": "downloaded",
+    "path": "images/ad156ca69da384353f7ba29eb38b06f0d0954eb4ef2bd0c2e568f255ed033f28.img",
+    "sha256": "ad156ca69da384353f7ba29eb38b06f0d0954eb4ef2bd0c2e568f255ed033f28",
+    "retrieved_at": "2026-11-08T07:42:15.106531+00:00"
+  },
+  {
+    "set_id": "10019-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10019-1.jpg",
+    "status": "downloaded",
+    "path": "images/72fa2f6e9c978da816073cd2692ddf049089465f9a136ad01b5f0c600ed1e416.img",
+    "sha256": "72fa2f6e9c978da816073cd2692ddf049089465f9a136ad01b5f0c600ed1e416",
+    "retrieved_at": "2026-11-08T07:42:15.789559+00:00"
+  },
+  {
+    "set_id": "10019737-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10019737-1.jpg",
+    "status": "downloaded",
+    "path": "images/0f9c4dddb01513059aef0442ffcb0f355c36545641b777bc25576cc26abb3ae3.img",
+    "sha256": "0f9c4dddb01513059aef0442ffcb0f355c36545641b777bc25576cc26abb3ae3",
+    "retrieved_at": "2026-11-08T07:42:16.685785+00:00"
+  },
+  {
+    "set_id": "10019738-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10019738-1.jpg",
+    "status": "downloaded",
+    "path": "images/7be0c8585837faff6c3a0d8fa888e146fa551d5ab213b1650bba94a00b8d66e5.img",
+    "sha256": "7be0c8585837faff6c3a0d8fa888e146fa551d5ab213b1650bba94a00b8d66e5",
+    "retrieved_at": "2026-11-08T07:42:17.637342+00:00"
+  },
+  {
+    "set_id": "10019739-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10019739-1.jpg",
+    "status": "downloaded",
+    "path": "images/53fa0deebef35e90f0289790aa41187f3e90bdb9096f043203fe6b3327d23227.img",
+    "sha256": "53fa0deebef35e90f0289790aa41187f3e90bdb9096f043203fe6b3327d23227",
+    "retrieved_at": "2026-11-08T07:42:18.749633+00:00"
+  },
+  {
+    "set_id": "10019740-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10019740-1.jpg",
+    "status": "downloaded",
+    "path": "images/fd32c03251bd4fbfeffbcbafb258bc63879733ba71dd29861814349511d1341d.img",
+    "sha256": "fd32c03251bd4fbfeffbcbafb258bc63879733ba71dd29861814349511d1341d",
+    "retrieved_at": "2026-11-08T07:42:19.772993+00:00"
+  },
+  {
+    "set_id": "10019741-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10019741-1.jpg",
+    "status": "downloaded",
+    "path": "images/01677c92cc5385f50dd356353aeb0bf515edd9e5eecde91bc10afbf8ce2560e9.img",
+    "sha256": "01677c92cc5385f50dd356353aeb0bf515edd9e5eecde91bc10afbf8ce2560e9",
+    "retrieved_at": "2026-11-08T07:42:20.834922+00:00"
+  },
+  {
+    "set_id": "10019742-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10019742-1.jpg",
+    "status": "downloaded",
+    "path": "images/b0fbecf3e21154dd6ae7047d6dc350cd814d94711b81a204618ebab6943f2845.img",
+    "sha256": "b0fbecf3e21154dd6ae7047d6dc350cd814d94711b81a204618ebab6943f2845",
+    "retrieved_at": "2026-11-08T07:42:21.223856+00:00"
+  },
+  {
+    "set_id": "10019743-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10019743-1.jpg",
+    "status": "downloaded",
+    "path": "images/4ee6688bca7cec180a0f3f1297bf196c61711347c897dc263bc910a3a228bda8.img",
+    "sha256": "4ee6688bca7cec180a0f3f1297bf196c61711347c897dc263bc910a3a228bda8",
+    "retrieved_at": "2026-11-08T07:42:23.005703+00:00"
+  },
+  {
+    "set_id": "10019744-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10019744-1.jpg",
+    "status": "downloaded",
+    "path": "images/52d693fe8e153edc7f8b35cccc66d3e08ed1285c11691bcf77e122d4f5c492a5.img",
+    "sha256": "52d693fe8e153edc7f8b35cccc66d3e08ed1285c11691bcf77e122d4f5c492a5",
+    "retrieved_at": "2026-11-08T07:42:24.267471+00:00"
+  },
+  {
+    "set_id": "10019847-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10019847-1.jpg",
+    "status": "downloaded",
+    "path": "images/c6e9299497ea14b5b6c45b20d1c2f1ff8ba9a3f6dede0d82d212af43e70f723d.img",
+    "sha256": "c6e9299497ea14b5b6c45b20d1c2f1ff8ba9a3f6dede0d82d212af43e70f723d",
+    "retrieved_at": "2026-11-08T07:42:24.894687+00:00"
+  },
+  {
+    "set_id": "10020-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10020-1.jpg",
+    "status": "downloaded",
+    "path": "images/c8d4957803d61039ba63cb9845bd505094441d82e4789bd961d57fc6fe4fad16.img",
+    "sha256": "c8d4957803d61039ba63cb9845bd505094441d82e4789bd961d57fc6fe4fad16",
+    "retrieved_at": "2026-11-08T07:42:25.490547+00:00"
+  },
+  {
+    "set_id": "10020-2",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10020-2.jpg",
+    "status": "downloaded",
+    "path": "images/5f34d5b7215455923298c4e908d32fef90d1ac3c85078a66ddb1cdd876780211.img",
+    "sha256": "5f34d5b7215455923298c4e908d32fef90d1ac3c85078a66ddb1cdd876780211",
+    "retrieved_at": "2026-11-08T07:42:26.008375+00:00"
+  },
+  {
+    "set_id": "10020070-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10020070-1.jpg",
+    "status": "downloaded",
+    "path": "images/afff2dcca73fecaf4f7dbae5a8a2e64543539e25c197742b99cf23df77696652.img",
+    "sha256": "afff2dcca73fecaf4f7dbae5a8a2e64543539e25c197742b99cf23df77696652",
+    "retrieved_at": "2026-11-08T07:42:27.130109+00:00"
+  },
+  {
+    "set_id": "10020078-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10020078-1.jpg",
+    "status": "downloaded",
+    "path": "images/61db97aa79b68f6ca84aaba5a19acc450cd0c9389c88172d786f9cc61f8b1079.img",
+    "sha256": "61db97aa79b68f6ca84aaba5a19acc450cd0c9389c88172d786f9cc61f8b1079",
+    "retrieved_at": "2026-11-08T07:42:28.117734+00:00"
+  },
+  {
+    "set_id": "10020082-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10020082-1.jpg",
+    "status": "downloaded",
+    "path": "images/0f58ca754faa59a562caac40e90f8882a43aabb68cba7b91ddd46d1f455c4d02.img",
+    "sha256": "0f58ca754faa59a562caac40e90f8882a43aabb68cba7b91ddd46d1f455c4d02",
+    "retrieved_at": "2026-11-08T07:42:28.951345+00:00"
+  },
+  {
+    "set_id": "10020218-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10020218-1.jpg",
+    "status": "downloaded",
+    "path": "images/a4dae80e98f96d983dd325c0dd1656ffa14c9d71ebd5978746cfbb7e8bee25e1.img",
+    "sha256": "a4dae80e98f96d983dd325c0dd1656ffa14c9d71ebd5978746cfbb7e8bee25e1",
+    "retrieved_at": "2026-11-08T07:42:29.982927+00:00"
+  },
+  {
+    "set_id": "10021-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10021-1.jpg",
+    "status": "downloaded",
+    "path": "images/d446d2dadcfd01278c45a7c3c949e97fa9aa5d823600eb425875913fc7c576dd.img",
+    "sha256": "d446d2dadcfd01278c45a7c3c949e97fa9aa5d823600eb425875913fc7c576dd",
+    "retrieved_at": "2026-11-08T07:42:31.070199+00:00"
+  },
+  {
+    "set_id": "10022-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10022-1.jpg",
+    "status": "downloaded",
+    "path": "images/e885a23cf1ea6ac0e5bed13ed6248933662e02729ca25e15601cd45151f5cb4b.img",
+    "sha256": "e885a23cf1ea6ac0e5bed13ed6248933662e02729ca25e15601cd45151f5cb4b",
+    "retrieved_at": "2026-11-08T07:42:31.355603+00:00"
+  },
+  {
+    "set_id": "10023-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10023-1.jpg",
+    "status": "downloaded",
+    "path": "images/0f5db48e63b73ee06529dcdf55bdfb82ed21689bf3fd97684743e679f0e39927.img",
+    "sha256": "0f5db48e63b73ee06529dcdf55bdfb82ed21689bf3fd97684743e679f0e39927",
+    "retrieved_at": "2026-11-08T07:42:31.874787+00:00"
+  },
+  {
+    "set_id": "10024-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10024-1.jpg",
+    "status": "downloaded",
+    "path": "images/878c65d916b56987bc9f547d60f45ebf49c7e3eb7ad563383b57b3b3388e5a33.img",
+    "sha256": "878c65d916b56987bc9f547d60f45ebf49c7e3eb7ad563383b57b3b3388e5a33",
+    "retrieved_at": "2026-11-08T07:42:32.728711+00:00"
+  },
+  {
+    "set_id": "10025-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10025-1.jpg",
+    "status": "downloaded",
+    "path": "images/29a39363e621d3fc6d222ecb3f2ba62ddd8481aeec65e4e00f3750c056578d80.img",
+    "sha256": "29a39363e621d3fc6d222ecb3f2ba62ddd8481aeec65e4e00f3750c056578d80",
+    "retrieved_at": "2026-11-08T07:42:33.249993+00:00"
+  },
+  {
+    "set_id": "10026-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10026-1.jpg",
+    "status": "downloaded",
+    "path": "images/46acc6bb99d8510c8af8f7c8b33d324364eb4af5373ae31dab3205797c5f88fc.img",
+    "sha256": "46acc6bb99d8510c8af8f7c8b33d324364eb4af5373ae31dab3205797c5f88fc",
+    "retrieved_at": "2026-11-08T07:42:33.838967+00:00"
+  },
+  {
+    "set_id": "10027-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10027-1.jpg",
+    "status": "downloaded",
+    "path": "images/f5bc46eed6fed0e87d28839fb84c4bccddfebd8b957bc7d226dc7e50e26eb7ee.img",
+    "sha256": "f5bc46eed6fed0e87d28839fb84c4bccddfebd8b957bc7d226dc7e50e26eb7ee",
+    "retrieved_at": "2026-11-08T07:42:34.351802+00:00"
+  },
+  {
+    "set_id": "10029-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10029-1.jpg",
+    "status": "downloaded",
+    "path": "images/7daa9b3026e7e91bdeaa698fd61d697d4bb211d80530213f84b7d738e0d333b5.img",
+    "sha256": "7daa9b3026e7e91bdeaa698fd61d697d4bb211d80530213f84b7d738e0d333b5",
+    "retrieved_at": "2026-11-08T07:42:35.279120+00:00"
+  },
+  {
+    "set_id": "100291707-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100291707-1.jpg",
+    "status": "downloaded",
+    "path": "images/e9044f07eab16201505c716bf5d5d555cc974ef9af176fdd8e48023cb2b5faee.img",
+    "sha256": "e9044f07eab16201505c716bf5d5d555cc974ef9af176fdd8e48023cb2b5faee",
+    "retrieved_at": "2026-11-08T07:42:35.745480+00:00"
+  },
+  {
+    "set_id": "100291708-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100291708-1.jpg",
+    "status": "downloaded",
+    "path": "images/ea5db15d2f02ef79717b2e4ad242f103d1614ef0b99602bec443f743025eb8c0.img",
+    "sha256": "ea5db15d2f02ef79717b2e4ad242f103d1614ef0b99602bec443f743025eb8c0",
+    "retrieved_at": "2026-11-08T07:42:36.552373+00:00"
+  },
+  {
+    "set_id": "10030-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10030-1.jpg",
+    "status": "downloaded",
+    "path": "images/a3e9138463e66ffc3aebcfef1737a1e00c24fe0c42fb364d730277f9a2a33754.img",
+    "sha256": "a3e9138463e66ffc3aebcfef1737a1e00c24fe0c42fb364d730277f9a2a33754",
+    "retrieved_at": "2026-11-08T07:42:37.053043+00:00"
+  },
+  {
+    "set_id": "100301705-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100301705-1.jpg",
+    "status": "downloaded",
+    "path": "images/2ec0b51bb827fb7e0dc5a90dc68d70cd20cd76aad408078a77e1089bd2e220b5.img",
+    "sha256": "2ec0b51bb827fb7e0dc5a90dc68d70cd20cd76aad408078a77e1089bd2e220b5",
+    "retrieved_at": "2026-11-08T07:42:37.781236+00:00"
+  },
+  {
+    "set_id": "100301837-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100301837-1.jpg",
+    "status": "downloaded",
+    "path": "images/e559c5a029c5a24c7b7784c6c78609cff0d6714805519e58232c32af86776808.img",
+    "sha256": "e559c5a029c5a24c7b7784c6c78609cff0d6714805519e58232c32af86776808",
+    "retrieved_at": "2026-11-08T07:42:38.463869+00:00"
+  },
+  {
+    "set_id": "100302101-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100302101-1.jpg",
+    "status": "downloaded",
+    "path": "images/afc1367977eb92c57465262da51d6ccf629a50066d0d336441755ce5de327c9e.img",
+    "sha256": "afc1367977eb92c57465262da51d6ccf629a50066d0d336441755ce5de327c9e",
+    "retrieved_at": "2026-11-08T07:42:39.577642+00:00"
+  },
+  {
+    "set_id": "100302203-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100302203-1.jpg",
+    "status": "downloaded",
+    "path": "images/4d7839f2ad25e49861f4b0e603a1d2fd4b7957fd3984bc688646352d010316e8.img",
+    "sha256": "4d7839f2ad25e49861f4b0e603a1d2fd4b7957fd3984bc688646352d010316e8",
+    "retrieved_at": "2026-11-08T07:42:40.560752+00:00"
+  },
+  {
+    "set_id": "100302304-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100302304-1.jpg",
+    "status": "downloaded",
+    "path": "images/133cd79194df9f9f9567a93c4bea93fb2a111389756b7e9aef89a388d57317bf.img",
+    "sha256": "133cd79194df9f9f9567a93c4bea93fb2a111389756b7e9aef89a388d57317bf",
+    "retrieved_at": "2026-11-08T07:44:04.386307+00:00"
+  },
+  {
+    "set_id": "100302501-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100302501-1.jpg",
+    "status": "downloaded",
+    "path": "images/985db21b1fdb24c0e13240a84584ef19438356aa235072ce4300c5dadad279a6.img",
+    "sha256": "985db21b1fdb24c0e13240a84584ef19438356aa235072ce4300c5dadad279a6",
+    "retrieved_at": "2026-11-08T07:42:42.184619+00:00"
+  },
+  {
+    "set_id": "100302502-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100302502-1.jpg",
+    "status": "downloaded",
+    "path": "images/eea3cd3359cc10bb48d6bf3efef0f512ac1a8d5fdbfe7216de086031f51eb798.img",
+    "sha256": "eea3cd3359cc10bb48d6bf3efef0f512ac1a8d5fdbfe7216de086031f51eb798",
+    "retrieved_at": "2026-11-08T07:42:43.040228+00:00"
+  },
+  {
+    "set_id": "100302505-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100302505-1.jpg",
+    "status": "downloaded",
+    "path": "images/50d1a698f11e094ff95cfab603405e3229f3a95203eae5b4e435526b38227433.img",
+    "sha256": "50d1a698f11e094ff95cfab603405e3229f3a95203eae5b4e435526b38227433",
+    "retrieved_at": "2026-11-08T07:42:43.933353+00:00"
+  },
+  {
+    "set_id": "100302506-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100302506-1.jpg",
+    "status": "downloaded",
+    "path": "images/a4762a7ee596d1c7f721958c0ff6303b15e1f9b9939edcf0c18e4cdb4ecabe8f.img",
+    "sha256": "a4762a7ee596d1c7f721958c0ff6303b15e1f9b9939edcf0c18e4cdb4ecabe8f",
+    "retrieved_at": "2026-11-08T07:42:44.877399+00:00"
+  },
+  {
+    "set_id": "100302601-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100302601-1.jpg",
+    "status": "downloaded",
+    "path": "images/9fdb5972496144cdc601e36b546ea668b14b9a6b3b61734a4121b337ee5d6e38.img",
+    "sha256": "9fdb5972496144cdc601e36b546ea668b14b9a6b3b61734a4121b337ee5d6e38",
+    "retrieved_at": "2026-11-08T07:42:45.016777+00:00"
+  },
+  {
+    "set_id": "100302602-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100302602-1.jpg",
+    "status": "downloaded",
+    "path": "images/4ccda244eb1421f86e33bab73b462c856d329fe8a5d690a4f7834481ddfd9897.img",
+    "sha256": "4ccda244eb1421f86e33bab73b462c856d329fe8a5d690a4f7834481ddfd9897",
+    "retrieved_at": "2026-11-08T07:42:45.804015+00:00"
+  },
+  {
+    "set_id": "100302603-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100302603-1.jpg",
+    "status": "downloaded",
+    "path": "images/880bea891bf7f75b2bc2f4e45703bfacb0caca68639f274b01fc2d5f552b59e1.img",
+    "sha256": "880bea891bf7f75b2bc2f4e45703bfacb0caca68639f274b01fc2d5f552b59e1",
+    "retrieved_at": "2026-11-08T07:42:46.686268+00:00"
+  },
+  {
+    "set_id": "100302605-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100302605-1.jpg",
+    "status": "downloaded",
+    "path": "images/dfbaef6d53fdd838c6221255d90192288393ab6ca7f96ba75da513e80a49e1a6.img",
+    "sha256": "dfbaef6d53fdd838c6221255d90192288393ab6ca7f96ba75da513e80a49e1a6",
+    "retrieved_at": "2026-11-08T07:42:46.817115+00:00"
+  },
+  {
+    "set_id": "100311708-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100311708-1.jpg",
+    "status": "downloaded",
+    "path": "images/af76eb1bc9723c0ec094ec0db148ef88ae75c7e1f1ffd162648bc9c11c62163f.img",
+    "sha256": "af76eb1bc9723c0ec094ec0db148ef88ae75c7e1f1ffd162648bc9c11c62163f",
+    "retrieved_at": "2026-11-08T07:42:47.550674+00:00"
+  },
+  {
+    "set_id": "100311837-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100311837-1.jpg",
+    "status": "downloaded",
+    "path": "images/a2d869cfd9346438be8d536d444609dae6940ea9e13b341591117fcb8537964f.img",
+    "sha256": "a2d869cfd9346438be8d536d444609dae6940ea9e13b341591117fcb8537964f",
+    "retrieved_at": "2026-11-08T07:42:48.427153+00:00"
+  },
+  {
+    "set_id": "100321710-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100321710-1.jpg",
+    "status": "downloaded",
+    "path": "images/bb9f043904689ffcd788bb5e53c49061b3e175af59a739fcc434eb18940a7a44.img",
+    "sha256": "bb9f043904689ffcd788bb5e53c49061b3e175af59a739fcc434eb18940a7a44",
+    "retrieved_at": "2026-11-08T07:42:48.754670+00:00"
+  },
+  {
+    "set_id": "100341707-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100341707-1.jpg",
+    "status": "downloaded",
+    "path": "images/a4955811ebbcb3298d9597d3bead1327241aaff7b2d9bca78368d6b779557a63.img",
+    "sha256": "a4955811ebbcb3298d9597d3bead1327241aaff7b2d9bca78368d6b779557a63",
+    "retrieved_at": "2026-11-08T07:42:49.067986+00:00"
+  },
+  {
+    "set_id": "100341726-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100341726-1.jpg",
+    "status": "downloaded",
+    "path": "images/3ee3a4f59ed1d58b0a21d38c104dbc71dfba98991db9ea5c5cdcc2e86b7d575d.img",
+    "sha256": "3ee3a4f59ed1d58b0a21d38c104dbc71dfba98991db9ea5c5cdcc2e86b7d575d",
+    "retrieved_at": "2026-11-08T07:42:49.725117+00:00"
+  },
+  {
+    "set_id": "100341829-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100341829-1.jpg",
+    "status": "downloaded",
+    "path": "images/1b86a69467b8688823e19abd13b402eab2ac0fd94168e0b1bc9210e7eb59c580.img",
+    "sha256": "1b86a69467b8688823e19abd13b402eab2ac0fd94168e0b1bc9210e7eb59c580",
+    "retrieved_at": "2026-11-08T07:42:50.478069+00:00"
+  },
+  {
+    "set_id": "100341915-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100341915-1.jpg",
+    "status": "downloaded",
+    "path": "images/59040aef0432482a8d4a399db9d3e78d845c84d744398eca27a18386133ac60b.img",
+    "sha256": "59040aef0432482a8d4a399db9d3e78d845c84d744398eca27a18386133ac60b",
+    "retrieved_at": "2026-11-08T07:42:51.248739+00:00"
+  },
+  {
+    "set_id": "100342004-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100342004-1.jpg",
+    "status": "downloaded",
+    "path": "images/d186ad3b0b2b1170eebb3c6f4df4b1a8222658f09ebe88ea6bce841d006b22f6.img",
+    "sha256": "d186ad3b0b2b1170eebb3c6f4df4b1a8222658f09ebe88ea6bce841d006b22f6",
+    "retrieved_at": "2026-11-08T07:42:51.695082+00:00"
+  },
+  {
+    "set_id": "100342008-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100342008-1.jpg",
+    "status": "downloaded",
+    "path": "images/011d3578e1aef0f800c3868704f2c44277b839d5c8b4d0a1cb4c0298e3a54dcb.img",
+    "sha256": "011d3578e1aef0f800c3868704f2c44277b839d5c8b4d0a1cb4c0298e3a54dcb",
+    "retrieved_at": "2026-11-08T07:42:52.202240+00:00"
+  },
+  {
+    "set_id": "100342101-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100342101-1.jpg",
+    "status": "downloaded",
+    "path": "images/8e9c5329e398344855faa64f98d9a9f65a75479893fa27af524bf28ec2a0a985.img",
+    "sha256": "8e9c5329e398344855faa64f98d9a9f65a75479893fa27af524bf28ec2a0a985",
+    "retrieved_at": "2026-11-08T07:42:53.367434+00:00"
+  },
+  {
+    "set_id": "100342108-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100342108-1.jpg",
+    "status": "downloaded",
+    "path": "images/0794e46b5cfdf3402ba7e3aab2ad6423fe3d35de1ca6be3de5563f80592eba40.img",
+    "sha256": "0794e46b5cfdf3402ba7e3aab2ad6423fe3d35de1ca6be3de5563f80592eba40",
+    "retrieved_at": "2026-11-08T07:42:54.371630+00:00"
+  },
+  {
+    "set_id": "100342208-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100342208-1.jpg",
+    "status": "downloaded",
+    "path": "images/df65c2881ddd5f96d28b50d62b93247971c0d0f1b514654e103880cec0f003a9.img",
+    "sha256": "df65c2881ddd5f96d28b50d62b93247971c0d0f1b514654e103880cec0f003a9",
+    "retrieved_at": "2026-11-08T07:42:55.186401+00:00"
+  },
+  {
+    "set_id": "100342501-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100342501-1.jpg",
+    "status": "downloaded",
+    "path": "images/5b16fc1483a6de90106d7376388b8ce86df3bb2e29f3a37885336434ed3a0a23.img",
+    "sha256": "5b16fc1483a6de90106d7376388b8ce86df3bb2e29f3a37885336434ed3a0a23",
+    "retrieved_at": "2026-11-08T07:42:57.254098+00:00"
+  },
+  {
+    "set_id": "100342502-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100342502-1.jpg",
+    "status": "downloaded",
+    "path": "images/bd5b148df2c19aef6c2bd9b09b3edbaf2666db4ab6eff833f111524e61a4590f.img",
+    "sha256": "bd5b148df2c19aef6c2bd9b09b3edbaf2666db4ab6eff833f111524e61a4590f",
+    "retrieved_at": "2026-11-08T07:43:00.525745+00:00"
+  },
+  {
+    "set_id": "100342506-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100342506-1.jpg",
+    "status": "downloaded",
+    "path": "images/e4cae9e5c79f656bc8cdea3d5143555aac6ab3635ba9c0cd3d5fa2b41656031d.img",
+    "sha256": "e4cae9e5c79f656bc8cdea3d5143555aac6ab3635ba9c0cd3d5fa2b41656031d",
+    "retrieved_at": "2026-11-08T07:43:01.018197+00:00"
+  },
+  {
+    "set_id": "100342511-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100342511-1.jpg",
+    "status": "downloaded",
+    "path": "images/1b8b9ffaa876bcaffe0549569c8e571c1f311ea9816573dc0bdeffe584f49265.img",
+    "sha256": "1b8b9ffaa876bcaffe0549569c8e571c1f311ea9816573dc0bdeffe584f49265",
+    "retrieved_at": "2026-11-08T07:43:03.002614+00:00"
+  },
+  {
+    "set_id": "100342601-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100342601-1.jpg",
+    "status": "downloaded",
+    "path": "images/e5cf180bac80bac0b7e267abccec1fd3a78104f28841c3023a96b01df39d266f.img",
+    "sha256": "e5cf180bac80bac0b7e267abccec1fd3a78104f28841c3023a96b01df39d266f",
+    "retrieved_at": "2026-11-08T07:43:04.923015+00:00"
+  },
+  {
+    "set_id": "100342602-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100342602-1.jpg",
+    "status": "downloaded",
+    "path": "images/fc4c95b6aea92bd95baa08309457aa70e429e7f8c33471fcdce0c1662349a79b.img",
+    "sha256": "fc4c95b6aea92bd95baa08309457aa70e429e7f8c33471fcdce0c1662349a79b",
+    "retrieved_at": "2026-11-08T07:43:06.890069+00:00"
+  },
+  {
+    "set_id": "100342603-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100342603-1.jpg",
+    "status": "downloaded",
+    "path": "images/1c3dc186ef55dc561c1cbb0a2985d1b781ffc20b0f1c490bd6efa8ced40b375a.img",
+    "sha256": "1c3dc186ef55dc561c1cbb0a2985d1b781ffc20b0f1c490bd6efa8ced40b375a",
+    "retrieved_at": "2026-11-08T07:43:09.120054+00:00"
+  },
+  {
+    "set_id": "100351702-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100351702-1.jpg",
+    "status": "downloaded",
+    "path": "images/7cd5fb39b1abf92e4b5c471db447d7dbe89b7c14f1ccd9d35d158093570c7100.img",
+    "sha256": "7cd5fb39b1abf92e4b5c471db447d7dbe89b7c14f1ccd9d35d158093570c7100",
+    "retrieved_at": "2026-11-08T07:43:09.884331+00:00"
+  },
+  {
+    "set_id": "100351705-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100351705-1.jpg",
+    "status": "downloaded",
+    "path": "images/2ce346dae1948f8cfeb9eb9be1467b3f091f021824ed9705833dcb1e32e147cf.img",
+    "sha256": "2ce346dae1948f8cfeb9eb9be1467b3f091f021824ed9705833dcb1e32e147cf",
+    "retrieved_at": "2026-11-08T07:43:10.436518+00:00"
+  },
+  {
+    "set_id": "100351707-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100351707-1.jpg",
+    "status": "downloaded",
+    "path": "images/0f0beffea7ab2c97d30e6ba50485432927b154590f468088c39a021b226e3417.img",
+    "sha256": "0f0beffea7ab2c97d30e6ba50485432927b154590f468088c39a021b226e3417",
+    "retrieved_at": "2026-11-08T07:43:11.140622+00:00"
+  },
+  {
+    "set_id": "100351708-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100351708-1.jpg",
+    "status": "downloaded",
+    "path": "images/82ea3ebf4758e8a69c05ec202a018f9602248d9a481252d82db19b666090abb0.img",
+    "sha256": "82ea3ebf4758e8a69c05ec202a018f9602248d9a481252d82db19b666090abb0",
+    "retrieved_at": "2026-11-08T07:43:12.226306+00:00"
+  },
+  {
+    "set_id": "100351710-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100351710-1.jpg",
+    "status": "downloaded",
+    "path": "images/d2089a289cc688b9aadc9dd7168f21e31597c8ab81f0cb6e395c74973a065a01.img",
+    "sha256": "d2089a289cc688b9aadc9dd7168f21e31597c8ab81f0cb6e395c74973a065a01",
+    "retrieved_at": "2026-11-08T07:43:13.386280+00:00"
+  },
+  {
+    "set_id": "10036-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10036-1.jpg",
+    "status": "downloaded",
+    "path": "images/bc8ff7d73725dfd9413bee443521f39184ba59c01403317184711e73899534fd.img",
+    "sha256": "bc8ff7d73725dfd9413bee443521f39184ba59c01403317184711e73899534fd",
+    "retrieved_at": "2026-11-08T07:43:13.872490+00:00"
+  },
+  {
+    "set_id": "100361827-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100361827-1.jpg",
+    "status": "downloaded",
+    "path": "images/92839c4ce7768bcca97bba8a35d241c53a6c0db389b8fda30e73bbf70f315f21.img",
+    "sha256": "92839c4ce7768bcca97bba8a35d241c53a6c0db389b8fda30e73bbf70f315f21",
+    "retrieved_at": "2026-11-08T07:43:14.660686+00:00"
+  },
+  {
+    "set_id": "100361862-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100361862-1.jpg",
+    "status": "downloaded",
+    "path": "images/9a49ed1833ee436f57cbfa461bfee2ec3836cbcb14380a4793b0d38411dc8a55.img",
+    "sha256": "9a49ed1833ee436f57cbfa461bfee2ec3836cbcb14380a4793b0d38411dc8a55",
+    "retrieved_at": "2026-11-08T07:43:15.329520+00:00"
+  },
+  {
+    "set_id": "10037-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10037-1.jpg",
+    "status": "downloaded",
+    "path": "images/106241f750b13c7055385d7311b38dae0a1e689f9c38efaccc508396c998d685.img",
+    "sha256": "106241f750b13c7055385d7311b38dae0a1e689f9c38efaccc508396c998d685",
+    "retrieved_at": "2026-11-08T07:43:15.803377+00:00"
+  },
+  {
+    "set_id": "10039-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10039-1.jpg",
+    "status": "downloaded",
+    "path": "images/22aed4de3c4f7521e439ea42771be1ab84cac3f39d1e85077047c34a7128a652.img",
+    "sha256": "22aed4de3c4f7521e439ea42771be1ab84cac3f39d1e85077047c34a7128a652",
+    "retrieved_at": "2026-11-08T07:43:16.966632+00:00"
+  },
+  {
+    "set_id": "10040-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10040-1.jpg",
+    "status": "downloaded",
+    "path": "images/5cd04338d40e6b9afd2d3022b0b6a85af37df7244ca10a06355479a5562747b1.img",
+    "sha256": "5cd04338d40e6b9afd2d3022b0b6a85af37df7244ca10a06355479a5562747b1",
+    "retrieved_at": "2026-11-08T07:43:18.099981+00:00"
+  },
+  {
+    "set_id": "10041-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10041-1.jpg",
+    "status": "downloaded",
+    "path": "images/97aff765f31c5577bf207d10f434a5a67b914c0f5433d04c9386da6a0e182b84.img",
+    "sha256": "97aff765f31c5577bf207d10f434a5a67b914c0f5433d04c9386da6a0e182b84",
+    "retrieved_at": "2026-11-08T07:43:19.241518+00:00"
+  },
+  {
+    "set_id": "10042-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10042-1.jpg",
+    "status": "downloaded",
+    "path": "images/78e7c0bafe1765d4850424fcd8338d9e64f4d4087e09f084cf6fda45d5db5b63.img",
+    "sha256": "78e7c0bafe1765d4850424fcd8338d9e64f4d4087e09f084cf6fda45d5db5b63",
+    "retrieved_at": "2026-11-08T07:43:19.738278+00:00"
+  },
+  {
+    "set_id": "10043-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10043-1.jpg",
+    "status": "downloaded",
+    "path": "images/1700c4f556795a35669d96081368b67031afc25b571d85ed5d04f2565da8b08f.img",
+    "sha256": "1700c4f556795a35669d96081368b67031afc25b571d85ed5d04f2565da8b08f",
+    "retrieved_at": "2026-11-08T07:43:20.046444+00:00"
+  },
+  {
+    "set_id": "10044-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10044-1.jpg",
+    "status": "downloaded",
+    "path": "images/48d58b62b1c5a9cae076183f845a91abfc0f70822a9149153ffb0a98d4713f54.img",
+    "sha256": "48d58b62b1c5a9cae076183f845a91abfc0f70822a9149153ffb0a98d4713f54",
+    "retrieved_at": "2026-11-08T07:43:20.552403+00:00"
+  },
+  {
+    "set_id": "10045-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10045-1.jpg",
+    "status": "downloaded",
+    "path": "images/c9b2dbe35dcbe3eab773ac31c8c1919743c528a7f8d02ef99dc9c7fac08ee362.img",
+    "sha256": "c9b2dbe35dcbe3eab773ac31c8c1919743c528a7f8d02ef99dc9c7fac08ee362",
+    "retrieved_at": "2026-11-08T07:43:21.147969+00:00"
+  },
+  {
+    "set_id": "100451835-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100451835-1.jpg",
+    "status": "downloaded",
+    "path": "images/eb36b6352c52896f53e2664a57cd2b7d448546afd7c9e51f933f47b8e058a5c5.img",
+    "sha256": "eb36b6352c52896f53e2664a57cd2b7d448546afd7c9e51f933f47b8e058a5c5",
+    "retrieved_at": "2026-11-08T07:43:21.994055+00:00"
+  },
+  {
+    "set_id": "100451910-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100451910-1.jpg",
+    "status": "downloaded",
+    "path": "images/1bfbca6ec4898cdcfe749f26ed7fa5ac64a40f39672a76845cadf14881d1604f.img",
+    "sha256": "1bfbca6ec4898cdcfe749f26ed7fa5ac64a40f39672a76845cadf14881d1604f",
+    "retrieved_at": "2026-11-08T07:43:22.596570+00:00"
+  },
+  {
+    "set_id": "100451914-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100451914-1.jpg",
+    "status": "downloaded",
+    "path": "images/05d3f5bb149ce7965e02c089453a9028ae09e1f34002dd1a86c5684a24519598.img",
+    "sha256": "05d3f5bb149ce7965e02c089453a9028ae09e1f34002dd1a86c5684a24519598",
+    "retrieved_at": "2026-11-08T07:43:23.532437+00:00"
+  },
+  {
+    "set_id": "100452005-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100452005-1.jpg",
+    "status": "downloaded",
+    "path": "images/82a516a5680aa40bfbf2a9852405d6af2da32deccc4377f2a8d5a0422f82ed1c.img",
+    "sha256": "82a516a5680aa40bfbf2a9852405d6af2da32deccc4377f2a8d5a0422f82ed1c",
+    "retrieved_at": "2026-11-08T07:43:24.475098+00:00"
+  },
+  {
+    "set_id": "10046-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10046-1.jpg",
+    "status": "downloaded",
+    "path": "images/5dea6edf73e0650f2091e35a55f3c5195c7b1d5173d07653181f05121608381a.img",
+    "sha256": "5dea6edf73e0650f2091e35a55f3c5195c7b1d5173d07653181f05121608381a",
+    "retrieved_at": "2026-11-08T07:43:25.177955+00:00"
+  },
+  {
+    "set_id": "10047-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10047-1.jpg",
+    "status": "downloaded",
+    "path": "images/78cfe986b82c6f8a09cb2af6f4283d25b30422afe13569a6dc940a75407936a0.img",
+    "sha256": "78cfe986b82c6f8a09cb2af6f4283d25b30422afe13569a6dc940a75407936a0",
+    "retrieved_at": "2026-11-08T07:43:25.497937+00:00"
+  },
+  {
+    "set_id": "10048-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10048-1.jpg",
+    "status": "downloaded",
+    "path": "images/f462895956124b14548bf3e4c68f1cf1f51b2f7cfec76660b21c926d9fe26b90.img",
+    "sha256": "f462895956124b14548bf3e4c68f1cf1f51b2f7cfec76660b21c926d9fe26b90",
+    "retrieved_at": "2026-11-08T07:43:25.963910+00:00"
+  },
+  {
+    "set_id": "10049-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10049-1.jpg",
+    "status": "downloaded",
+    "path": "images/e06fd73f29b1c31fa906df56f55ffb97572afac65836d8c527de3d8cec4ecbae.img",
+    "sha256": "e06fd73f29b1c31fa906df56f55ffb97572afac65836d8c527de3d8cec4ecbae",
+    "retrieved_at": "2026-11-08T07:43:26.440284+00:00"
+  },
+  {
+    "set_id": "100491-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100491-1.jpg",
+    "status": "downloaded",
+    "path": "images/ffa77e1cfa37cf6ff8957aeffaef6889fbf247e4bcc0167012f55ca6a0942807.img",
+    "sha256": "ffa77e1cfa37cf6ff8957aeffaef6889fbf247e4bcc0167012f55ca6a0942807",
+    "retrieved_at": "2026-11-08T07:43:27.181669+00:00"
+  },
+  {
+    "set_id": "10050-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10050-1.jpg",
+    "status": "downloaded",
+    "path": "images/f50e040c3d999353a1613c3d604b835ded1c96280353978ca0b0151b9fd78c08.img",
+    "sha256": "f50e040c3d999353a1613c3d604b835ded1c96280353978ca0b0151b9fd78c08",
+    "retrieved_at": "2026-11-08T07:43:28.276372+00:00"
+  },
+  {
+    "set_id": "100501829-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100501829-1.jpg",
+    "status": "downloaded",
+    "path": "images/da445e60c09bbd83b8f9e4e706d005b9157840f850bec84b53b2f31139433899.img",
+    "sha256": "da445e60c09bbd83b8f9e4e706d005b9157840f850bec84b53b2f31139433899",
+    "retrieved_at": "2026-11-08T07:43:29.164540+00:00"
+  },
+  {
+    "set_id": "100501908-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100501908-1.jpg",
+    "status": "downloaded",
+    "path": "images/4eea6c0c1cbab3a42293b42fbc90f82703bc4edbdbb933b7bbd5bd3acce2d46d.img",
+    "sha256": "4eea6c0c1cbab3a42293b42fbc90f82703bc4edbdbb933b7bbd5bd3acce2d46d",
+    "retrieved_at": "2026-11-08T07:43:30.213496+00:00"
+  },
+  {
+    "set_id": "100502101-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100502101-1.jpg",
+    "status": "downloaded",
+    "path": "images/ed5f9e6af0a12ec7a4528bda7ab3cde8d3999eff8ee69c77a2b9d6f21196445f.img",
+    "sha256": "ed5f9e6af0a12ec7a4528bda7ab3cde8d3999eff8ee69c77a2b9d6f21196445f",
+    "retrieved_at": "2026-11-08T07:43:31.342235+00:00"
+  },
+  {
+    "set_id": "100502108-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100502108-1.jpg",
+    "status": "downloaded",
+    "path": "images/3cf383003f84d1942dd062e52842884807b52e84116da41c05cfee724838bf1e.img",
+    "sha256": "3cf383003f84d1942dd062e52842884807b52e84116da41c05cfee724838bf1e",
+    "retrieved_at": "2026-11-08T07:43:32.268740+00:00"
+  },
+  {
+    "set_id": "100502206-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100502206-1.jpg",
+    "status": "downloaded",
+    "path": "images/5396e03fca9daca54ab629d72603dad0da2b4a2a8e6ad63c1ebef3d8427cd700.img",
+    "sha256": "5396e03fca9daca54ab629d72603dad0da2b4a2a8e6ad63c1ebef3d8427cd700",
+    "retrieved_at": "2026-11-08T07:43:33.286391+00:00"
+  },
+  {
+    "set_id": "100502207-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100502207-1.jpg",
+    "status": "downloaded",
+    "path": "images/aa7f48534cd6218ea323be0d3d41eb83cbe347b53b3dd07b8b2fc2b3c8b24509.img",
+    "sha256": "aa7f48534cd6218ea323be0d3d41eb83cbe347b53b3dd07b8b2fc2b3c8b24509",
+    "retrieved_at": "2026-11-08T07:43:35.249672+00:00"
+  },
+  {
+    "set_id": "100502208-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100502208-1.jpg",
+    "status": "downloaded",
+    "path": "images/0ee4f73f6e5e68de20b8cc03a30066ed18c532d41f4ffcf71388228df3f26e00.img",
+    "sha256": "0ee4f73f6e5e68de20b8cc03a30066ed18c532d41f4ffcf71388228df3f26e00",
+    "retrieved_at": "2026-11-08T07:43:36.892216+00:00"
+  },
+  {
+    "set_id": "100502501-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100502501-1.jpg",
+    "status": "downloaded",
+    "path": "images/f5fdffb907b8a7f12895276bfc3c2a570f76774f107d51253632ac3263e04bd6.img",
+    "sha256": "f5fdffb907b8a7f12895276bfc3c2a570f76774f107d51253632ac3263e04bd6",
+    "retrieved_at": "2026-11-08T07:43:39.376366+00:00"
+  },
+  {
+    "set_id": "100502502-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100502502-1.jpg",
+    "status": "downloaded",
+    "path": "images/dfee1c1ffbb92209425c7db6a964de62c84dc380c92869573db6f745a64e9a91.img",
+    "sha256": "dfee1c1ffbb92209425c7db6a964de62c84dc380c92869573db6f745a64e9a91",
+    "retrieved_at": "2026-11-08T07:43:44.508442+00:00"
+  },
+  {
+    "set_id": "100502505-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100502505-1.jpg",
+    "status": "downloaded",
+    "path": "images/b5e0bba70e6759556be681c9fadf1d3cc635488caa1347c22e7d6a9086fcaa24.img",
+    "sha256": "b5e0bba70e6759556be681c9fadf1d3cc635488caa1347c22e7d6a9086fcaa24",
+    "retrieved_at": "2026-11-08T07:43:48.239164+00:00"
+  },
+  {
+    "set_id": "100502507-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100502507-1.jpg",
+    "status": "downloaded",
+    "path": "images/66bfaab538efb5a5413d2e1e56c860794782bdc296e46901adee222b8ac5c3af.img",
+    "sha256": "66bfaab538efb5a5413d2e1e56c860794782bdc296e46901adee222b8ac5c3af",
+    "retrieved_at": "2026-11-08T07:43:49.340642+00:00"
+  },
+  {
+    "set_id": "10051-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10051-1.jpg",
+    "status": "downloaded",
+    "path": "images/459f980bcbb98fb39abff8fb495024fb4ade9a58b8dd0a9a17ba49e4ba9ce143.img",
+    "sha256": "459f980bcbb98fb39abff8fb495024fb4ade9a58b8dd0a9a17ba49e4ba9ce143",
+    "retrieved_at": "2026-11-08T07:43:49.668265+00:00"
+  },
+  {
+    "set_id": "10052-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10052-1.jpg",
+    "status": "downloaded",
+    "path": "images/7e7e7064ee2665182199bc678f657345df11a4012b3af9f4d5b1839eccf41e8c.img",
+    "sha256": "7e7e7064ee2665182199bc678f657345df11a4012b3af9f4d5b1839eccf41e8c",
+    "retrieved_at": "2026-11-08T07:43:50.240778+00:00"
+  },
+  {
+    "set_id": "100521915-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100521915-1.jpg",
+    "status": "downloaded",
+    "path": "images/b7a97850e98b9e00cae4caeb8da60a0517090628fa9dc193e46bfd45a899cb7a.img",
+    "sha256": "b7a97850e98b9e00cae4caeb8da60a0517090628fa9dc193e46bfd45a899cb7a",
+    "retrieved_at": "2026-11-08T07:43:51.739292+00:00"
+  },
+  {
+    "set_id": "100522009-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100522009-1.jpg",
+    "status": "downloaded",
+    "path": "images/fd48953a32fdb77d27bc6e8fca5d6634063a3467b4141f903383a059607cf95f.img",
+    "sha256": "fd48953a32fdb77d27bc6e8fca5d6634063a3467b4141f903383a059607cf95f",
+    "retrieved_at": "2026-11-08T07:43:52.690688+00:00"
+  },
+  {
+    "set_id": "100522101-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100522101-1.jpg",
+    "status": "downloaded",
+    "path": "images/5b3709cfd7ee1a5a063792693ebb4feb34341cbff4b31d33065390059cd775df.img",
+    "sha256": "5b3709cfd7ee1a5a063792693ebb4feb34341cbff4b31d33065390059cd775df",
+    "retrieved_at": "2026-11-08T07:43:53.986384+00:00"
+  },
+  {
+    "set_id": "100522108-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100522108-1.jpg",
+    "status": "downloaded",
+    "path": "images/f6ef53de92e3d575f2f6b68bea21d100bc5874ceca0bc6491dccbd0df2d56c68.img",
+    "sha256": "f6ef53de92e3d575f2f6b68bea21d100bc5874ceca0bc6491dccbd0df2d56c68",
+    "retrieved_at": "2026-11-08T07:43:55.124786+00:00"
+  },
+  {
+    "set_id": "100522110-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100522110-1.jpg",
+    "status": "downloaded",
+    "path": "images/7cd72c7d11e051cec74a9576a08c0e5f5b96773dbb9dce6c9ed87d8ed0de2275.img",
+    "sha256": "7cd72c7d11e051cec74a9576a08c0e5f5b96773dbb9dce6c9ed87d8ed0de2275",
+    "retrieved_at": "2026-11-08T07:43:56.555796+00:00"
+  },
+  {
+    "set_id": "100522501-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100522501-1.jpg",
+    "status": "downloaded",
+    "path": "images/5d44aaf7b2e042e1b4c281d584f8b0e6f5f71cd7aeda18c93f7932e225615d8d.img",
+    "sha256": "5d44aaf7b2e042e1b4c281d584f8b0e6f5f71cd7aeda18c93f7932e225615d8d",
+    "retrieved_at": "2026-11-08T07:43:57.256508+00:00"
+  },
+  {
+    "set_id": "100522502-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100522502-1.jpg",
+    "status": "downloaded",
+    "path": "images/51f8adebdfa2ab723f67da12cf80013a8d0400d510468b62f9cf31b16a12f035.img",
+    "sha256": "51f8adebdfa2ab723f67da12cf80013a8d0400d510468b62f9cf31b16a12f035",
+    "retrieved_at": "2026-11-08T07:44:05.276427+00:00"
+  },
+  {
+    "set_id": "100522511-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100522511-1.jpg",
+    "status": "downloaded",
+    "path": "images/937d65641bd2cdbbea92fca286efac95691aaa226f67d5be604b0945e26478ed.img",
+    "sha256": "937d65641bd2cdbbea92fca286efac95691aaa226f67d5be604b0945e26478ed",
+    "retrieved_at": "2026-11-08T07:44:05.577943+00:00"
+  },
+  {
+    "set_id": "100522601-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100522601-1.jpg",
+    "status": "downloaded",
+    "path": "images/a137489a6bd30915cbe68d0cee090d53213791bcb7e0ee13abe306c9ba5e33f0.img",
+    "sha256": "a137489a6bd30915cbe68d0cee090d53213791bcb7e0ee13abe306c9ba5e33f0",
+    "retrieved_at": "2026-11-08T07:44:06.215019+00:00"
+  },
+  {
+    "set_id": "100522602-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100522602-1.jpg",
+    "status": "downloaded",
+    "path": "images/e753ca3f7eff65c968b7fe22656ebe21f8616e598b212233c59f1e6982068c65.img",
+    "sha256": "e753ca3f7eff65c968b7fe22656ebe21f8616e598b212233c59f1e6982068c65",
+    "retrieved_at": "2026-11-08T07:44:06.346769+00:00"
+  },
+  {
+    "set_id": "100522603-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100522603-1.jpg",
+    "status": "missing",
+    "path": null,
+    "sha256": null,
+    "retrieved_at": null
+  },
+  {
+    "set_id": "10053-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10053-1.jpg",
+    "status": "downloaded",
+    "path": "images/e8d928ca59945d64c33ccbc6c7948b14cebdf742ae814d04ff60c4e4d15160f0.img",
+    "sha256": "e8d928ca59945d64c33ccbc6c7948b14cebdf742ae814d04ff60c4e4d15160f0",
+    "retrieved_at": "2026-11-08T07:44:07.118148+00:00"
+  },
+  {
+    "set_id": "10054-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10054-1.jpg",
+    "status": "downloaded",
+    "path": "images/036602c342fb9c5c2316b84a017deb128624649abea6c3d0303e17cf4a0f8f9f.img",
+    "sha256": "036602c342fb9c5c2316b84a017deb128624649abea6c3d0303e17cf4a0f8f9f",
+    "retrieved_at": "2026-11-08T07:44:07.236678+00:00"
+  },
+  {
+    "set_id": "10055-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10055-1.jpg",
+    "status": "downloaded",
+    "path": "images/c4379e46b21446b9f5d31839c708ae1a77acd7b08a47043c948297b22977e616.img",
+    "sha256": "c4379e46b21446b9f5d31839c708ae1a77acd7b08a47043c948297b22977e616",
+    "retrieved_at": "2026-11-08T07:44:07.429703+00:00"
+  },
+  {
+    "set_id": "10056-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10056-1.jpg",
+    "status": "downloaded",
+    "path": "images/860f7bdb00506ccf92e75ddc2981bd2b6e884050ea9ddbe466ddc160ca25771c.img",
+    "sha256": "860f7bdb00506ccf92e75ddc2981bd2b6e884050ea9ddbe466ddc160ca25771c",
+    "retrieved_at": "2026-11-08T07:44:07.548076+00:00"
+  },
+  {
+    "set_id": "10057-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10057-1.jpg",
+    "status": "downloaded",
+    "path": "images/ba9d0fd244a01aa3331db23067f5586f7b51f97b858c07ee419fa0ea3fd31170.img",
+    "sha256": "ba9d0fd244a01aa3331db23067f5586f7b51f97b858c07ee419fa0ea3fd31170",
+    "retrieved_at": "2026-11-08T07:44:07.630395+00:00"
+  },
+  {
+    "set_id": "10058-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10058-1.jpg",
+    "status": "downloaded",
+    "path": "images/f0e3109875900843a931a93ebdc7c2c7fd61e35dfba3e37090fc11939b4e56ee.img",
+    "sha256": "f0e3109875900843a931a93ebdc7c2c7fd61e35dfba3e37090fc11939b4e56ee",
+    "retrieved_at": "2026-11-08T07:44:07.758333+00:00"
+  },
+  {
+    "set_id": "10059-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10059-1.jpg",
+    "status": "downloaded",
+    "path": "images/17509a12821a85a49aa5f582e25afdfc114e93da59dc6ea47385f113cfd7ae93.img",
+    "sha256": "17509a12821a85a49aa5f582e25afdfc114e93da59dc6ea47385f113cfd7ae93",
+    "retrieved_at": "2026-11-08T07:44:07.862371+00:00"
+  },
+  {
+    "set_id": "10060-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10060-1.jpg",
+    "status": "downloaded",
+    "path": "images/bd20c9855afa4b9fccf6d4e2127570cd4f550ea6160f3c7cfe86a02d43d3392a.img",
+    "sha256": "bd20c9855afa4b9fccf6d4e2127570cd4f550ea6160f3c7cfe86a02d43d3392a",
+    "retrieved_at": "2026-11-08T07:44:07.941257+00:00"
+  },
+  {
+    "set_id": "100603-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100603-1.jpg",
+    "status": "downloaded",
+    "path": "images/60b97cc63bd582024ee87a3eb2d1ffffd81a3a93a3aaa6e60c9e9b90da7a8e03.img",
+    "sha256": "60b97cc63bd582024ee87a3eb2d1ffffd81a3a93a3aaa6e60c9e9b90da7a8e03",
+    "retrieved_at": "2026-11-08T07:44:08.348192+00:00"
+  },
+  {
+    "set_id": "10061-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10061-1.jpg",
+    "status": "downloaded",
+    "path": "images/fd85e5ef01b84550b87eb561c623ff3ea6e6dbf107af09eb2185d2d746d43921.img",
+    "sha256": "fd85e5ef01b84550b87eb561c623ff3ea6e6dbf107af09eb2185d2d746d43921",
+    "retrieved_at": "2026-11-08T07:44:08.438355+00:00"
+  },
+  {
+    "set_id": "10062-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10062-1.jpg",
+    "status": "downloaded",
+    "path": "images/a4a69e5cc78eeb2fd9a1e803e70476b9636a507f64611d9179fd60f3bf55a7d4.img",
+    "sha256": "a4a69e5cc78eeb2fd9a1e803e70476b9636a507f64611d9179fd60f3bf55a7d4",
+    "retrieved_at": "2026-11-08T07:44:08.563236+00:00"
+  },
+  {
+    "set_id": "10063-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10063-1.jpg",
+    "status": "downloaded",
+    "path": "images/5024dfacd085d8816cb60510e69a70cb301bfd86b0c932020f1f6423a7a87fff.img",
+    "sha256": "5024dfacd085d8816cb60510e69a70cb301bfd86b0c932020f1f6423a7a87fff",
+    "retrieved_at": "2026-11-08T07:44:09.102075+00:00"
+  },
+  {
+    "set_id": "10064-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10064-1.jpg",
+    "status": "downloaded",
+    "path": "images/5597ab45de92d78f53d2ccc575066dfe6b7f09acf9ce4ec3a56f8ad8a801fb4d.img",
+    "sha256": "5597ab45de92d78f53d2ccc575066dfe6b7f09acf9ce4ec3a56f8ad8a801fb4d",
+    "retrieved_at": "2026-11-08T07:44:09.666339+00:00"
+  },
+  {
+    "set_id": "10065-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10065-1.jpg",
+    "status": "downloaded",
+    "path": "images/af860aa071adfc019cd0c38fea0068dcd9b01af0dc7b90054fc0e64781f6121b.img",
+    "sha256": "af860aa071adfc019cd0c38fea0068dcd9b01af0dc7b90054fc0e64781f6121b",
+    "retrieved_at": "2026-11-08T07:44:10.227742+00:00"
+  },
+  {
+    "set_id": "10066-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10066-1.jpg",
+    "status": "downloaded",
+    "path": "images/573ed799561bdebbb094f232075b50ada52a14b9689724b4d2df66c51ded2bd3.img",
+    "sha256": "573ed799561bdebbb094f232075b50ada52a14b9689724b4d2df66c51ded2bd3",
+    "retrieved_at": "2026-11-08T07:44:10.718628+00:00"
+  },
+  {
+    "set_id": "10067-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10067-1.jpg",
+    "status": "downloaded",
+    "path": "images/44f2e9ff43674c72bc62474c2163d1ad3945fb71c926a4bd3369eab49bef3be6.img",
+    "sha256": "44f2e9ff43674c72bc62474c2163d1ad3945fb71c926a4bd3369eab49bef3be6",
+    "retrieved_at": "2026-11-08T07:44:11.322758+00:00"
+  },
+  {
+    "set_id": "100672507-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100672507-1.jpg",
+    "status": "downloaded",
+    "path": "images/0b549dbd1dd1ba49f995543934f63a52be8b18e8a36cc5fae57ab3ea0f3151c9.img",
+    "sha256": "0b549dbd1dd1ba49f995543934f63a52be8b18e8a36cc5fae57ab3ea0f3151c9",
+    "retrieved_at": "2026-11-08T07:44:15.350464+00:00"
+  },
+  {
+    "set_id": "10068-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10068-1.jpg",
+    "status": "downloaded",
+    "path": "images/ba57db9c7b052affe78b4d168cef0369e91ce23f00ea8d00aaef312c16f4afd9.img",
+    "sha256": "ba57db9c7b052affe78b4d168cef0369e91ce23f00ea8d00aaef312c16f4afd9",
+    "retrieved_at": "2026-11-08T07:44:16.505753+00:00"
+  },
+  {
+    "set_id": "100682507-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100682507-1.jpg",
+    "status": "downloaded",
+    "path": "images/fa449eaf2445dcf42b4709122e8d0d81019a32e12353f38c73a1ec2573435ae7.img",
+    "sha256": "fa449eaf2445dcf42b4709122e8d0d81019a32e12353f38c73a1ec2573435ae7",
+    "retrieved_at": "2026-11-08T07:44:17.643230+00:00"
+  },
+  {
+    "set_id": "100682603-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100682603-1.jpg",
+    "status": "downloaded",
+    "path": "images/18d600f2b676d219b3b2b8757a9caf36383989c192a7af4d480e74aa934a8548.img",
+    "sha256": "18d600f2b676d219b3b2b8757a9caf36383989c192a7af4d480e74aa934a8548",
+    "retrieved_at": "2026-11-08T07:44:20.704397+00:00"
+  },
+  {
+    "set_id": "10069-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10069-1.jpg",
+    "status": "downloaded",
+    "path": "images/ca9da536f3e823bf8100d60f15033a977ea9c9ef57ee6b98fd5ccd86860e7787.img",
+    "sha256": "ca9da536f3e823bf8100d60f15033a977ea9c9ef57ee6b98fd5ccd86860e7787",
+    "retrieved_at": "2026-11-08T07:44:21.845572+00:00"
+  },
+  {
+    "set_id": "100698-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100698-1.jpg",
+    "status": "downloaded",
+    "path": "images/fe7e9f23372698fee730c0048e6af47d9883d662990ef67baa8b06f62efbab0a.img",
+    "sha256": "fe7e9f23372698fee730c0048e6af47d9883d662990ef67baa8b06f62efbab0a",
+    "retrieved_at": "2026-11-08T07:44:22.662345+00:00"
+  },
+  {
+    "set_id": "10070-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10070-1.jpg",
+    "status": "downloaded",
+    "path": "images/b53bdda38428215f1ace3746ea2f17a5d0a615ab2f983d76948dfa17c51f0c67.img",
+    "sha256": "b53bdda38428215f1ace3746ea2f17a5d0a615ab2f983d76948dfa17c51f0c67",
+    "retrieved_at": "2026-11-08T07:44:23.581760+00:00"
+  },
+  {
+    "set_id": "10071-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10071-1.jpg",
+    "status": "downloaded",
+    "path": "images/4e12ccdf5682da4f4272ff843d0309c1d12f41765d845f67019f001944b18196.img",
+    "sha256": "4e12ccdf5682da4f4272ff843d0309c1d12f41765d845f67019f001944b18196",
+    "retrieved_at": "2026-11-08T07:44:24.720822+00:00"
+  },
+  {
+    "set_id": "10072-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10072-1.jpg",
+    "status": "downloaded",
+    "path": "images/9d20dddeb4ab232c25e1ecf23bde91609c977ef1e7ba776db8ff2357440fe108.img",
+    "sha256": "9d20dddeb4ab232c25e1ecf23bde91609c977ef1e7ba776db8ff2357440fe108",
+    "retrieved_at": "2026-11-08T07:44:25.679240+00:00"
+  },
+  {
+    "set_id": "100722006-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100722006-1.jpg",
+    "status": "downloaded",
+    "path": "images/9b691cdecd38f0dcafc6f5f61301ea316d140c46bf463b13e172d060560bcde7.img",
+    "sha256": "9b691cdecd38f0dcafc6f5f61301ea316d140c46bf463b13e172d060560bcde7",
+    "retrieved_at": "2026-11-08T07:44:26.666478+00:00"
+  },
+  {
+    "set_id": "100722007-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100722007-1.jpg",
+    "status": "downloaded",
+    "path": "images/d6cd3e9bce7cc5d4962ed6989ec835cfbce99f8119313bcebcc9a7708399935c.img",
+    "sha256": "d6cd3e9bce7cc5d4962ed6989ec835cfbce99f8119313bcebcc9a7708399935c",
+    "retrieved_at": "2026-11-08T07:44:28.281561+00:00"
+  },
+  {
+    "set_id": "100722101-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100722101-1.jpg",
+    "status": "downloaded",
+    "path": "images/93db9881a5f15c3728ce282d41a83ac5a6a7d5b2008d95c1b43029ae3c967b86.img",
+    "sha256": "93db9881a5f15c3728ce282d41a83ac5a6a7d5b2008d95c1b43029ae3c967b86",
+    "retrieved_at": "2026-11-08T07:44:29.940555+00:00"
+  },
+  {
+    "set_id": "100722106-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100722106-1.jpg",
+    "status": "downloaded",
+    "path": "images/d96c225f07a9f0bd12ebd73f5224f1b1b5dd82d51faac09b17e2ceb06257b6c2.img",
+    "sha256": "d96c225f07a9f0bd12ebd73f5224f1b1b5dd82d51faac09b17e2ceb06257b6c2",
+    "retrieved_at": "2026-11-08T07:44:30.612114+00:00"
+  },
+  {
+    "set_id": "100722108-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100722108-1.jpg",
+    "status": "downloaded",
+    "path": "images/3abcaa61fff1c88a5030e922cca8a595e66527cffefe5068100657aeb57d18f8.img",
+    "sha256": "3abcaa61fff1c88a5030e922cca8a595e66527cffefe5068100657aeb57d18f8",
+    "retrieved_at": "2026-11-08T07:44:31.158846+00:00"
+  },
+  {
+    "set_id": "100722110-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100722110-1.jpg",
+    "status": "downloaded",
+    "path": "images/227d54292cecd4a7c6e0177798e3b855771d998ac31df0017f99b6f2206f959c.img",
+    "sha256": "227d54292cecd4a7c6e0177798e3b855771d998ac31df0017f99b6f2206f959c",
+    "retrieved_at": "2026-11-08T07:44:32.081332+00:00"
+  },
+  {
+    "set_id": "10073-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10073-1.jpg",
+    "status": "downloaded",
+    "path": "images/45adf41ed98daa8d754fbb334e9a304c7b9eb4ab4c720101c0ec0642107f81b8.img",
+    "sha256": "45adf41ed98daa8d754fbb334e9a304c7b9eb4ab4c720101c0ec0642107f81b8",
+    "retrieved_at": "2026-11-08T07:44:32.646567+00:00"
+  },
+  {
+    "set_id": "10074-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10074-1.jpg",
+    "status": "downloaded",
+    "path": "images/808859467a3d1f10d915f387b4151b63362e72ff92300b9141ec8f30482ac51a.img",
+    "sha256": "808859467a3d1f10d915f387b4151b63362e72ff92300b9141ec8f30482ac51a",
+    "retrieved_at": "2026-11-08T07:44:33.658998+00:00"
+  },
+  {
+    "set_id": "10075-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10075-1.jpg",
+    "status": "downloaded",
+    "path": "images/7aab25c0969a0de6ede911e1fd0d1eb82eddcd4d31aae7dbd30e5ff2b6899df2.img",
+    "sha256": "7aab25c0969a0de6ede911e1fd0d1eb82eddcd4d31aae7dbd30e5ff2b6899df2",
+    "retrieved_at": "2026-11-08T07:44:40.175505+00:00"
+  },
+  {
+    "set_id": "10076-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10076-1.jpg",
+    "status": "downloaded",
+    "path": "images/b6e08a6e587d2c781e79b04cd00f660052c9422f2c4fe352ef6ceb604caa5ac2.img",
+    "sha256": "b6e08a6e587d2c781e79b04cd00f660052c9422f2c4fe352ef6ceb604caa5ac2",
+    "retrieved_at": "2026-11-08T07:44:41.156394+00:00"
+  },
+  {
+    "set_id": "10077-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10077-1.jpg",
+    "status": "downloaded",
+    "path": "images/6f480249217e15b942e82bb66f5be1cd41e9aa54641de34a4780fe1771e24e92.img",
+    "sha256": "6f480249217e15b942e82bb66f5be1cd41e9aa54641de34a4780fe1771e24e92",
+    "retrieved_at": "2026-11-08T07:44:41.361175+00:00"
+  },
+  {
+    "set_id": "10078-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10078-1.jpg",
+    "status": "downloaded",
+    "path": "images/7cbcb14e0c6ef6978ba39f0d595e6a4a893b323f05ef29c6aa95b60508fc565f.img",
+    "sha256": "7cbcb14e0c6ef6978ba39f0d595e6a4a893b323f05ef29c6aa95b60508fc565f",
+    "retrieved_at": "2026-11-08T07:44:41.916383+00:00"
+  },
+  {
+    "set_id": "10079-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10079-1.jpg",
+    "status": "downloaded",
+    "path": "images/ce45567c4aab56bef3cd882e3e67200d1b062e87d2c5fa42b4ad32bd1d4e38b0.img",
+    "sha256": "ce45567c4aab56bef3cd882e3e67200d1b062e87d2c5fa42b4ad32bd1d4e38b0",
+    "retrieved_at": "2026-11-08T07:44:42.950466+00:00"
+  },
+  {
+    "set_id": "10080-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10080-1.jpg",
+    "status": "downloaded",
+    "path": "images/def9a0e24fde6294690330b7342f472f9cdee0a7023f96b3f669b35c74d1bfdc.img",
+    "sha256": "def9a0e24fde6294690330b7342f472f9cdee0a7023f96b3f669b35c74d1bfdc",
+    "retrieved_at": "2026-11-08T07:44:44.036305+00:00"
+  },
+  {
+    "set_id": "10081-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10081-1.jpg",
+    "status": "downloaded",
+    "path": "images/c1b624dda1dbfcd5fb7105c7f1f0e87140c009566c1ae52bb09cedf30a519755.img",
+    "sha256": "c1b624dda1dbfcd5fb7105c7f1f0e87140c009566c1ae52bb09cedf30a519755",
+    "retrieved_at": "2026-11-08T07:44:44.621355+00:00"
+  },
+  {
+    "set_id": "100812101-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100812101-1.jpg",
+    "status": "downloaded",
+    "path": "images/59ef28874ff2fbcbf427742533b40815004cc0bbc25a45848c74ebdd8b365b17.img",
+    "sha256": "59ef28874ff2fbcbf427742533b40815004cc0bbc25a45848c74ebdd8b365b17",
+    "retrieved_at": "2026-11-08T07:44:45.676714+00:00"
+  },
+  {
+    "set_id": "100812102-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100812102-1.jpg",
+    "status": "downloaded",
+    "path": "images/5472b8a9c6e452391b2d1fabd8bfbfbfd02b61cf74798196b60c05edfe32ccd0.img",
+    "sha256": "5472b8a9c6e452391b2d1fabd8bfbfbfd02b61cf74798196b60c05edfe32ccd0",
+    "retrieved_at": "2026-11-08T07:44:46.206424+00:00"
+  },
+  {
+    "set_id": "10082-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10082-1.jpg",
+    "status": "downloaded",
+    "path": "images/f65e2edee084a1926e96a6a79f31a31ae52647ab8e9bdc2267e5af223b11da3b.img",
+    "sha256": "f65e2edee084a1926e96a6a79f31a31ae52647ab8e9bdc2267e5af223b11da3b",
+    "retrieved_at": "2026-11-08T07:44:46.508029+00:00"
+  },
+  {
+    "set_id": "10083-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10083-1.jpg",
+    "status": "downloaded",
+    "path": "images/cb7817f6f77f01496640bc9c19fa1b642540e0add8b44590645b910312762c80.img",
+    "sha256": "cb7817f6f77f01496640bc9c19fa1b642540e0add8b44590645b910312762c80",
+    "retrieved_at": "2026-11-08T07:44:47.355668+00:00"
+  },
+  {
+    "set_id": "100871-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100871-1.jpg",
+    "status": "downloaded",
+    "path": "images/3a0173e8c14fed9e58320eeb61e1a54686edb389133d6f33928c0f1ba2091699.img",
+    "sha256": "3a0173e8c14fed9e58320eeb61e1a54686edb389133d6f33928c0f1ba2091699",
+    "retrieved_at": "2026-11-08T07:44:47.838531+00:00"
+  },
+  {
+    "set_id": "10090-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10090-1.jpg",
+    "status": "downloaded",
+    "path": "images/efe190ad09421d61d7e0e983cffd44256a568c9e20f08b49d1a30447b25f595c.img",
+    "sha256": "efe190ad09421d61d7e0e983cffd44256a568c9e20f08b49d1a30447b25f595c",
+    "retrieved_at": "2026-11-08T07:44:48.512144+00:00"
+  },
+  {
+    "set_id": "100STORES-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/100stores-1.jpg",
+    "status": "downloaded",
+    "path": "images/7b518d1c49b9362b3c69c1bf5d97f3d18996859435c2aeb2f7a5f2e6a4437999.img",
+    "sha256": "7b518d1c49b9362b3c69c1bf5d97f3d18996859435c2aeb2f7a5f2e6a4437999",
+    "retrieved_at": "2026-11-08T07:44:49.505595+00:00"
+  },
+  {
+    "set_id": "101-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/101-1.jpg",
+    "status": "downloaded",
+    "path": "images/a36867d07b4a61cb875822771b3b77f43a03f7ddc2dcc7c0c563b6af50de9a9c.img",
+    "sha256": "a36867d07b4a61cb875822771b3b77f43a03f7ddc2dcc7c0c563b6af50de9a9c",
+    "retrieved_at": "2026-11-08T07:44:49.946355+00:00"
+  },
+  {
+    "set_id": "101-2",
+    "source_url": "https://cdn.rebrickable.com/media/sets/101-2.jpg",
+    "status": "downloaded",
+    "path": "images/7b221bf38b944b7868056997c784863f6f36977a1db7e6d695ddf395f6644d63.img",
+    "sha256": "7b221bf38b944b7868056997c784863f6f36977a1db7e6d695ddf395f6644d63",
+    "retrieved_at": "2026-11-08T07:44:50.992402+00:00"
+  },
+  {
+    "set_id": "101-3",
+    "source_url": "https://cdn.rebrickable.com/media/sets/101-3.jpg",
+    "status": "downloaded",
+    "path": "images/4c5ad50e24c8686ce6115240b5f1a8453ee151cac7838f322cad4ca876922bf0.img",
+    "sha256": "4c5ad50e24c8686ce6115240b5f1a8453ee151cac7838f322cad4ca876922bf0",
+    "retrieved_at": "2026-11-08T07:44:51.537954+00:00"
+  },
+  {
+    "set_id": "1010205-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1010205-1.jpg",
+    "status": "downloaded",
+    "path": "images/40287b7bd32cea05d1e5c7b79b15e0215f86885616b560c6f2ec44a730ab03fa.img",
+    "sha256": "40287b7bd32cea05d1e5c7b79b15e0215f86885616b560c6f2ec44a730ab03fa",
+    "retrieved_at": "2026-11-08T07:44:52.116639+00:00"
+  },
+  {
+    "set_id": "1010206-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1010206-1.jpg",
+    "status": "downloaded",
+    "path": "images/32cb9b9fcc844099ba2b17aea5a1cc4799e8ce6f12b60432d7d74a6a1bcfac8c.img",
+    "sha256": "32cb9b9fcc844099ba2b17aea5a1cc4799e8ce6f12b60432d7d74a6a1bcfac8c",
+    "retrieved_at": "2026-11-08T07:44:52.900679+00:00"
+  },
+  {
+    "set_id": "1010207-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1010207-1.jpg",
+    "status": "downloaded",
+    "path": "images/4f5bcd5de2316a8b414f2c386235a395722f5d36be5e77cc818883d9d1f80e32.img",
+    "sha256": "4f5bcd5de2316a8b414f2c386235a395722f5d36be5e77cc818883d9d1f80e32",
+    "retrieved_at": "2026-11-08T07:44:53.788436+00:00"
+  },
+  {
+    "set_id": "1010208-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1010208-1.jpg",
+    "status": "downloaded",
+    "path": "images/9465239a95989591d7889f4835c954934f5723c68a9f45e805af0f62939f51fd.img",
+    "sha256": "9465239a95989591d7889f4835c954934f5723c68a9f45e805af0f62939f51fd",
+    "retrieved_at": "2026-11-08T07:44:54.735737+00:00"
+  },
+  {
+    "set_id": "101032211-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/101032211-1.jpg",
+    "status": "downloaded",
+    "path": "images/03350139224fa5558b04e168c51c18e3c94719c1167b38f83cc2f422e6da738a.img",
+    "sha256": "03350139224fa5558b04e168c51c18e3c94719c1167b38f83cc2f422e6da738a",
+    "retrieved_at": "2026-11-08T07:44:56.252920+00:00"
+  },
+  {
+    "set_id": "101032303-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/101032303-1.jpg",
+    "status": "downloaded",
+    "path": "images/a3786ad03990b64f0b46ddc1ba731cf924da59c363cecbdec810fc1799180af3.img",
+    "sha256": "a3786ad03990b64f0b46ddc1ba731cf924da59c363cecbdec810fc1799180af3",
+    "retrieved_at": "2026-11-08T07:44:57.376248+00:00"
+  },
+  {
+    "set_id": "101032401-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/101032401-1.jpg",
+    "status": "downloaded",
+    "path": "images/d0eb252a37c714dc5846adbbc40098b7703d8dd831a436edb87f4d9d447855dc.img",
+    "sha256": "d0eb252a37c714dc5846adbbc40098b7703d8dd831a436edb87f4d9d447855dc",
+    "retrieved_at": "2026-11-08T07:44:58.642125+00:00"
+  },
+  {
+    "set_id": "101032403-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/101032403-1.jpg",
+    "status": "downloaded",
+    "path": "images/79db69d8e3eeb659aee85bdfcb7e282f4862b7fbd143f61c578f966933f451a7.img",
+    "sha256": "79db69d8e3eeb659aee85bdfcb7e282f4862b7fbd143f61c578f966933f451a7",
+    "retrieved_at": "2026-11-08T07:44:59.709109+00:00"
+  },
+  {
+    "set_id": "101032405-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/101032405-1.jpg",
+    "status": "downloaded",
+    "path": "images/50f6a577c78c7b139e7fb0b6d13b1007c00fb224a4c1453c53b1ec5f141641bd.img",
+    "sha256": "50f6a577c78c7b139e7fb0b6d13b1007c00fb224a4c1453c53b1ec5f141641bd",
+    "retrieved_at": "2026-11-08T07:45:00.995035+00:00"
+  },
+  {
+    "set_id": "101032501-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/101032501-1.jpg",
+    "status": "downloaded",
+    "path": "images/578e854149e0838822364cba86e93541204f742deaddf002a1aa37656d76c7e3.img",
+    "sha256": "578e854149e0838822364cba86e93541204f742deaddf002a1aa37656d76c7e3",
+    "retrieved_at": "2026-11-08T07:45:01.938926+00:00"
+  },
+  {
+    "set_id": "101032502-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/101032502-1.jpg",
+    "status": "downloaded",
+    "path": "images/78f01beb287cd5c430cd55519ca8cf833422b6e0fad342c8271e2a2601e62c5c.img",
+    "sha256": "78f01beb287cd5c430cd55519ca8cf833422b6e0fad342c8271e2a2601e62c5c",
+    "retrieved_at": "2026-11-08T07:45:02.547873+00:00"
+  },
+  {
+    "set_id": "101032505-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/101032505-1.jpg",
+    "status": "downloaded",
+    "path": "images/2e0da1350564f4c83d3b64559584ddaaf332fc292cab10f92d473d8725385285.img",
+    "sha256": "2e0da1350564f4c83d3b64559584ddaaf332fc292cab10f92d473d8725385285",
+    "retrieved_at": "2026-11-08T07:45:04.896323+00:00"
+  },
+  {
+    "set_id": "101032506-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/101032506-1.jpg",
+    "status": "downloaded",
+    "path": "images/410f099dffc7ded291e3e6a94ea480207db4fee9d93d2066f07842eeba405ae8.img",
+    "sha256": "410f099dffc7ded291e3e6a94ea480207db4fee9d93d2066f07842eeba405ae8",
+    "retrieved_at": "2026-11-08T07:45:05.128053+00:00"
+  },
+  {
+    "set_id": "101032511-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/101032511-1.jpg",
+    "status": "downloaded",
+    "path": "images/aa709e0fc33a0b128a821c345728bd61d20a79ad9373875e871f9de8f5733849.img",
+    "sha256": "aa709e0fc33a0b128a821c345728bd61d20a79ad9373875e871f9de8f5733849",
+    "retrieved_at": "2026-11-08T07:45:06.039334+00:00"
+  },
+  {
+    "set_id": "101032601-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/101032601-1.jpg",
+    "status": "downloaded",
+    "path": "images/9f6dc106d942ec338244ebd64bd2cf8b602e020aabb6f0117b3f146eb78ed0cd.img",
+    "sha256": "9f6dc106d942ec338244ebd64bd2cf8b602e020aabb6f0117b3f146eb78ed0cd",
+    "retrieved_at": "2026-11-08T07:45:08.908430+00:00"
+  },
+  {
+    "set_id": "101032602-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/101032602-1.jpg",
+    "status": "downloaded",
+    "path": "images/c3ce3f71d94c0faceab8e39219f6d3d0ec796f1c59c5417b14664daa7113df42.img",
+    "sha256": "c3ce3f71d94c0faceab8e39219f6d3d0ec796f1c59c5417b14664daa7113df42",
+    "retrieved_at": "2026-11-08T07:45:10.808680+00:00"
+  },
+  {
+    "set_id": "101032603-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/101032603-1.jpg",
+    "status": "downloaded",
+    "path": "images/625ec6a86dcc81d6e415b44b2652a7e604c38f134e3837584a04e07601567ffb.img",
+    "sha256": "625ec6a86dcc81d6e415b44b2652a7e604c38f134e3837584a04e07601567ffb",
+    "retrieved_at": "2026-11-08T07:45:12.640550+00:00"
+  },
+  {
+    "set_id": "1010405-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1010405-1.jpg",
+    "status": "downloaded",
+    "path": "images/0f9baf46939ca730dcd84b9f54b8da10bea887b085e98c3fc768656af4c9453f.img",
+    "sha256": "0f9baf46939ca730dcd84b9f54b8da10bea887b085e98c3fc768656af4c9453f",
+    "retrieved_at": "2026-11-08T07:45:13.499311+00:00"
+  },
+  {
+    "set_id": "1010408-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1010408-1.jpg",
+    "status": "downloaded",
+    "path": "images/c17c5d4ebd89a35dc856418f8fba660dddec50d97b3969c563a63327285b2d81.img",
+    "sha256": "c17c5d4ebd89a35dc856418f8fba660dddec50d97b3969c563a63327285b2d81",
+    "retrieved_at": "2026-11-08T07:45:14.316675+00:00"
+  },
+  {
+    "set_id": "101042213-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/101042213-1.jpg",
+    "status": "downloaded",
+    "path": "images/f608e13f30a8c7d55a33a70f5fa39b30f8f3deca021bc8132d06170d88fb5b5e.img",
+    "sha256": "f608e13f30a8c7d55a33a70f5fa39b30f8f3deca021bc8132d06170d88fb5b5e",
+    "retrieved_at": "2026-11-08T07:45:15.046631+00:00"
+  },
+  {
+    "set_id": "101042303-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/101042303-1.jpg",
+    "status": "downloaded",
+    "path": "images/7f6e0c25781b1ef4debb6dc5446cc9d12433d1c325c173f6c0d35ca075df8131.img",
+    "sha256": "7f6e0c25781b1ef4debb6dc5446cc9d12433d1c325c173f6c0d35ca075df8131",
+    "retrieved_at": "2026-11-08T07:45:16.276514+00:00"
+  },
+  {
+    "set_id": "101042313-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/101042313-1.jpg",
+    "status": "downloaded",
+    "path": "images/7ce3af8e10553f3823138ca720d050b8b6aae1d3a1f91d5307f4ed76c5ac4551.img",
+    "sha256": "7ce3af8e10553f3823138ca720d050b8b6aae1d3a1f91d5307f4ed76c5ac4551",
+    "retrieved_at": "2026-11-08T07:45:17.761148+00:00"
+  },
+  {
+    "set_id": "101052211-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/101052211-1.jpg",
+    "status": "downloaded",
+    "path": "images/df921250f39df9c3cb804303ec1e3add583839992e6cc32c95d667d9bb24707c.img",
+    "sha256": "df921250f39df9c3cb804303ec1e3add583839992e6cc32c95d667d9bb24707c",
+    "retrieved_at": "2026-11-08T07:45:19.391241+00:00"
+  },
+  {
+    "set_id": "10106-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10106-1.jpg",
+    "status": "downloaded",
+    "path": "images/d11fe7eefd6c1eec4fe7b8eb8333e0ef2c60f4aacbf8cf0def0144d6c91c9240.img",
+    "sha256": "d11fe7eefd6c1eec4fe7b8eb8333e0ef2c60f4aacbf8cf0def0144d6c91c9240",
+    "retrieved_at": "2026-11-08T07:45:20.098123+00:00"
+  },
+  {
+    "set_id": "1011-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1011-1.jpg",
+    "status": "downloaded",
+    "path": "images/15903e24a9deddcdbabd3f33120a9db7c29d3a69b6f26b999fe1a90439cdbfbf.img",
+    "sha256": "15903e24a9deddcdbabd3f33120a9db7c29d3a69b6f26b999fe1a90439cdbfbf",
+    "retrieved_at": "2026-11-08T07:45:21.441506+00:00"
+  },
+  {
+    "set_id": "10111-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10111-1.jpg",
+    "status": "downloaded",
+    "path": "images/47cecc55fb2edaaf33221aa74598cc3a97190f899a22640dc1dae3dacc1e96b5.img",
+    "sha256": "47cecc55fb2edaaf33221aa74598cc3a97190f899a22640dc1dae3dacc1e96b5",
+    "retrieved_at": "2026-11-08T07:45:22.265576+00:00"
+  },
+  {
+    "set_id": "10112-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10112-1.jpg",
+    "status": "downloaded",
+    "path": "images/0533ea6f5724a4ea3d397d29138cbfbcec84be548815451ae121d83d2d222276.img",
+    "sha256": "0533ea6f5724a4ea3d397d29138cbfbcec84be548815451ae121d83d2d222276",
+    "retrieved_at": "2026-11-08T07:45:22.903677+00:00"
+  },
+  {
+    "set_id": "10113-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10113-1.jpg",
+    "status": "downloaded",
+    "path": "images/e5072d36050c9c509d1d822e8d02c23d11ad1c7fcb93499bd6e7552e6e96a9f5.img",
+    "sha256": "e5072d36050c9c509d1d822e8d02c23d11ad1c7fcb93499bd6e7552e6e96a9f5",
+    "retrieved_at": "2026-11-08T07:45:23.312524+00:00"
+  },
+  {
+    "set_id": "10114-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10114-1.jpg",
+    "status": "downloaded",
+    "path": "images/88c65eb1ae8e01933f7d7f436f0e7feae68609f1e73a38c7fea7f3f8e369efa1.img",
+    "sha256": "88c65eb1ae8e01933f7d7f436f0e7feae68609f1e73a38c7fea7f3f8e369efa1",
+    "retrieved_at": "2026-11-08T07:45:23.957237+00:00"
+  },
+  {
+    "set_id": "10115-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10115-1.jpg",
+    "status": "downloaded",
+    "path": "images/4c13c2d18271a9d14bc5319e5fed829324877556fa80de3a781b4154114bd415.img",
+    "sha256": "4c13c2d18271a9d14bc5319e5fed829324877556fa80de3a781b4154114bd415",
+    "retrieved_at": "2026-11-08T07:45:24.825570+00:00"
+  },
+  {
+    "set_id": "10116-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10116-1.jpg",
+    "status": "downloaded",
+    "path": "images/b44d1ab0bd1a315c5134124c7daf19a11822bf370722557e42f55434e649b337.img",
+    "sha256": "b44d1ab0bd1a315c5134124c7daf19a11822bf370722557e42f55434e649b337",
+    "retrieved_at": "2026-11-08T07:45:25.390166+00:00"
+  },
+  {
+    "set_id": "10117-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10117-1.jpg",
+    "status": "downloaded",
+    "path": "images/40ff89a8dd976add7c38d3616a60ed0dd2041d916cc30b4fe3d668403c2bff74.img",
+    "sha256": "40ff89a8dd976add7c38d3616a60ed0dd2041d916cc30b4fe3d668403c2bff74",
+    "retrieved_at": "2026-11-08T07:45:25.875668+00:00"
+  },
+  {
+    "set_id": "10118-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10118-1.jpg",
+    "status": "downloaded",
+    "path": "images/dd1f049528e8d92eae178acc1f30e07d6a51b5f3aeab96a3b4e5ab9e48aaafa8.img",
+    "sha256": "dd1f049528e8d92eae178acc1f30e07d6a51b5f3aeab96a3b4e5ab9e48aaafa8",
+    "retrieved_at": "2026-11-08T07:45:27.316752+00:00"
+  },
+  {
+    "set_id": "1012-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1012-1.jpg",
+    "status": "downloaded",
+    "path": "images/908a146d872be3ef03860631f4cc5e94e75b655d696af09f2588c09f05e70f09.img",
+    "sha256": "908a146d872be3ef03860631f4cc5e94e75b655d696af09f2588c09f05e70f09",
+    "retrieved_at": "2026-11-08T07:45:29.092267+00:00"
+  },
+  {
+    "set_id": "10121-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10121-1.jpg",
+    "status": "downloaded",
+    "path": "images/a8c9ded184d7ee4ad6e4316abb0915781e277b1590e080c9fc88807a8a767a0b.img",
+    "sha256": "a8c9ded184d7ee4ad6e4316abb0915781e277b1590e080c9fc88807a8a767a0b",
+    "retrieved_at": "2026-11-08T07:45:29.771088+00:00"
+  },
+  {
+    "set_id": "10123-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10123-1.jpg",
+    "status": "downloaded",
+    "path": "images/ef820f7090620f599c006dba1a433f53cabc3d64a0e2588da364a6cb5b777230.img",
+    "sha256": "ef820f7090620f599c006dba1a433f53cabc3d64a0e2588da364a6cb5b777230",
+    "retrieved_at": "2026-11-08T07:45:30.395987+00:00"
+  },
+  {
+    "set_id": "10124-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10124-1.jpg",
+    "status": "downloaded",
+    "path": "images/5668aee026c27e962c42989418ee6343532b5bb697a6f3b75214f7e0593863b6.img",
+    "sha256": "5668aee026c27e962c42989418ee6343532b5bb697a6f3b75214f7e0593863b6",
+    "retrieved_at": "2026-11-08T07:45:31.549723+00:00"
+  },
+  {
+    "set_id": "10127-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10127-1.jpg",
+    "status": "downloaded",
+    "path": "images/bc9f55ccd077adafe9cc598315a0b516214330ef087fb9d3b1f6950cbf785ac5.img",
+    "sha256": "bc9f55ccd077adafe9cc598315a0b516214330ef087fb9d3b1f6950cbf785ac5",
+    "retrieved_at": "2026-11-08T07:45:33.950059+00:00"
+  },
+  {
+    "set_id": "10128-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10128-1.jpg",
+    "status": "downloaded",
+    "path": "images/6fd4c8bf0a6a910c72fa8f81e081017da4af2a97056140ee16aa44dbe05b8183.img",
+    "sha256": "6fd4c8bf0a6a910c72fa8f81e081017da4af2a97056140ee16aa44dbe05b8183",
+    "retrieved_at": "2026-11-08T07:45:34.508653+00:00"
+  },
+  {
+    "set_id": "10128-2",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10128-2.jpg",
+    "status": "downloaded",
+    "path": "images/ca0ada72034a33a8bab4168fc0f5af2d1053b0a4479c72fca9af24a1f49d17d5.img",
+    "sha256": "ca0ada72034a33a8bab4168fc0f5af2d1053b0a4479c72fca9af24a1f49d17d5",
+    "retrieved_at": "2026-11-08T07:45:35.150616+00:00"
+  },
+  {
+    "set_id": "10129-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10129-1.jpg",
+    "status": "downloaded",
+    "path": "images/e330c5c289e34607de30eb25c607d3d2f7a6558abdaf74d740e2afc032589bd3.img",
+    "sha256": "e330c5c289e34607de30eb25c607d3d2f7a6558abdaf74d740e2afc032589bd3",
+    "retrieved_at": "2026-11-08T07:45:35.731375+00:00"
+  },
+  {
+    "set_id": "1013-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1013-1.jpg",
+    "status": "downloaded",
+    "path": "images/bc673a3c098705e375759f373c5fe95b2973c8aa86f1a3e28b774e8c7f6f7119.img",
+    "sha256": "bc673a3c098705e375759f373c5fe95b2973c8aa86f1a3e28b774e8c7f6f7119",
+    "retrieved_at": "2026-11-08T07:45:36.606681+00:00"
+  },
+  {
+    "set_id": "10131-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10131-1.jpg",
+    "status": "downloaded",
+    "path": "images/226c1bee5803a2a7448eb167a04a07327242330dc81b5a702fc8ec4ac72e0e75.img",
+    "sha256": "226c1bee5803a2a7448eb167a04a07327242330dc81b5a702fc8ec4ac72e0e75",
+    "retrieved_at": "2026-11-08T07:45:37.308804+00:00"
+  },
+  {
+    "set_id": "10132-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10132-1.jpg",
+    "status": "downloaded",
+    "path": "images/8990ee330548a70a1b381be72086027fb59e759f93ddbeb27a4db752fa85658b.img",
+    "sha256": "8990ee330548a70a1b381be72086027fb59e759f93ddbeb27a4db752fa85658b",
+    "retrieved_at": "2026-11-08T07:45:38.145956+00:00"
+  },
+  {
+    "set_id": "10133-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10133-1.jpg",
+    "status": "downloaded",
+    "path": "images/c606cc3fd3bcd2b80bd00905078815b42e91506395dc73bbe2475c5d6e03457b.img",
+    "sha256": "c606cc3fd3bcd2b80bd00905078815b42e91506395dc73bbe2475c5d6e03457b",
+    "retrieved_at": "2026-11-08T07:45:38.338129+00:00"
+  },
+  {
+    "set_id": "10134-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10134-1.jpg",
+    "status": "downloaded",
+    "path": "images/78a179059f17877f6a9810105e9777280a23df8328ed2683411344f4b7053f1b.img",
+    "sha256": "78a179059f17877f6a9810105e9777280a23df8328ed2683411344f4b7053f1b",
+    "retrieved_at": "2026-11-08T07:45:38.802122+00:00"
+  },
+  {
+    "set_id": "10135-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10135-1.jpg",
+    "status": "downloaded",
+    "path": "images/eebaecd6874cdce4305b5a893ead074ae4517e363bdacad02fa2f99a7e67abfa.img",
+    "sha256": "eebaecd6874cdce4305b5a893ead074ae4517e363bdacad02fa2f99a7e67abfa",
+    "retrieved_at": "2026-11-08T07:45:39.277815+00:00"
+  },
+  {
+    "set_id": "1014-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1014-1.jpg",
+    "status": "downloaded",
+    "path": "images/7aea170d358348df07cebee0072d097305b77a48f0f347dd4210ced95a17223d.img",
+    "sha256": "7aea170d358348df07cebee0072d097305b77a48f0f347dd4210ced95a17223d",
+    "retrieved_at": "2026-11-08T07:45:40.386656+00:00"
+  },
+  {
+    "set_id": "1014-2",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1014-2.jpg",
+    "status": "downloaded",
+    "path": "images/8e70e8a63ec7b0e0cdabe46a786f6d1be0d47d76ee974451d705cac2f1d00f47.img",
+    "sha256": "8e70e8a63ec7b0e0cdabe46a786f6d1be0d47d76ee974451d705cac2f1d00f47",
+    "retrieved_at": "2026-11-08T07:45:41.278373+00:00"
+  },
+  {
+    "set_id": "10143-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10143-1.jpg",
+    "status": "downloaded",
+    "path": "images/0cbd32dbb31fb723e6c377f0a4c0d0d80595314a4d88be3260e68fc1c7622d74.img",
+    "sha256": "0cbd32dbb31fb723e6c377f0a4c0d0d80595314a4d88be3260e68fc1c7622d74",
+    "retrieved_at": "2026-11-08T07:45:41.773703+00:00"
+  },
+  {
+    "set_id": "10144-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10144-1.jpg",
+    "status": "downloaded",
+    "path": "images/2457d4bab7ee9e142714e90b6831b770e3e8bb54096f2e86a7b5721c183edb8b.img",
+    "sha256": "2457d4bab7ee9e142714e90b6831b770e3e8bb54096f2e86a7b5721c183edb8b",
+    "retrieved_at": "2026-11-08T07:45:42.262768+00:00"
+  },
+  {
+    "set_id": "10145-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10145-1.jpg",
+    "status": "downloaded",
+    "path": "images/c4c671c1b763f9803e24dfa306a76af0993008fa179009fe56ecb59c2bdeacef.img",
+    "sha256": "c4c671c1b763f9803e24dfa306a76af0993008fa179009fe56ecb59c2bdeacef",
+    "retrieved_at": "2026-11-08T07:45:42.730368+00:00"
+  },
+  {
+    "set_id": "10146-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10146-1.jpg",
+    "status": "downloaded",
+    "path": "images/afaa763f5afe5bdf1f2297a56c5be7a6d9b86a53512b14861b771c21563cb8f8.img",
+    "sha256": "afaa763f5afe5bdf1f2297a56c5be7a6d9b86a53512b14861b771c21563cb8f8",
+    "retrieved_at": "2026-11-08T07:45:43.180316+00:00"
+  },
+  {
+    "set_id": "10147-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10147-1.jpg",
+    "status": "downloaded",
+    "path": "images/e38e7d39b4ca41304ce5e529f6ea3b68c817e43eeee6b04bda53d23dde31c388.img",
+    "sha256": "e38e7d39b4ca41304ce5e529f6ea3b68c817e43eeee6b04bda53d23dde31c388",
+    "retrieved_at": "2026-11-08T07:45:43.716361+00:00"
+  },
+  {
+    "set_id": "10148-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10148-1.jpg",
+    "status": "downloaded",
+    "path": "images/1730db5f31a0c5e3193700ed1888cf2db69837a71eddbeb2b9e6482babfe8943.img",
+    "sha256": "1730db5f31a0c5e3193700ed1888cf2db69837a71eddbeb2b9e6482babfe8943",
+    "retrieved_at": "2026-11-08T07:45:44.197631+00:00"
+  },
+  {
+    "set_id": "10149-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10149-1.jpg",
+    "status": "downloaded",
+    "path": "images/dba7e7e8a596a6a81a009db4623ac12dc09ccfa5655707769aa392f8cf40232b.img",
+    "sha256": "dba7e7e8a596a6a81a009db4623ac12dc09ccfa5655707769aa392f8cf40232b",
+    "retrieved_at": "2026-11-08T07:45:44.710768+00:00"
+  },
+  {
+    "set_id": "1015-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1015-1.jpg",
+    "status": "downloaded",
+    "path": "images/dcca16d838c560f433bd00175f70a561bd2837eb6d814115ace4628266893ca0.img",
+    "sha256": "dcca16d838c560f433bd00175f70a561bd2837eb6d814115ace4628266893ca0",
+    "retrieved_at": "2026-11-08T07:45:45.607819+00:00"
+  },
+  {
+    "set_id": "10150-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10150-1.jpg",
+    "status": "downloaded",
+    "path": "images/d8cca1b129f55448f14617f1f430b84553e39d8c7985a2cb64bc6dab861fbabd.img",
+    "sha256": "d8cca1b129f55448f14617f1f430b84553e39d8c7985a2cb64bc6dab861fbabd",
+    "retrieved_at": "2026-11-08T07:45:46.174614+00:00"
+  },
+  {
+    "set_id": "10151-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10151-1.jpg",
+    "status": "downloaded",
+    "path": "images/1aa87a039edd215427c9d5e6ce6b2c41ada19572683720b9ed417cde40dbc1ae.img",
+    "sha256": "1aa87a039edd215427c9d5e6ce6b2c41ada19572683720b9ed417cde40dbc1ae",
+    "retrieved_at": "2026-11-08T07:45:46.841701+00:00"
+  },
+  {
+    "set_id": "10152-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10152-1.jpg",
+    "status": "downloaded",
+    "path": "images/abb73c35f690803cec4ccba907756270eade66f2e74d240befa9526094e3347c.img",
+    "sha256": "abb73c35f690803cec4ccba907756270eade66f2e74d240befa9526094e3347c",
+    "retrieved_at": "2026-11-08T07:45:47.440241+00:00"
+  },
+  {
+    "set_id": "10152-2",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10152-2.jpg",
+    "status": "downloaded",
+    "path": "images/2943b945ffd97bcdee07c308ab16cf83d23bd747249865eec9cc600c88739f58.img",
+    "sha256": "2943b945ffd97bcdee07c308ab16cf83d23bd747249865eec9cc600c88739f58",
+    "retrieved_at": "2026-11-08T07:45:48.788785+00:00"
+  },
+  {
+    "set_id": "10152-3",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10152-3.jpg",
+    "status": "downloaded",
+    "path": "images/1f0fd213206c8f730d32d66c3c6aad413e6622258d1175740f52c01d9e96ee83.img",
+    "sha256": "1f0fd213206c8f730d32d66c3c6aad413e6622258d1175740f52c01d9e96ee83",
+    "retrieved_at": "2026-11-08T07:45:49.311429+00:00"
+  },
+  {
+    "set_id": "10153-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10153-1.jpg",
+    "status": "downloaded",
+    "path": "images/57067fbfd82a73baa1314d69a4ca550622f0f79531e8bd5aa51798e4cbac6f8f.img",
+    "sha256": "57067fbfd82a73baa1314d69a4ca550622f0f79531e8bd5aa51798e4cbac6f8f",
+    "retrieved_at": "2026-11-08T07:45:49.840592+00:00"
+  },
+  {
+    "set_id": "10155-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10155-1.jpg",
+    "status": "downloaded",
+    "path": "images/c10e422639c36033cd3d19da97bcf3114eb90b277dab308b55c51f8958094b64.img",
+    "sha256": "c10e422639c36033cd3d19da97bcf3114eb90b277dab308b55c51f8958094b64",
+    "retrieved_at": "2026-11-08T07:45:51.287816+00:00"
+  },
+  {
+    "set_id": "10156-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10156-1.jpg",
+    "status": "downloaded",
+    "path": "images/8d24ae70d74b58be46eefd0e6f114f869c2acb1a5c725d67272d4aaf4c9d2be2.img",
+    "sha256": "8d24ae70d74b58be46eefd0e6f114f869c2acb1a5c725d67272d4aaf4c9d2be2",
+    "retrieved_at": "2026-11-08T07:45:51.848633+00:00"
+  },
+  {
+    "set_id": "10157-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10157-1.jpg",
+    "status": "downloaded",
+    "path": "images/0c207172bb5b6665081f7a5e0f939e82dbda2828816bc38623e76c50c2bd1717.img",
+    "sha256": "0c207172bb5b6665081f7a5e0f939e82dbda2828816bc38623e76c50c2bd1717",
+    "retrieved_at": "2026-11-08T07:45:52.429922+00:00"
+  },
+  {
+    "set_id": "10158-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10158-1.jpg",
+    "status": "downloaded",
+    "path": "images/6f4196e4a1ad8a4dea3cd1e8659f77735b4bf64ed58d9624080a7e683d5a60c3.img",
+    "sha256": "6f4196e4a1ad8a4dea3cd1e8659f77735b4bf64ed58d9624080a7e683d5a60c3",
+    "retrieved_at": "2026-11-08T07:45:53.018617+00:00"
+  },
+  {
+    "set_id": "10159-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10159-1.jpg",
+    "status": "downloaded",
+    "path": "images/c9c1bb7161db4b902eedb48d175172f6ccb57bd4b2ac2bd5767f700b13a7bb82.img",
+    "sha256": "c9c1bb7161db4b902eedb48d175172f6ccb57bd4b2ac2bd5767f700b13a7bb82",
+    "retrieved_at": "2026-11-08T07:45:53.536365+00:00"
+  },
+  {
+    "set_id": "10159-2",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10159-2.jpg",
+    "status": "downloaded",
+    "path": "images/5c9251bda65e01950448e38421336abd014f612e782d026201312d3fbc0473d8.img",
+    "sha256": "5c9251bda65e01950448e38421336abd014f612e782d026201312d3fbc0473d8",
+    "retrieved_at": "2026-11-08T07:45:54.038332+00:00"
+  },
+  {
+    "set_id": "1016-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1016-1.jpg",
+    "status": "downloaded",
+    "path": "images/78849ce2a8e1f6abe455ee7cfc944552931d74fb920eeb5aece39abd87f8edb8.img",
+    "sha256": "78849ce2a8e1f6abe455ee7cfc944552931d74fb920eeb5aece39abd87f8edb8",
+    "retrieved_at": "2026-11-08T07:45:54.868619+00:00"
+  },
+  {
+    "set_id": "10160-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10160-1.jpg",
+    "status": "downloaded",
+    "path": "images/864293fac4e70fd2099064c2005cd5f8401fbd8b3fca093065ae419b1b8157fe.img",
+    "sha256": "864293fac4e70fd2099064c2005cd5f8401fbd8b3fca093065ae419b1b8157fe",
+    "retrieved_at": "2026-11-08T07:45:55.266353+00:00"
+  },
+  {
+    "set_id": "10161-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10161-1.jpg",
+    "status": "downloaded",
+    "path": "images/37df7a43dd82ce2638e64bf2274a458332d8ea1a2249273786f311c9e9d38096.img",
+    "sha256": "37df7a43dd82ce2638e64bf2274a458332d8ea1a2249273786f311c9e9d38096",
+    "retrieved_at": "2026-11-08T07:45:55.667944+00:00"
+  },
+  {
+    "set_id": "10162-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10162-1.jpg",
+    "status": "downloaded",
+    "path": "images/8dc4900bb0fcd49282023b5f66120d221084451c9df93fe6fa9937aad37659b3.img",
+    "sha256": "8dc4900bb0fcd49282023b5f66120d221084451c9df93fe6fa9937aad37659b3",
+    "retrieved_at": "2026-11-08T07:45:56.290040+00:00"
+  },
+  {
+    "set_id": "10163-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10163-1.jpg",
+    "status": "downloaded",
+    "path": "images/4ff4f64bb7b68230d02522b78df2f795e5dfd7474df9b07b5412ecdb0b59d279.img",
+    "sha256": "4ff4f64bb7b68230d02522b78df2f795e5dfd7474df9b07b5412ecdb0b59d279",
+    "retrieved_at": "2026-11-08T07:45:56.646224+00:00"
+  },
+  {
+    "set_id": "10165-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10165-1.jpg",
+    "status": "downloaded",
+    "path": "images/c57d8a9d4e3bf4665545b06c3a29936f64103f27d1f9a42ce427b2e5ca1c6d8a.img",
+    "sha256": "c57d8a9d4e3bf4665545b06c3a29936f64103f27d1f9a42ce427b2e5ca1c6d8a",
+    "retrieved_at": "2026-11-08T07:45:57.019081+00:00"
+  },
+  {
+    "set_id": "10166-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10166-1.jpg",
+    "status": "downloaded",
+    "path": "images/373cb5a135af4aae1c2e9c1dcf5b0cf181a03af68a37e818d7a28c98d685c647.img",
+    "sha256": "373cb5a135af4aae1c2e9c1dcf5b0cf181a03af68a37e818d7a28c98d685c647",
+    "retrieved_at": "2026-11-08T07:45:57.471277+00:00"
+  },
+  {
+    "set_id": "10167-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10167-1.jpg",
+    "status": "downloaded",
+    "path": "images/7af4ab0b39a2a128f526ffc0280f5da2ff5232b2f9bc5132008ac23ba654ea05.img",
+    "sha256": "7af4ab0b39a2a128f526ffc0280f5da2ff5232b2f9bc5132008ac23ba654ea05",
+    "retrieved_at": "2026-11-08T07:45:57.988958+00:00"
+  },
+  {
+    "set_id": "10168-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10168-1.jpg",
+    "status": "downloaded",
+    "path": "images/8a6b39deba86c6f68c5efcba9d45a2b709a84bd9a861356fd3dbdd1f17a35590.img",
+    "sha256": "8a6b39deba86c6f68c5efcba9d45a2b709a84bd9a861356fd3dbdd1f17a35590",
+    "retrieved_at": "2026-11-08T07:45:58.666542+00:00"
+  },
+  {
+    "set_id": "10169-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10169-1.jpg",
+    "status": "downloaded",
+    "path": "images/f2ea8d258d8437bcd21ac2df549a1ade61c7aff1213d321f721eea9994e93593.img",
+    "sha256": "f2ea8d258d8437bcd21ac2df549a1ade61c7aff1213d321f721eea9994e93593",
+    "retrieved_at": "2026-11-08T07:45:59.216658+00:00"
+  },
+  {
+    "set_id": "1017-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1017-1.jpg",
+    "status": "downloaded",
+    "path": "images/b13f5566a5b9937eb0d9567d50c29fdb22f5fe82149ed1a4aa56865701db1cae.img",
+    "sha256": "b13f5566a5b9937eb0d9567d50c29fdb22f5fe82149ed1a4aa56865701db1cae",
+    "retrieved_at": "2026-11-08T07:46:00.498719+00:00"
+  },
+  {
+    "set_id": "10170-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10170-1.jpg",
+    "status": "downloaded",
+    "path": "images/37c36717284c0c054de3029b97aa3126ef4a20a1fbf08d25bf6a46e6193d98ff.img",
+    "sha256": "37c36717284c0c054de3029b97aa3126ef4a20a1fbf08d25bf6a46e6193d98ff",
+    "retrieved_at": "2026-11-08T07:46:00.663954+00:00"
+  },
+  {
+    "set_id": "10173-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10173-1.jpg",
+    "status": "downloaded",
+    "path": "images/4c396495145f2ce0ddcf50066c9437f731034a8d404272d0f0883ec3bcb0fceb.img",
+    "sha256": "4c396495145f2ce0ddcf50066c9437f731034a8d404272d0f0883ec3bcb0fceb",
+    "retrieved_at": "2026-11-08T07:46:01.548831+00:00"
+  },
+  {
+    "set_id": "10174-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10174-1.jpg",
+    "status": "downloaded",
+    "path": "images/bf9a28913e7c744d0ba4dee65f590caed8c5b6aae504564509843ed995e74ddf.img",
+    "sha256": "bf9a28913e7c744d0ba4dee65f590caed8c5b6aae504564509843ed995e74ddf",
+    "retrieved_at": "2026-11-08T07:46:03.004166+00:00"
+  },
+  {
+    "set_id": "10175-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10175-1.jpg",
+    "status": "downloaded",
+    "path": "images/c4707dc6a75ff18fa8995abe175663e2694a1fbf313a59f27d13c2b26928f3e0.img",
+    "sha256": "c4707dc6a75ff18fa8995abe175663e2694a1fbf313a59f27d13c2b26928f3e0",
+    "retrieved_at": "2026-11-08T07:46:04.020175+00:00"
+  },
+  {
+    "set_id": "10176-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10176-1.jpg",
+    "status": "downloaded",
+    "path": "images/188957277be0351296dff13ce6258eef70398831f321822d2c63959996b6ad23.img",
+    "sha256": "188957277be0351296dff13ce6258eef70398831f321822d2c63959996b6ad23",
+    "retrieved_at": "2026-11-08T07:46:04.598750+00:00"
+  },
+  {
+    "set_id": "10177-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10177-1.jpg",
+    "status": "downloaded",
+    "path": "images/c976b1080b8971d49c55d57b33675c612dcc30f45a616c55a2794c7cf91dbe21.img",
+    "sha256": "c976b1080b8971d49c55d57b33675c612dcc30f45a616c55a2794c7cf91dbe21",
+    "retrieved_at": "2026-11-08T07:46:04.962432+00:00"
+  },
+  {
+    "set_id": "10178-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10178-1.jpg",
+    "status": "downloaded",
+    "path": "images/6ee9669bf43c1145590e99da05bff054a70937291ce3d80b1f792fa6982e312f.img",
+    "sha256": "6ee9669bf43c1145590e99da05bff054a70937291ce3d80b1f792fa6982e312f",
+    "retrieved_at": "2026-11-08T07:46:05.478116+00:00"
+  },
+  {
+    "set_id": "10179-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10179-1.jpg",
+    "status": "downloaded",
+    "path": "images/07792cb1701ed1cb145b0cd24c26a4b3bfdb2b46308f7a26ccd16152a704288c.img",
+    "sha256": "07792cb1701ed1cb145b0cd24c26a4b3bfdb2b46308f7a26ccd16152a704288c",
+    "retrieved_at": "2026-11-08T07:46:05.680418+00:00"
+  },
+  {
+    "set_id": "1018-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1018-1.jpg",
+    "status": "downloaded",
+    "path": "images/1a72b92f0535373e12942d82721d6ab88b4d95c14840776ecc900ad49ebe6374.img",
+    "sha256": "1a72b92f0535373e12942d82721d6ab88b4d95c14840776ecc900ad49ebe6374",
+    "retrieved_at": "2026-11-08T07:46:06.588135+00:00"
+  },
+  {
+    "set_id": "10181-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10181-1.jpg",
+    "status": "downloaded",
+    "path": "images/3060858f9b0cc0e0551d6ae14a7bb1b080cdd8da1eb91283fecb57b85f226edb.img",
+    "sha256": "3060858f9b0cc0e0551d6ae14a7bb1b080cdd8da1eb91283fecb57b85f226edb",
+    "retrieved_at": "2026-11-08T07:46:06.896402+00:00"
+  },
+  {
+    "set_id": "10182-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10182-1.jpg",
+    "status": "downloaded",
+    "path": "images/0233eb76c3b412133818bc3ab0bba870413c9a867a8fd1813cb18f01ee6f69cd.img",
+    "sha256": "0233eb76c3b412133818bc3ab0bba870413c9a867a8fd1813cb18f01ee6f69cd",
+    "retrieved_at": "2026-11-08T07:46:08.096385+00:00"
+  },
+  {
+    "set_id": "10183-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10183-1.jpg",
+    "status": "downloaded",
+    "path": "images/b53505074495f98347c3b2b37af5a73219580988b1d028d05a1c9654c4bc23d4.img",
+    "sha256": "b53505074495f98347c3b2b37af5a73219580988b1d028d05a1c9654c4bc23d4",
+    "retrieved_at": "2026-11-08T07:46:08.567860+00:00"
+  },
+  {
+    "set_id": "10184-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10184-1.jpg",
+    "status": "downloaded",
+    "path": "images/36a477f0de4b466379043c341b20f97ff2c8403eb74a3a6e19a4cdffb1ffe06d.img",
+    "sha256": "36a477f0de4b466379043c341b20f97ff2c8403eb74a3a6e19a4cdffb1ffe06d",
+    "retrieved_at": "2026-11-08T07:46:09.288173+00:00"
+  },
+  {
+    "set_id": "10185-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10185-1.jpg",
+    "status": "downloaded",
+    "path": "images/56fb79d8ac3f91a68fc5ec653e22fd37c0e2ac598ba2ded99363781c6785b2f7.img",
+    "sha256": "56fb79d8ac3f91a68fc5ec653e22fd37c0e2ac598ba2ded99363781c6785b2f7",
+    "retrieved_at": "2026-11-08T07:46:10.476874+00:00"
+  },
+  {
+    "set_id": "10186-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10186-1.jpg",
+    "status": "downloaded",
+    "path": "images/7a461c01e329c71bb7fba532d1684f679745b82866ec01f364833344ffe2051a.img",
+    "sha256": "7a461c01e329c71bb7fba532d1684f679745b82866ec01f364833344ffe2051a",
+    "retrieved_at": "2026-11-08T07:46:10.965815+00:00"
+  },
+  {
+    "set_id": "10187-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10187-1.jpg",
+    "status": "downloaded",
+    "path": "images/3947268c3ba24ffc5657f0371c05211c97f73a9a6b92407d6cfba078be84bd22.img",
+    "sha256": "3947268c3ba24ffc5657f0371c05211c97f73a9a6b92407d6cfba078be84bd22",
+    "retrieved_at": "2026-11-08T07:46:11.536486+00:00"
+  },
+  {
+    "set_id": "10188-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10188-1.jpg",
+    "status": "downloaded",
+    "path": "images/2521d6050d68dc6cbd9d914a9830adb86d13fbda460ce97d49b6e806f94f512b.img",
+    "sha256": "2521d6050d68dc6cbd9d914a9830adb86d13fbda460ce97d49b6e806f94f512b",
+    "retrieved_at": "2026-11-08T07:46:12.788136+00:00"
+  },
+  {
+    "set_id": "10189-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10189-1.jpg",
+    "status": "downloaded",
+    "path": "images/d668a8324d49af130d802835d6f9d5520da931c23ff69240b49f7f338c2b08c9.img",
+    "sha256": "d668a8324d49af130d802835d6f9d5520da931c23ff69240b49f7f338c2b08c9",
+    "retrieved_at": "2026-11-08T07:46:13.775526+00:00"
+  },
+  {
+    "set_id": "1019-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1019-1.jpg",
+    "status": "downloaded",
+    "path": "images/52a0d3f45a35f3f9ae8b4c61f0a3e35caba9bc0dbd7cb47939ad6aab4fb3eea7.img",
+    "sha256": "52a0d3f45a35f3f9ae8b4c61f0a3e35caba9bc0dbd7cb47939ad6aab4fb3eea7",
+    "retrieved_at": "2026-11-08T07:46:14.496584+00:00"
+  },
+  {
+    "set_id": "10190-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10190-1.jpg",
+    "status": "downloaded",
+    "path": "images/1c9634c72fb0d131e2f13f5516853cf5c82552abbb291e8680f4bcf00a7f7495.img",
+    "sha256": "1c9634c72fb0d131e2f13f5516853cf5c82552abbb291e8680f4bcf00a7f7495",
+    "retrieved_at": "2026-11-08T07:46:14.996650+00:00"
+  },
+  {
+    "set_id": "10191-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10191-1.jpg",
+    "status": "downloaded",
+    "path": "images/e258ad11aa076025d57c17e4a24aee9b24ebc2024b3ca8752a7573ff25fb382e.img",
+    "sha256": "e258ad11aa076025d57c17e4a24aee9b24ebc2024b3ca8752a7573ff25fb382e",
+    "retrieved_at": "2026-11-08T07:46:17.165762+00:00"
+  },
+  {
+    "set_id": "10192-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10192-1.jpg",
+    "status": "downloaded",
+    "path": "images/360ed7b84864b9b7caa8625c0bdc1f0befd1ac389269867384f85029c8b608dd.img",
+    "sha256": "360ed7b84864b9b7caa8625c0bdc1f0befd1ac389269867384f85029c8b608dd",
+    "retrieved_at": "2026-11-08T07:46:17.687914+00:00"
+  },
+  {
+    "set_id": "10193-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10193-1.jpg",
+    "status": "downloaded",
+    "path": "images/853a6f8a5fe0cd4f323163ed3d5bf1b821b74d86c1e2465b05ec2f7dc789a02b.img",
+    "sha256": "853a6f8a5fe0cd4f323163ed3d5bf1b821b74d86c1e2465b05ec2f7dc789a02b",
+    "retrieved_at": "2026-11-08T07:46:19.545826+00:00"
+  },
+  {
+    "set_id": "10194-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10194-1.jpg",
+    "status": "downloaded",
+    "path": "images/e6445827c0af8df242891f83a337767bd09fd05f4bea5e61b56ac49eba8031b5.img",
+    "sha256": "e6445827c0af8df242891f83a337767bd09fd05f4bea5e61b56ac49eba8031b5",
+    "retrieved_at": "2026-11-08T07:46:21.300533+00:00"
+  },
+  {
+    "set_id": "10195-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10195-1.jpg",
+    "status": "downloaded",
+    "path": "images/ee73ddc0f644fe74f97641f13b395cf25a822811424bf094b091bb06ff047d30.img",
+    "sha256": "ee73ddc0f644fe74f97641f13b395cf25a822811424bf094b091bb06ff047d30",
+    "retrieved_at": "2026-11-08T07:46:23.608107+00:00"
+  },
+  {
+    "set_id": "10196-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10196-1.jpg",
+    "status": "downloaded",
+    "path": "images/ae3c331a883ca522cae0f5b634f1af9627bc500019937944b4c942222d9784fb.img",
+    "sha256": "ae3c331a883ca522cae0f5b634f1af9627bc500019937944b4c942222d9784fb",
+    "retrieved_at": "2026-11-08T07:46:25.192714+00:00"
+  },
+  {
+    "set_id": "10197-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10197-1.jpg",
+    "status": "downloaded",
+    "path": "images/c088f0fef3e9275ee63aad69015112f3762855e6f58dd27440e4c52acd7abd2f.img",
+    "sha256": "c088f0fef3e9275ee63aad69015112f3762855e6f58dd27440e4c52acd7abd2f",
+    "retrieved_at": "2026-11-08T07:46:26.220156+00:00"
+  },
+  {
+    "set_id": "10198-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10198-1.jpg",
+    "status": "downloaded",
+    "path": "images/c70f5cc10f7e5fcc7d1ea74100617a4c9143a9adc6c3eef237af47a23e24b146.img",
+    "sha256": "c70f5cc10f7e5fcc7d1ea74100617a4c9143a9adc6c3eef237af47a23e24b146",
+    "retrieved_at": "2026-11-08T07:46:27.517237+00:00"
+  },
+  {
+    "set_id": "10199-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10199-1.jpg",
+    "status": "downloaded",
+    "path": "images/c39d8214046474855630c4c5365ca5ceb90b1fb5701ef7c5ef7b5e583e3bbd42.img",
+    "sha256": "c39d8214046474855630c4c5365ca5ceb90b1fb5701ef7c5ef7b5e583e3bbd42",
+    "retrieved_at": "2026-11-08T07:46:28.444163+00:00"
+  },
+  {
+    "set_id": "102-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/102-1.jpg",
+    "status": "downloaded",
+    "path": "images/63f800fd43551bed3e5b6695d3e14bf92a4ee81eef500dee8d3b38014693cce4.img",
+    "sha256": "63f800fd43551bed3e5b6695d3e14bf92a4ee81eef500dee8d3b38014693cce4",
+    "retrieved_at": "2026-11-08T07:46:28.955844+00:00"
+  },
+  {
+    "set_id": "102-2",
+    "source_url": "https://cdn.rebrickable.com/media/sets/102-2.jpg",
+    "status": "downloaded",
+    "path": "images/1573fc765ac0e228dc29b43ccd0f04c33766088082b22b55e97705386fb4f55a.img",
+    "sha256": "1573fc765ac0e228dc29b43ccd0f04c33766088082b22b55e97705386fb4f55a",
+    "retrieved_at": "2026-11-08T07:46:32.285662+00:00"
+  },
+  {
+    "set_id": "102-3",
+    "source_url": "https://cdn.rebrickable.com/media/sets/102-3.jpg",
+    "status": "downloaded",
+    "path": "images/6f3b32da48ce7e42021b5ef3a8502749ccd48a14e0ca3da5a997910a12b1bc2b.img",
+    "sha256": "6f3b32da48ce7e42021b5ef3a8502749ccd48a14e0ca3da5a997910a12b1bc2b",
+    "retrieved_at": "2026-11-08T07:46:33.232397+00:00"
+  },
+  {
+    "set_id": "1020-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1020-1.jpg",
+    "status": "downloaded",
+    "path": "images/42ccfab0589f608213d3f8ed872870ba13262a4808e9a07f5d1fa27fc9860e63.img",
+    "sha256": "42ccfab0589f608213d3f8ed872870ba13262a4808e9a07f5d1fa27fc9860e63",
+    "retrieved_at": "2026-11-08T07:46:34.242720+00:00"
+  },
+  {
+    "set_id": "10200-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10200-1.jpg",
+    "status": "downloaded",
+    "path": "images/febe841f65d4ca15680c873adc6c85df2520554512ee41fe25d9fc80af1e16e3.img",
+    "sha256": "febe841f65d4ca15680c873adc6c85df2520554512ee41fe25d9fc80af1e16e3",
+    "retrieved_at": "2026-11-08T07:46:35.526359+00:00"
+  },
+  {
+    "set_id": "10201-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10201-1.jpg",
+    "status": "downloaded",
+    "path": "images/86a57fbae7596171ec33812e1957df24876fcdb77f829bf1ee49f783898019be.img",
+    "sha256": "86a57fbae7596171ec33812e1957df24876fcdb77f829bf1ee49f783898019be",
+    "retrieved_at": "2026-11-08T07:46:36.051507+00:00"
+  },
+  {
+    "set_id": "10202-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10202-1.jpg",
+    "status": "downloaded",
+    "path": "images/5640d10de5dffba605285225a7df41bbb105b75622e9f8dc2e8872fd96424713.img",
+    "sha256": "5640d10de5dffba605285225a7df41bbb105b75622e9f8dc2e8872fd96424713",
+    "retrieved_at": "2026-11-08T07:46:37.049044+00:00"
+  },
+  {
+    "set_id": "10202-2",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10202-2.jpg",
+    "status": "downloaded",
+    "path": "images/7df1add6ae115690015a033fd355f8e8dccca67e8823db4600825aa12c86bb10.img",
+    "sha256": "7df1add6ae115690015a033fd355f8e8dccca67e8823db4600825aa12c86bb10",
+    "retrieved_at": "2026-11-08T07:46:42.488391+00:00"
+  },
+  {
+    "set_id": "10203-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10203-1.jpg",
+    "status": "downloaded",
+    "path": "images/409163251afe8ef4a3b9d8342742ca2f04cd997c253117f509065ae9a3d6e651.img",
+    "sha256": "409163251afe8ef4a3b9d8342742ca2f04cd997c253117f509065ae9a3d6e651",
+    "retrieved_at": "2026-11-08T07:46:43.236485+00:00"
+  },
+  {
+    "set_id": "10204-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10204-1.jpg",
+    "status": "downloaded",
+    "path": "images/5af2d3d28edc28210d0335e90e6985d564e40cf3170983e9f4c6ce6bde434ffc.img",
+    "sha256": "5af2d3d28edc28210d0335e90e6985d564e40cf3170983e9f4c6ce6bde434ffc",
+    "retrieved_at": "2026-11-08T07:46:43.766610+00:00"
+  },
+  {
+    "set_id": "10205-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10205-1.jpg",
+    "status": "downloaded",
+    "path": "images/191625480a294f331eda5e7abf693ae7ac20c0a51e16eb6628fda26744ae9db6.img",
+    "sha256": "191625480a294f331eda5e7abf693ae7ac20c0a51e16eb6628fda26744ae9db6",
+    "retrieved_at": "2026-11-08T07:46:44.539471+00:00"
+  },
+  {
+    "set_id": "1021-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1021-1.jpg",
+    "status": "downloaded",
+    "path": "images/e45479c1d86291263ac66940d1b34a126650982fe4a1b7a7336f848a6ce48a31.img",
+    "sha256": "e45479c1d86291263ac66940d1b34a126650982fe4a1b7a7336f848a6ce48a31",
+    "retrieved_at": "2026-11-08T07:46:45.298667+00:00"
+  },
+  {
+    "set_id": "10210-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10210-1.jpg",
+    "status": "downloaded",
+    "path": "images/eb70676a43716e6c7641f1cd928f907984395129c0db66dd60d1f69754305767.img",
+    "sha256": "eb70676a43716e6c7641f1cd928f907984395129c0db66dd60d1f69754305767",
+    "retrieved_at": "2026-11-08T07:46:46.696743+00:00"
+  },
+  {
+    "set_id": "10211-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10211-1.jpg",
+    "status": "downloaded",
+    "path": "images/08ae61f22b24fa9e83f84cabaef8cc9df6d4a2819cff52f46310843fb73aeae2.img",
+    "sha256": "08ae61f22b24fa9e83f84cabaef8cc9df6d4a2819cff52f46310843fb73aeae2",
+    "retrieved_at": "2026-11-08T07:46:47.450111+00:00"
+  },
+  {
+    "set_id": "10212-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10212-1.jpg",
+    "status": "downloaded",
+    "path": "images/67e97a2650524efd0d6dac31071f7ea017a8440ef272da5dc05ebc8b6f08aea1.img",
+    "sha256": "67e97a2650524efd0d6dac31071f7ea017a8440ef272da5dc05ebc8b6f08aea1",
+    "retrieved_at": "2026-11-08T07:46:49.058116+00:00"
+  },
+  {
+    "set_id": "10213-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10213-1.jpg",
+    "status": "downloaded",
+    "path": "images/600982b7427411c822d91ff5748d8158de4e8ef2fa52e4d81692ff993ab15cb6.img",
+    "sha256": "600982b7427411c822d91ff5748d8158de4e8ef2fa52e4d81692ff993ab15cb6",
+    "retrieved_at": "2026-11-08T07:46:50.098954+00:00"
+  },
+  {
+    "set_id": "10213sup-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10213sup-1.jpg",
+    "status": "missing",
+    "path": null,
+    "sha256": null,
+    "retrieved_at": null
+  },
+  {
+    "set_id": "10214-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10214-1.jpg",
+    "status": "downloaded",
+    "path": "images/d80ac0fc0827823571c274e56301431ac46276829817c8250e8cff1ad2c853e5.img",
+    "sha256": "d80ac0fc0827823571c274e56301431ac46276829817c8250e8cff1ad2c853e5",
+    "retrieved_at": "2026-11-08T07:46:51.978430+00:00"
+  },
+  {
+    "set_id": "10215-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10215-1.jpg",
+    "status": "downloaded",
+    "path": "images/36129c0fbbdae19502ac85e6a514932d690edce52f204a4e4f0f10409e35dbfa.img",
+    "sha256": "36129c0fbbdae19502ac85e6a514932d690edce52f204a4e4f0f10409e35dbfa",
+    "retrieved_at": "2026-11-08T07:46:53.494457+00:00"
+  },
+  {
+    "set_id": "10216-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10216-1.jpg",
+    "status": "downloaded",
+    "path": "images/b62ae22164c47e698afe250b626a2f5a51097509ff1aa55f7de2d16a99e5eaf9.img",
+    "sha256": "b62ae22164c47e698afe250b626a2f5a51097509ff1aa55f7de2d16a99e5eaf9",
+    "retrieved_at": "2026-11-08T07:46:54.835797+00:00"
+  },
+  {
+    "set_id": "10217-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10217-1.jpg",
+    "status": "downloaded",
+    "path": "images/64223a8d8357b04007e928103d3be693694f50ee0778ef7ef4c09a55ae776c2a.img",
+    "sha256": "64223a8d8357b04007e928103d3be693694f50ee0778ef7ef4c09a55ae776c2a",
+    "retrieved_at": "2026-11-08T07:46:55.746555+00:00"
+  },
+  {
+    "set_id": "10218-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10218-1.jpg",
+    "status": "downloaded",
+    "path": "images/6bf3b735e2f0c05b7f4c107ffb56c9388f3e005b028469e90a97d4623adf81e7.img",
+    "sha256": "6bf3b735e2f0c05b7f4c107ffb56c9388f3e005b028469e90a97d4623adf81e7",
+    "retrieved_at": "2026-11-08T07:46:57.283160+00:00"
+  },
+  {
+    "set_id": "10219-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10219-1.jpg",
+    "status": "downloaded",
+    "path": "images/b9672261ea5a932f683f7d89b242ac009663037e10f79fc427e73af218d3d41a.img",
+    "sha256": "b9672261ea5a932f683f7d89b242ac009663037e10f79fc427e73af218d3d41a",
+    "retrieved_at": "2026-11-08T07:46:58.338578+00:00"
+  },
+  {
+    "set_id": "1022-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1022-1.jpg",
+    "status": "downloaded",
+    "path": "images/4574060698bd4be341e90edf7e93c75a1bbb08670b5c15052f2040e0a379bb0a.img",
+    "sha256": "4574060698bd4be341e90edf7e93c75a1bbb08670b5c15052f2040e0a379bb0a",
+    "retrieved_at": "2026-11-08T07:46:58.922413+00:00"
+  },
+  {
+    "set_id": "10220-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10220-1.jpg",
+    "status": "downloaded",
+    "path": "images/f08aa4fa01502c5dfd0fa448af59b6ea179a8eaac582d1f24b89620c0e251c30.img",
+    "sha256": "f08aa4fa01502c5dfd0fa448af59b6ea179a8eaac582d1f24b89620c0e251c30",
+    "retrieved_at": "2026-11-08T07:46:59.816717+00:00"
+  },
+  {
+    "set_id": "10221-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10221-1.jpg",
+    "status": "downloaded",
+    "path": "images/501adb1bb0a8ef63e876d333e44d5be26d78ea682cac5d8579a7e857f4e4d012.img",
+    "sha256": "501adb1bb0a8ef63e876d333e44d5be26d78ea682cac5d8579a7e857f4e4d012",
+    "retrieved_at": "2026-11-08T07:47:01.270187+00:00"
+  },
+  {
+    "set_id": "10222-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10222-1.jpg",
+    "status": "downloaded",
+    "path": "images/f5391bb227dfd086b12f856662adbc9416cd88e63911a8db999abe1edb583f58.img",
+    "sha256": "f5391bb227dfd086b12f856662adbc9416cd88e63911a8db999abe1edb583f58",
+    "retrieved_at": "2026-11-08T07:47:02.801718+00:00"
+  },
+  {
+    "set_id": "10223-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10223-1.jpg",
+    "status": "downloaded",
+    "path": "images/141b5aa0f97ee45d62d6891fa50c3755753aa19b3ae393b72ea12fba515e40d6.img",
+    "sha256": "141b5aa0f97ee45d62d6891fa50c3755753aa19b3ae393b72ea12fba515e40d6",
+    "retrieved_at": "2026-11-08T07:47:03.868341+00:00"
+  },
+  {
+    "set_id": "10224-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10224-1.jpg",
+    "status": "downloaded",
+    "path": "images/885583e2c58430aaf6dc13e20c2103188b4e7af7c057201dc66f63931cec7d13.img",
+    "sha256": "885583e2c58430aaf6dc13e20c2103188b4e7af7c057201dc66f63931cec7d13",
+    "retrieved_at": "2026-11-08T07:47:05.217910+00:00"
+  },
+  {
+    "set_id": "10225-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10225-1.jpg",
+    "status": "downloaded",
+    "path": "images/08b22447ecbd0333453d8ecd6e833781f1a46929ec6436d482dda4dbc273dffd.img",
+    "sha256": "08b22447ecbd0333453d8ecd6e833781f1a46929ec6436d482dda4dbc273dffd",
+    "retrieved_at": "2026-11-08T07:47:06.682337+00:00"
+  },
+  {
+    "set_id": "10226-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10226-1.jpg",
+    "status": "downloaded",
+    "path": "images/cd340e7d40a3f126e77bf55b9c3a05ace1821be3e3cb82772c3bcc24126ea3f0.img",
+    "sha256": "cd340e7d40a3f126e77bf55b9c3a05ace1821be3e3cb82772c3bcc24126ea3f0",
+    "retrieved_at": "2026-11-08T07:47:07.739169+00:00"
+  },
+  {
+    "set_id": "10227-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10227-1.jpg",
+    "status": "downloaded",
+    "path": "images/4d67182d4e564a3317e99933dcb9af2511e7146410bc2d4ad1e07e8078049221.img",
+    "sha256": "4d67182d4e564a3317e99933dcb9af2511e7146410bc2d4ad1e07e8078049221",
+    "retrieved_at": "2026-11-08T07:47:09.194321+00:00"
+  },
+  {
+    "set_id": "10228-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10228-1.jpg",
+    "status": "downloaded",
+    "path": "images/f2c0da6eb9fb57bcfa6ec83f4f163723ae337349869c73ceb0302e6103ae7572.img",
+    "sha256": "f2c0da6eb9fb57bcfa6ec83f4f163723ae337349869c73ceb0302e6103ae7572",
+    "retrieved_at": "2026-11-08T07:47:10.355627+00:00"
+  },
+  {
+    "set_id": "10229-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10229-1.jpg",
+    "status": "downloaded",
+    "path": "images/b3e8a866e46826514a6d855fdecbb56d8bf5c030037a078a3d6e13df1fddb59f.img",
+    "sha256": "b3e8a866e46826514a6d855fdecbb56d8bf5c030037a078a3d6e13df1fddb59f",
+    "retrieved_at": "2026-11-08T07:47:11.191067+00:00"
+  },
+  {
+    "set_id": "1023-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1023-1.jpg",
+    "status": "missing",
+    "path": null,
+    "sha256": null,
+    "retrieved_at": null
+  },
+  {
+    "set_id": "10230-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10230-1.jpg",
+    "status": "downloaded",
+    "path": "images/b1769be41036c612f8209b6bb3bfcc19673cd3aa6f0301b30d8b21cf5bb02412.img",
+    "sha256": "b1769be41036c612f8209b6bb3bfcc19673cd3aa6f0301b30d8b21cf5bb02412",
+    "retrieved_at": "2026-11-08T07:47:13.268460+00:00"
+  },
+  {
+    "set_id": "102302-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/102302-1.jpg",
+    "status": "missing",
+    "path": null,
+    "sha256": null,
+    "retrieved_at": null
+  },
+  {
+    "set_id": "102302-2",
+    "source_url": "https://cdn.rebrickable.com/media/sets/102302-2.jpg",
+    "status": "missing",
+    "path": null,
+    "sha256": null,
+    "retrieved_at": null
+  },
+  {
+    "set_id": "102302-3",
+    "source_url": "https://cdn.rebrickable.com/media/sets/102302-3.jpg",
+    "status": "missing",
+    "path": null,
+    "sha256": null,
+    "retrieved_at": null
+  },
+  {
+    "set_id": "102302-4",
+    "source_url": "https://cdn.rebrickable.com/media/sets/102302-4.jpg",
+    "status": "missing",
+    "path": null,
+    "sha256": null,
+    "retrieved_at": null
+  },
+  {
+    "set_id": "102302-5",
+    "source_url": "https://cdn.rebrickable.com/media/sets/102302-5.jpg",
+    "status": "missing",
+    "path": null,
+    "sha256": null,
+    "retrieved_at": null
+  },
+  {
+    "set_id": "10231-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10231-1.jpg",
+    "status": "downloaded",
+    "path": "images/ae574ba10b1148ee6cc542852fd91a17838df2e4b5af65c731a4e414b8318a6b.img",
+    "sha256": "ae574ba10b1148ee6cc542852fd91a17838df2e4b5af65c731a4e414b8318a6b",
+    "retrieved_at": "2026-11-08T07:47:25.132947+00:00"
+  },
+  {
+    "set_id": "10232-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10232-1.jpg",
+    "status": "downloaded",
+    "path": "images/da15c49b4bc31d02ef06236ea884f4f1729909f0b1897c22684771a404ca3e78.img",
+    "sha256": "da15c49b4bc31d02ef06236ea884f4f1729909f0b1897c22684771a404ca3e78",
+    "retrieved_at": "2026-11-08T07:47:25.956331+00:00"
+  },
+  {
+    "set_id": "10233-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10233-1.jpg",
+    "status": "downloaded",
+    "path": "images/58d7f782199e99f97e0416910983bc1e9ecabd2490f26050bed835eeea6c9f6f.img",
+    "sha256": "58d7f782199e99f97e0416910983bc1e9ecabd2490f26050bed835eeea6c9f6f",
+    "retrieved_at": "2026-11-08T07:47:27.056375+00:00"
+  },
+  {
+    "set_id": "10234-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10234-1.jpg",
+    "status": "downloaded",
+    "path": "images/4559bf8b5fb9f0b030796b076b5aa2b36402e49410c534deb06826e72ff766b9.img",
+    "sha256": "4559bf8b5fb9f0b030796b076b5aa2b36402e49410c534deb06826e72ff766b9",
+    "retrieved_at": "2026-11-08T07:47:28.262406+00:00"
+  },
+  {
+    "set_id": "10235-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10235-1.jpg",
+    "status": "downloaded",
+    "path": "images/3bdf7933c0294a4caae3ad2082c5d692eca3106625b255872e84c9f755f171a6.img",
+    "sha256": "3bdf7933c0294a4caae3ad2082c5d692eca3106625b255872e84c9f755f171a6",
+    "retrieved_at": "2026-11-08T07:47:30.593558+00:00"
+  },
+  {
+    "set_id": "10236-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10236-1.jpg",
+    "status": "downloaded",
+    "path": "images/fa53c21888707db9213e9cd817db2a77d7e135e9663bd97f83a41ac18ead14ec.img",
+    "sha256": "fa53c21888707db9213e9cd817db2a77d7e135e9663bd97f83a41ac18ead14ec",
+    "retrieved_at": "2026-11-08T07:47:31.905849+00:00"
+  },
+  {
+    "set_id": "10237-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10237-1.jpg",
+    "status": "downloaded",
+    "path": "images/a6e0d04233995e87a0b4d60c1614e3ca5c4b83bc45028f5686459f6b9d74a36d.img",
+    "sha256": "a6e0d04233995e87a0b4d60c1614e3ca5c4b83bc45028f5686459f6b9d74a36d",
+    "retrieved_at": "2026-11-08T07:47:32.946316+00:00"
+  },
+  {
+    "set_id": "1024-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1024-1.jpg",
+    "status": "missing",
+    "path": null,
+    "sha256": null,
+    "retrieved_at": null
+  },
+  {
+    "set_id": "10240-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10240-1.jpg",
+    "status": "downloaded",
+    "path": "images/cd7af148ebacb39f15686b508642c933529abd09e00d1938ff3818c61b689cad.img",
+    "sha256": "cd7af148ebacb39f15686b508642c933529abd09e00d1938ff3818c61b689cad",
+    "retrieved_at": "2026-11-08T07:47:35.073752+00:00"
+  },
+  {
+    "set_id": "10241-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10241-1.jpg",
+    "status": "downloaded",
+    "path": "images/0cbf262aa0359839f5dab0e6a714ad5c7f0c84de332de6d39d79929a0618cf03.img",
+    "sha256": "0cbf262aa0359839f5dab0e6a714ad5c7f0c84de332de6d39d79929a0618cf03",
+    "retrieved_at": "2026-11-08T07:47:36.030934+00:00"
+  },
+  {
+    "set_id": "10242-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10242-1.jpg",
+    "status": "downloaded",
+    "path": "images/7e7e2ee137af05e866712cfb67d8827b46aad999dff47527b3716323f0b9cf0b.img",
+    "sha256": "7e7e2ee137af05e866712cfb67d8827b46aad999dff47527b3716323f0b9cf0b",
+    "retrieved_at": "2026-11-08T07:47:37.186300+00:00"
+  },
+  {
+    "set_id": "10242-2",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10242-2.jpg",
+    "status": "downloaded",
+    "path": "images/7e7e2ee137af05e866712cfb67d8827b46aad999dff47527b3716323f0b9cf0b.img",
+    "sha256": "7e7e2ee137af05e866712cfb67d8827b46aad999dff47527b3716323f0b9cf0b",
+    "retrieved_at": "2026-11-08T07:47:39.734117+00:00"
+  },
+  {
+    "set_id": "10243-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10243-1.jpg",
+    "status": "downloaded",
+    "path": "images/4084b647f5afb78e1e2b96bc86f025c91b787fcbab472b7b0f284b26970f9d93.img",
+    "sha256": "4084b647f5afb78e1e2b96bc86f025c91b787fcbab472b7b0f284b26970f9d93",
+    "retrieved_at": "2026-11-08T07:47:40.031047+00:00"
+  },
+  {
+    "set_id": "10244-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10244-1.jpg",
+    "status": "downloaded",
+    "path": "images/5ae26a27dcb5b44d7da4e8d56ce6c1a391c95b3ae9934289468d3a02e7e83e77.img",
+    "sha256": "5ae26a27dcb5b44d7da4e8d56ce6c1a391c95b3ae9934289468d3a02e7e83e77",
+    "retrieved_at": "2026-11-08T07:47:41.713633+00:00"
+  },
+  {
+    "set_id": "10245-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10245-1.jpg",
+    "status": "downloaded",
+    "path": "images/f8051089687ad1a96b373c845473fa0d4fa2ec8b9d723c6945b94cea7aea7700.img",
+    "sha256": "f8051089687ad1a96b373c845473fa0d4fa2ec8b9d723c6945b94cea7aea7700",
+    "retrieved_at": "2026-11-08T07:47:43.349820+00:00"
+  },
+  {
+    "set_id": "10246-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10246-1.jpg",
+    "status": "downloaded",
+    "path": "images/120d5687dc16757948930265221aa5a91c52ef8886faec1562e9e7afefc98f4c.img",
+    "sha256": "120d5687dc16757948930265221aa5a91c52ef8886faec1562e9e7afefc98f4c",
+    "retrieved_at": "2026-11-08T07:47:44.566620+00:00"
+  },
+  {
+    "set_id": "1024601-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1024601-1.jpg",
+    "status": "downloaded",
+    "path": "images/0f260f0780e60ef9ec89a6292717eeac392b35972fd55c21f29da5b20e6ac8f1.img",
+    "sha256": "0f260f0780e60ef9ec89a6292717eeac392b35972fd55c21f29da5b20e6ac8f1",
+    "retrieved_at": "2026-11-08T07:47:45.378736+00:00"
+  },
+  {
+    "set_id": "10247-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10247-1.jpg",
+    "status": "downloaded",
+    "path": "images/c271aca2a379bf51fc0330bb8885bba3ed4a026a0e3163688107111cd5a7ba44.img",
+    "sha256": "c271aca2a379bf51fc0330bb8885bba3ed4a026a0e3163688107111cd5a7ba44",
+    "retrieved_at": "2026-11-08T07:47:47.756650+00:00"
+  },
+  {
+    "set_id": "10248-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10248-1.jpg",
+    "status": "downloaded",
+    "path": "images/7020d11fcf0fb25a7dd7ca9b34e238c9e06aa7319459d04690b483982595a6f6.img",
+    "sha256": "7020d11fcf0fb25a7dd7ca9b34e238c9e06aa7319459d04690b483982595a6f6",
+    "retrieved_at": "2026-11-08T07:47:48.776456+00:00"
+  },
+  {
+    "set_id": "10249-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10249-1.jpg",
+    "status": "downloaded",
+    "path": "images/7ce87ee735ca3b923c9f04b7ab60efc0b0cb36d07e19fd1403762cdcba4d5c2b.img",
+    "sha256": "7ce87ee735ca3b923c9f04b7ab60efc0b0cb36d07e19fd1403762cdcba4d5c2b",
+    "retrieved_at": "2026-11-08T07:47:50.766707+00:00"
+  },
+  {
+    "set_id": "1025-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/1025-1.jpg",
+    "status": "downloaded",
+    "path": "images/d90e62093e78fedc35920a603e04275743f7c255afd74b3d8d09f3613549ad44.img",
+    "sha256": "d90e62093e78fedc35920a603e04275743f7c255afd74b3d8d09f3613549ad44",
+    "retrieved_at": "2026-11-08T07:47:51.608511+00:00"
+  },
+  {
+    "set_id": "10250-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10250-1.jpg",
+    "status": "downloaded",
+    "path": "images/195df52700e640a2f5206062b42b3875895a0ec00c7ffe6afca53be40d1dc0a8.img",
+    "sha256": "195df52700e640a2f5206062b42b3875895a0ec00c7ffe6afca53be40d1dc0a8",
+    "retrieved_at": "2026-11-08T07:47:52.750631+00:00"
+  },
+  {
+    "set_id": "10251-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10251-1.jpg",
+    "status": "downloaded",
+    "path": "images/1d178385c943bd170a7fc026a859993acd3daa14db5be738d3d3e194375b79d3.img",
+    "sha256": "1d178385c943bd170a7fc026a859993acd3daa14db5be738d3d3e194375b79d3",
+    "retrieved_at": "2026-11-08T07:47:53.816429+00:00"
+  },
+  {
+    "set_id": "10252-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10252-1.jpg",
+    "status": "downloaded",
+    "path": "images/0280500d1f3966a48dc5a1b0bb79efcf921d71cbb16dc788b36b68d79b9c2ab1.img",
+    "sha256": "0280500d1f3966a48dc5a1b0bb79efcf921d71cbb16dc788b36b68d79b9c2ab1",
+    "retrieved_at": "2026-11-08T07:47:54.661714+00:00"
+  },
+  {
+    "set_id": "10253-1",
+    "source_url": "https://cdn.rebrickable.com/media/sets/10253-1.jpg",
+    "status": "downloaded",
+    "path": "images/e29dafc4015d358f5be602809b17813d0dc2c4a9b9852d947ddb32792b37e182.img",
+    "sha256": "e29dafc4015d358f5be602809b17813d0dc2c4a9b9852d947ddb32792b37e182",
+    "retrieved_at": "2026-11-08T07:47:55.781352+00:00"
+  }
+]

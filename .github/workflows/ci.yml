@@ -1,0 +1,45 @@
+name: Python checks
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -e ".[dev]"
+      - run: python -m ruff check app frontend tests
+      - run: node --check frontend/web/assets/app.js
+      - run: python -m pytest -q
+
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build image
+        run: docker build --tag brickmatch-ci .
+      - name: Start container
+        run: docker run --detach --name brickmatch-ci --publish 18000:8000 brickmatch-ci
+      - name: Verify container health and UI
+        shell: bash
+        run: |
+          for attempt in {1..20}; do
+            if curl --fail --silent http://127.0.0.1:18000/api/v1/health/live >/dev/null; then break; fi
+            sleep 1
+          done
+          curl --fail --silent http://127.0.0.1:18000/api/v1/health/live
+          curl --fail --silent http://127.0.0.1:18000/ | grep -q 'BrickMatch'
+          for attempt in {1..20}; do
+            status=$(docker inspect --format='{{.State.Health.Status}}' brickmatch-ci)
+            if [ "$status" = healthy ]; then exit 0; fi
+            if [ "$status" = unhealthy ]; then exit 1; fi
+            sleep 1
+          done
+          exit 1
+      - name: Show container logs
+        if: always()
+        run: docker logs brickmatch-ci
+      - name: Remove container
+        if: always()
+        run: docker rm --force brickmatch-ci

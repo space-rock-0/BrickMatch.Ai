@@ -1,0 +1,32 @@
+services:
+  - type: web
+    name: brickmatch-ai
+    runtime: docker
+    plan: 1c-2g
+    healthCheckPath: /api/v1/health/live
+    envVars:
+      - key: BRICKMATCH_CATALOG
+        value: /app/data/processed/78b8926d0b520375/catalog.json
+      - key: BRICKMATCH_EMBEDDINGS
+        value: /app/artifacts/embeddings/clip.npz
+      - key: BRICKMATCH_CLASSIFIER_DIR
+        value: /app/artifacts/models
+      - key: BRICKMATCH_EVALUATION
+        value: /app/data/evaluation_results.json
+      - key: BRICKMATCH_DB
+        fromDatabase:
+          name: brickmatch-db
+          property: connectionString
+      - key: BRICKMATCH_AUTH_REQUIRED
+        value: "true"
+      - key: BRICKMATCH_AUTH_SECRET
+        generateValue: true
+      - key: BRICKMATCH_RATE_LIMIT_PER_MINUTE
+        value: "120"
+      - key: BRICKMATCH_CORS_ORIGINS
+        value: "*"
+
+databases:
+  - name: brickmatch-db
+    databaseName: brickmatch
+    plan: free

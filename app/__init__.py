@@ -1,0 +1,1 @@
+"""BrickMatch application."""
