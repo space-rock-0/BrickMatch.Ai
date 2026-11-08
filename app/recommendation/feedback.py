@@ -39,7 +39,8 @@ class FeedbackStore:
     def connect(self):
         if self.is_postgres:
             import psycopg
-            return psycopg.connect(self.path)
+            from psycopg.rows import dict_row
+            return psycopg.connect(self.path, row_factory=dict_row)
         db = sqlite3.connect(self.path, timeout=10)
         db.row_factory = sqlite3.Row
         return db
@@ -87,14 +88,9 @@ class FeedbackStore:
 
     def create_user(self, user_id, password_hash, created_at):
         with self.connect() as db:
-            try:
-                self.exec(db, "INSERT INTO app_users VALUES (?,?,?)",
-                          (user_id, password_hash, created_at))
-            except Exception as exc:  # sqlite and psycopg expose different duplicate errors
-                if "unique" in str(exc).lower() or "duplicate" in str(exc).lower():
-                    return False
-                raise
-        return True
+            result = self.exec(db, "INSERT INTO app_users VALUES (?,?,?) ON CONFLICT(user_id) DO NOTHING",
+                               (user_id, password_hash, created_at))
+            return result.rowcount == 1
 
     def get_user(self, user_id):
         with self.connect() as db:

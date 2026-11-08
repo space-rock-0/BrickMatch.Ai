@@ -236,6 +236,12 @@
   }
 
   async function openProfileDialog() {
+    if (state.boot?.auth_required) {
+      localStorage.removeItem("brickmatch.auth_token");
+      await authenticateIfRequired();
+      location.reload();
+      return;
+    }
     try {
       const data = await api("/users");
       state.users = data.items || [];
@@ -298,19 +304,43 @@
         return;
       } catch { localStorage.removeItem("brickmatch.auth_token"); }
     }
-    const userId = window.prompt("BrickMatch username (letters, digits, _ or -):");
-    const password = window.prompt("BrickMatch password (10+ characters):");
-    if (!userId || !password) throw new Error("Login required");
-    let result;
-    try {
-      result = await api("/auth/register", { method: "POST", body: { user_id: userId, password } });
-    } catch (error) {
-      if (!error.message.includes("already exists")) throw error;
-      result = await api("/auth/login", { method: "POST", body: { user_id: userId, password } });
-    }
+    const result = await new Promise((resolve) => {
+      const dialog = document.createElement("dialog");
+      dialog.className = "dialog";
+      dialog.innerHTML = `<h2>Welcome to BrickMatch</h2>
+        <p>Sign in to save your ratings and recommendations, or create an account.</p>
+        <form><label class="field">Username<input name="username" autocomplete="username"
+          pattern="[A-Za-z0-9_-]{1,80}" maxlength="80" required></label>
+        <label class="field">Password<input name="password" type="password"
+          autocomplete="current-password" minlength="10" maxlength="200" required></label>
+        <p role="alert" class="fine-print"></p>
+        <button class="btn btn-primary" type="submit" value="login">Sign in</button>
+        <button class="btn" type="submit" value="register">Create account</button></form>`;
+      dialog.addEventListener("cancel", (event) => event.preventDefault());
+      dialog.querySelector("form").addEventListener("submit", async (event) => {
+        event.preventDefault();
+        const form = event.currentTarget;
+        const buttons = Array.from(form.querySelectorAll("button"));
+        const action = event.submitter?.value || "login";
+        buttons.forEach((button) => { button.disabled = true; });
+        try {
+          const account = await api(`/auth/${action}`, { method: "POST", body: {
+            user_id: form.elements.username.value, password: form.elements.password.value,
+          } });
+          dialog.close(); dialog.remove(); resolve(account);
+        } catch (error) {
+          form.querySelector('[role="alert"]').textContent = error.message;
+        } finally { buttons.forEach((button) => { button.disabled = false; }); }
+      });
+      document.body.appendChild(dialog);
+      dialog.showModal();
+    });
     localStorage.setItem("brickmatch.auth_token", result.token);
     localStorage.setItem("brickmatch.user", result.user_id);
     state.user = result.user_id;
+    state.users = [{ user_id: state.user, ratings: 0 }];
+    state.boot.users = state.users;
+    updateHeroStats();
     updateProfileChrome();
   }
 
@@ -1154,7 +1184,7 @@
       await authenticateIfRequired();
     } catch (error) {
       state.bootstrapError = error.message;
-      toast("Could not reach the local API. Start the server and reload.", "error");
+      toast(`Could not finish loading: ${error.message}`, "error");
     }
     if (!location.hash) {
       history.replaceState(null, "", "#/discover");
