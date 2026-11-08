@@ -8,7 +8,7 @@ import hashlib
 import json
 import os
 import tempfile
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 from urllib.parse import urlsplit
 
@@ -65,7 +65,7 @@ def ingest(sets_file: Path, themes_file: Path, output: Path, limit: int = 500) -
                 raise ValueError("duplicate_set_id")
             name = row["name"].strip()
             year, theme_id, parts = int(row["year"]), int(row["theme_id"]), int(row["num_parts"])
-            if not name or not 1949 <= year <= datetime.now(timezone.utc).year + 2:
+            if not name or not 1949 <= year <= datetime.now(UTC).year + 2:
                 raise ValueError("invalid_name_or_year")
             if not 0 <= parts <= 100000 or theme_id not in theme_names:
                 raise ValueError("invalid_parts_or_theme")

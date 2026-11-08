@@ -6,7 +6,7 @@ import hashlib
 import io
 import json
 import time
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 import httpx
@@ -64,7 +64,7 @@ def download_images(manifest_path: Path, permission_confirmed: bool, limit: int 
                     temporary.write_bytes(content)
                     temporary.replace(destination)
                     item.update(status="downloaded", path=f"images/{destination.name}", sha256=digest,
-                                retrieved_at=datetime.now(timezone.utc).isoformat())
+                                retrieved_at=datetime.now(UTC).isoformat())
                     item.pop("error", None)
                     break
                 except (httpx.HTTPError, OSError, ValueError) as exc:
