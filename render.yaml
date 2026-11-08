@@ -2,7 +2,7 @@ services:
   - type: web
     name: brickmatch-ai
     runtime: docker
-    plan: 1c-2g
+    plan: free
     healthCheckPath: /api/v1/health/live
     envVars:
       - key: BRICKMATCH_CATALOG
